@@ -1,2 +1,2 @@
 # Reza Aliasgari Renani
-Electronics Engineer, FPGA, Verilog, Semiconductors.
+Electronics Engineer, FPGA Design, Verilog Development, Semiconductor Devices.
