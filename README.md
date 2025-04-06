@@ -3,7 +3,7 @@
 <p align="center">
 <a href="mailto:rezaaliasgarirenani@gmail.com">📧 rezaaliasgarirenani@gmail.com</a> | 
 <a href="https://linkedin.com/in/reza-aliasgari-renani/">🔗 linkedin.com/in/reza-aliasgari-renani</a> | 
-<a href="https://github.com/rezaaliasgarirenani">🐙 github.com/rezaaliasgarirenani</a>
+<a href="https://github.com/rezaaliasgarirenani">💻 github.com/rezaaliasgarirenani</a>
 </p>
 
 # Education
