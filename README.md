@@ -16,7 +16,7 @@
 - **[Moscow Institute of Physics and Technology (MIPT)](https://mipt.ru/)** (September 2024 -- June 2026)
   - **Degree:** M.Sc. in Applied Mathematics and Physics, GPA: 4.5/5.0
   - **Location:** Moscow, Russia
-  - **Thesis title:** Design and radiation tolerance evaluation of FPGA-based signal processing systems for space applications.
+  - **Thesis title:** Investigation of the effects of radiation on FPGA-based signal processing systems for space applications.
 
 # Research Experience
 
