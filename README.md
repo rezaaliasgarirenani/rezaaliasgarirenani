@@ -28,7 +28,7 @@
 - **[Institute of Microelectronics Technology, Russian Academy of Sciences (IMT, RAS)](https://new.ras.ru/en/)** (March 2023 -- July 2024)  
   **Laboratory Researcher**, Moscow, Russia  
   - **Experimental Equipment Installation and Automation**  
-    Maintained experimental devices including Everbeing Cryo-station (80K – 450K) with 4 micromanipulators, Lakeshore Temperature Controller Model 336, Keithley SourceMeter 2450, Parametric Analyzer Keithley, Keysight Electrometer, Aktakom, and Zurich MFIA Impedance Analyzer. Developed [applications](https://github.com/rezaaliasgarirenani/IMT-Automation) to automate experimental techniques (TSC, C-V, I-V, I-t, DLTS).  
+    Installed experimental devices including Everbeing Cryo-station (80K – 450K) with 4 micromanipulators, Lakeshore Temperature Controller Model 336, Keithley SourceMeter 2450, Parametric Analyzer Keithley, Keysight Electrometer, Aktakom, and Zurich MFIA Impedance Analyzer. Developed [applications](https://github.com/rezaaliasgarirenani/IMT-Automation) to automate experimental techniques (TSC, C-V, I-V, I-t, DLTS).  
   - **Theoretical Investigation**  
     Developed theoretical understanding and mastered experimental techniques to study semiconductor devices (MOS, MOSFETs, diodes, ReRAM). Predicted sample behavior, interpreted physical phenomena, and determined measurement parameters.  
   - **Experimental Investigation and Data Processing**  
