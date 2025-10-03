@@ -39,7 +39,7 @@
   - **Porting Mathematical Algorithms to Verilog**  
     Translated complex mathematical algorithms into efficient Verilog code, supporting both fixed‑point and floating‑point computations. Developed a comprehensive fixed‑point library for essential mathematical operations, including division. Implemented a Look‑Up Table (LUT) approach using Horner’s method and coefficient approximation to optimize a wide range of mathematical functions.  
   - **Image and Video Processing Algorithms**  
-    Developed a variety of image processing algorithms (rgb2hsv, Color Segmentation, Sobel Edge Detection, Global Tone **Mappning**, Frame Sum, Demosaicing). All algorithms were implemented in Verilog through Simulink design, MATLAB’s HDL code generation, and manual Verilog coding with fixed‑point arithmetic implementation. Optimized latency, verified clock cycles, solved synchronization and pipelining issues.  
+    Developed a variety of image processing algorithms (rgb2hsv, Color Segmentation, Sobel Edge Detection, Global Tone Mappning, Frame Sum, Demosaicing). All algorithms were implemented in Verilog through Simulink design, MATLAB’s HDL code generation, and manual Verilog coding with fixed‑point arithmetic implementation. Optimized latency, verified clock cycles, solved synchronization and pipelining issues.  
   - **Simulation, Verification and Synthesis**  
     Created comprehensive test benches in Verilog and utilized Python for simulation automation and data analysis to verify the functionality and performance of digital and image processing algorithms. Synthesized, mapped, and routed the HDL codes for specified hardware using Vivado (FPGA: Xilinx Artix 7 xc7z020).  
   - **Investigation of FPGA Devices in Space Conditions**  
