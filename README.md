@@ -2,109 +2,125 @@
 
 <p align="center">
 <a href="mailto:rezaaliasgarirenani@gmail.com">📧 rezaaliasgarirenani@gmail.com</a> |
-<a href="https://linkedin.com/in/reza-aliasgari-renani/">🔗 linkedin.com/in/reza-aliasgari-renani</a> |
-<a href="https://github.com/rezaaliasgarirenani">💻 github.com/rezaaliasgarirenani</a>
+<a href="https://orcid.org/0009-0000-8983-755X">🔗 ORCID</a> |
+<a href="https://www.researchgate.net/profile/Reza-Aliasgari-Renani">🔗 ResearchGate</a> |
+<a href="https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en">🔗 Google Scholar</a> |
+<a href="https://github.com/rezaaliasgarirenani">💻 GitHub</a> |
+<a href="https://linkedin.com/in/reza-aliasgari-renani">🔗 LinkedIn</a>
 </p>
+
+---
 
 ## Education
 
-- **[Moscow Institute of Physics and Technology (MIPT)](https://mipt.ru/)** (September&nbsp;2020 – June&nbsp;2024)  
-  - **Degree:** B.Sc. in Technical Physics, GPA: 4.56/5.0  
-  - **Location:** Moscow, Russia  
-  - **Thesis title:** Investigation of the effects of low energy (1 – 20 keV) electrons and high energy (1 MeV) gamma quanta irradiation on the electro‑physical properties of dielectric‑semiconductor structures.
+- **[Moscow Institute of Physics and Technology (MIPT)](https://mipt.ru/)** — **M.Sc. in Applied Mathematics and Physics (Program: Plasma Physics)**
+  - **Dates:** September 2024 – June 2026
+  - **GPA:** 4.7 / 5.0
+  - **Location:** Moscow, Russian Federation
+  - **Thesis:** *Investigation of radiation induced effects on FPGA-based signal processing systems for space applications.*
 
-- **[Moscow Institute of Physics and Technology (MIPT)](https://mipt.ru/)** (September&nbsp;2024 – June&nbsp;2026)  
-  - **Degree:** M.Sc. in Applied Mathematics and Physics, GPA: 4.7/5.0  
-  - **Location:** Moscow, Russia  
-  - **Thesis title:** Investigation of the effects of radiation on FPGA‑based signal processing systems for space applications.
+- **[Moscow Institute of Physics and Technology (MIPT)](https://mipt.ru/)** — **B.Sc. in Technical Physics (Program: Aerospace Technology)**
+  - **Dates:** September 2020 – June 2024
+  - **GPA:** 4.56 / 5.0
+  - **Location:** Moscow, Russian Federation
+  - **Thesis:** *Investigation of the effects of low energy (1–20 keV) electrons and high energy (1 MeV) gamma quanta irradiation on the electro-physical properties of dielectric-semiconductor structures.*
+
+---
 
 ## Research Experience
 
-- **[Laboratory of Modeling of Mechanical Systems and Processes (MMSP, MIPT)](https://mipt.ru/dasr/about/kaf_faculty/mmsp)** (March&nbsp;2023 – July&nbsp;2024)  
-  **Engineer / Technician**, Moscow, Russia  
-  - **Engineering Design and Development**  
-    Designed, developed, and analyzed models for a CubeSat orbital deployer and vibration fixture using SolidWorks. Created multiple prototypes, which passed random vibration simulation and dynamic analysis, and tested them on the UVE‑4000 vibro‑stand for mechanical environmental factors and vibration resistance.
+- **[Design Center for the Development of Microprocessor Technology for AI Systems — System-on-Chip Development Laboratory](http://ai.mipt.ru/design-center)**
+  - **Role:** Programmer / RTL Design Engineer
+  - **Dates:** September 2024 – Present
+  - **Location:** Moscow, Russian Federation
+  - **Highlights:**
+    - **DSP Implementation:** Ported mathematical algorithms into efficient Verilog implementations. Built a fixed-point library and LUT-based function approximations (Horner’s method) to support fixed-point computations. Implemented image processing algorithms (rgb2hsv, color segmentation, Sobel edge detection, global tone-mapping, frame summing, demosaicing, bird’s-eye view, fisheye correction) via Simulink HDL code generation and manual Verilog. Optimized latency and throughput; resolved synchronization and pipelining issues.
+    - **Simulation, Verification and Synthesis:** Created comprehensive Verilog testbenches and used Python for simulation automation and data analysis. Synthesized, mapped, and routed HDL code using Vivado (FPGA: Xilinx Artix‑7). Verified ISP algorithms first by streaming test images via HDMI from a host computer and then with a live camera connected to the FPGA.
+    - **Investigation under Electron‑Beam Plasma Exposure:** Conducted irradiation experiments on FPGA boards using electron beams (25–60 keV, up to 100 mA) in low‑pressure oxygen atmospheres (10⁻⁶ – 50 Torr), generating plasma and X‑rays. Applied combined thermal cycling (218–393 K) and surface charging to evaluate FPGA reliability under radiation‑ and plasma‑induced stress.
 
-- **[Institute of Microelectronics Technology, Russian Academy of Sciences (IMT, RAS)](https://new.ras.ru/en/)** (March&nbsp;2023 – July&nbsp;2024)  
-  **Laboratory Researcher**, Moscow, Russia  
-  - **Experimental Equipment Installation and Automation**  
-    Installed experimental devices including Everbeing Cryo‑station (80 K – 450 K) with four micromanipulators, Lakeshore Temperature Controller Model 336, Keithley SourceMeter 2450, Parametric Analyzer Keithley 4200A‑SCS, Keysight Electrometer B2987A, Aktakom 3048, and Zurich MFIA Impedance Analyzer. Developed [applications](https://github.com/rezaaliasgarirenani/IMT-Automation) in MATLAB to automate experimental techniques: Thermally Stimulated Current, Capacitance–Voltage, Current–Voltage, Current–Time, Deep‑Level Transient Spectroscopy.  
-  - **Theoretical Investigation**  
-    Developed theoretical understanding and studied experimental techniques to investigate semiconductor devices (MOS, MOSFETs, diodes, RRAM). Predicted sample behavior, interpreted physical phenomena, and determined measurement parameters.  
-  - **Experimental Investigation and Data Processing**  
-    Conducted electrical characterization experiments on microelectronic structures, processed data using MATLAB, Origin Pro, and Excel, removed extraneous RTN points, and provided insights by comparing results with theoretical models.
+- **[Institute of Microelectronics Technology, Russian Academy of Sciences (IMT, RAS)](https://new.ras.ru/en/)**
+  - **Role:** Laboratory Researcher
+  - **Dates:** March 2023 – August 2024
+  - **Location:** Moscow, Russian Federation
+  - **Highlights:**
+    - **Experimental Equipment Installation & Automation:** Installed experimental devices (Everbeing Cryo‑station, Lakeshore 336, Keithley SourceMeter 2450, Keithley 4200A‑SCS, Keysight B2987A, Aktakom 3048, Zurich MFIA). Developed MATLAB [applications](https://github.com/rezaaliasgarirenani/IMT-Automation) to automate techniques: Thermally Stimulated Current, Capacitance–Voltage, Current–Voltage, Current–Time, Deep‑Level Transient Spectroscopy.
+    - **Theoretical & Experimental Investigation:** Studied semiconductor device behaviour (MOS, MOSFETs, diodes, RRAM), predicted sample behaviour, interpreted phenomena, conducted electrical characterization, processed data with MATLAB and Origin Pro, and compared results with models.
 
-- **[Design Center for the Development of Microprocessor Technology for AI Systems](http://ai.mipt.ru/design-center)** (August&nbsp;2024 – Present)  
-  **Programmer / RTL Design Engineer**, Moscow, Russia  
-  - **Porting Mathematical Algorithms to Verilog**  
-    Translated complex mathematical algorithms into efficient Verilog code, supporting both fixed‑point and floating‑point computations. Developed a comprehensive fixed‑point library for essential mathematical operations, including division. Implemented a Look‑Up Table (LUT) approach using Horner’s method and coefficient approximation to optimize a wide range of mathematical functions.  
-  - **Image and Video Processing Algorithms**  
-    Developed a variety of image processing algorithms (rgb2hsv, Color Segmentation, Sobel Edge Detection, Global Tone Mappning, Frame Sum, Demosaicing). All algorithms were implemented in Verilog through Simulink design, MATLAB’s HDL code generation, and manual Verilog coding with fixed‑point arithmetic implementation. Optimized latency, verified clock cycles, solved synchronization and pipelining issues.  
-  - **Simulation, Verification and Synthesis**  
-    Created comprehensive test benches in Verilog and utilized Python for simulation automation and data analysis to verify the functionality and performance of digital and image processing algorithms. Synthesized, mapped, and routed the HDL codes for specified hardware using Vivado (FPGA: Xilinx Artix 7 xc7z020).  
-  - **Investigation of FPGA Devices in Space Conditions**  
-    Designed and conducted laboratory experiments to evaluate FPGA device performance under simulated space‑like conditions, focusing on reliability of the FPGA.
+- **[Laboratory of Modeling of Mechanical Systems and Processes (MMSP, MIPT)](https://mipt.ru/dasr/about/kaf_faculty/mmsp)**
+  - **Role:** Engineer / Technician
+  - **Dates:** March 2023 – August 2024
+  - **Location:** Moscow, Russian Federation
+  - **Highlights:**
+    - Designed, developed, and analyzed models for a CubeSat orbital deployer and a vibration fixture using SolidWorks. Built multiple prototypes, ran random vibration simulations and dynamic analysis, and tested on the UVE‑4000 vibro‑stand for environmental and vibration resistance.
+
+---
 
 ## Publications & Conferences
 
-- **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  
-  _Investigation of low energy electron irradiated SiO₂‑based MOS devices by capacitance‑voltage and thermally stimulated current techniques._ [Journal Paper](https://doi.org/10.1134/S1063739723600516), *Russian Microelectronics*, 2023.
+- **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  _Investigation of low energy electron irradiated SiO₂ based MOS devices by capacitance‑voltage and thermally stimulated current techniques._ [Journal Paper (Russian Microelectronics, 2023)](https://doi.org/10.1134/S1063739723600516).
 
-- **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  
-  _Study of SiO₂‑based MOS by capacitance‑voltage and thermally stimulated current techniques._ [Presentation](https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf), p.122. The 15th International Conference Micro‑ and Nanoelectronics ([ICMNE 2023](https://icmne.ftian.ru)).
+- **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  _Study of SiO₂ based MOS by capacitance‑voltage and thermally stimulated current techniques._ [Presentation, ICMNE 2023 (p.122)](https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf).
 
-- **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  
-  _Investigation of electrically active defects introduced into silicon oxide by irradiation of low‑energy electrons, by methods of Capacitance‑Voltage characteristics and thermally‑stimulated current._ [Poster](https://cebt23.iptm.ru/download/numbered/91.pdf), Second Joint Conference on Electron Beam Technologies and X‑ray Optics in Microelectronics ([CALT 2023](https://cebt23.iptm.ru)).
+- **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  _Investigation of electrically active defects introduced into silicon oxide by irradiation of low‑energy electrons, by methods of Capacitance‑Voltage characteristics and thermally‑stimulated current._ [Poster, CALT 2023](https://cebt23.iptm.ru/download/numbered/91.pdf).
+
+- **R. Aliasgari Renani**, V. Vasilevskiy, V. Vologin, V. Chesnokov.  _Comparative analysis of manual Verilog and Simulink-generated HDL code for image processing algorithms._ Forthcoming presentation, Yadro FPGA Systems Conference, 2025.
+
+---
 
 ## Projects
 
-- **[Investigation of Non‑Conservative Electric Fields and Voltmeters](https://github.com/rezaaliasgarirenani/Non-Conservative-Electric-Fields-and-Voltmeters)** – **May 2022**  
-  - Designed an experimental setup to analyze position‑dependency of voltmeter readings in parallel circuits.  
-  - Demonstrated the non‑intuitive potential differences generated by changing magnetic fields.
+- **[Model Rocket](https://github.com/icarus-imperium/rocket-2025)** — **April 2023 and 2025**
+  - Constructed model rockets with 40 N·s and 60 N·s impulses as part of a team.
+  - Launched three model rockets over two years at the Cosmonautics Day of MIPT.
 
-- **[Aircraft Detection System](https://github.com/rezaaliasgarirenani/Aircraft-Detection-System)** – **June 2022**  
-  - Investigated and applied algorithms to detect aircraft using photoresistors and transistors.  
-  - Developed a system capable of rotational and translational movement to track aircraft.
+- **[Model Lunar Rover](https://github.com/rezaaliasgarirenani/Rover)** — **June 2023**
+  - Collaborated on a machine capable of navigating obstacles without round wheels. Tested multiple prototypes; final design approved by the laboratory head.
 
-- **[Model Rocket](https://github.com/icarus-imperium/rocket-2025)** – **April 2023 – 2025**  
-  - Constructed a model rocket with a 40 N·s and 60 N·s impulse as part of a team.  
-  - Successfully launched four model rockets over three consecutive years at the Cosmonautics Day festival of MIPT.
+- **[Aircraft Detection System](https://github.com/rezaaliasgarirenani/Aircraft-Detection-System)** — **June 2022**
+  - Investigated and applied algorithms to detect aircraft using photoresistors and transistors; developed a system capable of rotational and translational tracking.
 
-- **[Model Lunar Rover](https://github.com/rezaaliasgarirenani/Rover)** – **June 2023**  
-  - Collaborated on a machine capable of navigating obstacles without round wheels.  
-  - Tested multiple prototypes, with the final design approved by the laboratory head.
+- **[Investigation of Non‑Conservative Electric Fields and Voltmeters](https://github.com/rezaaliasgarirenani/Non-Conservative-Electric-Fields-and-Voltmeters)** — **May 2022**
+  - Designed an experimental setup to analyze position‑dependency of voltmeter readings in parallel circuits and demonstrated potential differences generated by changing magnetic fields.
+
+---
 
 ## Technical Skills
 
-**Expert**  
-- Automation of Experimental Techniques  
-- Electrical Characterization  
-- MATLAB, Simulink, HDL Coder  
-- Verilog, RTL Design  
-- FPGA, ASIC and SoC Development  
-- Fixed Point Computations  
-- SciPy, NumPy, cv2  
-- Data Processing  
+**Advanced**
 
-**Proficient**  
-- Python, C++, Arduino  
-- Jupyter Notebooks, Octave, Anaconda  
-- Git, Unix OS  
-- OriginLab  
-- SolidWorks  
-- ERDAS IMAGINE  
-- PCB, EasyEDA  
-- OpenRocket  
+- Automation of Experimental Techniques
+- Electrical Characterization
+- Data Processing
+- MATLAB, Simulink, HDL Coder
+- Verilog, RTL Design
+- FPGA, ASIC, and SoC Development
+- Fixed‑Point Computations
+- SciPy, NumPy, OpenCV
+
+**Intermediate**
+
+- Python, C++, Arduino
+- Vivado, Vitis
+- Git, Unix OS
+- OriginLab
+- SolidWorks
+- ERDAS IMAGINE
+- PCB, EasyEDA
+- OpenRocket
+
+---
 
 ## Awards
 
-- **Recipient:** State Scholarship, Isfahan University of Technology – **September 2019**  
-- **Awardee:** Non‑paying participant of the [5th Eurasian Aerospace Congress](https://congress.aero/en/) – **July 2023**  
-- **Recipient:** Full State Russian Scholarship for Foreign Students, MIPT – **September 2024**  
+- **Recipient:** Full State Russian Scholarship for Foreign Students, MIPT — **September 2024**
+- **Recipient:** Iranian State Scholarship, Isfahan University of Technology — **September 2019**
+- **Awardee:** Participant of the [5th and 7th Eurasian Aerospace Congress](https://congress.aero/en/) — **July 2023 and 2025**
+
+---
 
 ## Languages
 
-- **English:** Highly Proficient (TOEFL iBT 113)  
-- **German:** Limited Knowledge (B1 ÖSD)  
-- **Russian:** Limited Knowledge  
+- **English:** C2 (TOEFL iBT 113)
+- **Russian:** B1
+- **German:** B1 (ÖSD)
 - **Farsi:** Native
