@@ -19,4 +19,6 @@
 5) Finding suitable PhD Positions.
 
 # Immediate Plan: 
-1) Finish manual simulink design of demosaic with 1 uint8 input and GBRG bayer pattern.
+1) Finish fisheye view correction.
+2) Obtain LORs for PhD Application.
+3) The Germany AstroPhysics Application. 
