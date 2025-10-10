@@ -19,6 +19,10 @@
 5) Finding suitable PhD Positions.
 
 # Immediate Plan: 
-1) Finish fisheye view correction.
-2) Obtain LORs for PhD Application.
-3) The Germany AstroPhysics Application. 
+1) Understand camera params. 
+2) Make a new image in Python for specific camera params that you have set. 
+3) Obtain LORs for PhD Application.
+4) The Germany AstroPhysics Application. 
+5) Skoltech
+6) education-in-russia
+7) TUDelft
