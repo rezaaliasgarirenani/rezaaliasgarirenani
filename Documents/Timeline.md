@@ -2,9 +2,9 @@
 1) Contribute to science and technology applicable for space exploration as a NASA Engineer.
 2) Get as rich as possible as soon as possible through establishing a productive for profit business.
 3) Become worthy of a being a mentor and then teach.
-4) Earn your American citizenship, become a proud honest-to-god red-blooded hard-working Christian American taxpayer.
+4) Earn your American citizenship, become a good proud honest-to-god red-blooded hard-working Christian American taxpayer.
 5) If lucky enough to be loved by the woman you love, become a family man. 
-6) Uphold the Western Values: Christianity, Greek Philosophy, Roman Law and above all: AMERICANISM
+6) Uphold the western values: christianity, greek philosophy, Roman law and above all, AMERICANISM: FREEDOM, HONOR, STRENGTH
 
 # Long-term Plan: 
 1) Master Thesis: Radiating FPGAs with available plasma technology and radiation environment.

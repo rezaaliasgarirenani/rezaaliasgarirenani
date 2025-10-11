@@ -1,0 +1,62 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[flushmargin]{footmisc}
+\usepackage{mathptmx} % Added for Times New Roman-like font
+\usepackage[version=4]{mhchem}
+\usepackage[
+  a4paper,
+  top = 1.70cm,
+  bottom = 1.70cm,
+  left = 1.70cm,
+  right = 1.70cm
+]{geometry}
+\renewcommand{\baselinestretch}{1.3}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{30pt} % Fixes \footskip warning
+\setlength{\skip\footins}{20pt} % fixed gap, no stretch/shrink
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[C]{\thepage} % Center page number in the footer
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    urlcolor=RoyalBlue,
+    citecolor=RoyalBlue,
+    anchorcolor=RoyalBlue
+}
+\urlstyle{same}
+\input{glyphtounicode}
+%-------------------------------------------
+% STARTS HERE
+\begin{document}
+%HEADING
+\begin{center}
+    {\Huge \scshape {\fontsize{25}{30}\selectfont{Reza}} {\fontsize{25}{30}\selectfont{\textbf{Aliasgari Renani}}}} \\ \vspace{3pt}
+    {\small \raisebox{-0.2\height}\ {10/10/2025}} $|$
+    {\small \raisebox{-0.2\height}\ {Motivation Letter}} $|$
+    {\small \raisebox{-0.2\height}\ {Experimental Physics}} $|$
+    {\small \raisebox{-0.2\height}\ {Technische Universität Dortmund}} $|$
+    {\small \raisebox{-0.2\height}\ {PhD Position}}
+    \vspace{-10pt}
+\end{center}
+\vspace{-10pt}
+\noindent\rule{\textwidth}{0.5pt}
+
+My research objective is to contribute to the advancement of experimental physics through the development of hardware for detecting high-energy cosmic particles, in particular by creating FPGA-based processing systems that can handle real-time analysis of radio signals emitted by air showers. The PhD project in Experimental Astroparticle Physics with Deep Learning at TU Dortmund offers an excellent opportunity for me to pursue this goal. I am now completing the final year of my Master’s degree in Plasma Physics at Moscow Institute of Physics and Technology, where my research on semiconductor devices exposed to different kinds of radiation and FPGA development has strengthened my interest in studying high energy particles. I am especially motivated by the possibility of developing models that integrate deep-learning methods and use FPGAs for experimental physics.
+
+\vspace{10pt}
+I joined Dr.\ Koveshnikov's laboratory in the Russian Academy of Sciences over two years ago to study radiation effects on microelectronic structures, focusing on electrical characterization of semiconductors and \ce{SiO2}-based MOS devices. We studied the impact of electron and gamma irradiation and hydrogen plasma treatment on MOS devices, identified traps by location (oxide, semiconductor, interface) and carrier type (electrons, holes). This work has resulted in a first-author publication\footnote{R. Aliasgari Renani, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov, Investigation of low energy electron irradiated \ce{SiO2} based MOS devices by C-V and TSC techniques, Russian Microelectronics, 2023} and provides insight into device stability under bias stress, radiation immunity, and oxide trap density at the dielectric-semiconductor interface. I also developed optimized MATLAB applications to automate the experimental characterization techniques, which reduced run-times and created measurement pipelines. 
+
+\vspace{10pt}
+After my undergraduate degree, I joined the System-on-Chip Development Laboratory and the Laboratory of Plasma Systems under the supervision of Dr.\ Vasiliev to develop FPGA-based systems and to study radiation and plasma effects on these structures. I implemented video-processing algorithms by manual Verilog coding and by generating HDL from Simulink models. I verified functionality of the algorithms using testbenches and Python automation scripts. In the Plasma Lab, we ran experiments where an FPGA with an attached camera and a synthesized image-processing design was placed in an electron-beam plasma system with low-pressure oxygen and exposed to electron irradiation and X-rays generated from a tungsten target. The FPGA output signal was monitored while thermal cycling was applied and preliminary functionality tests were performed. 
+
+\vspace{10pt}
+My experience with automation, numerical modeling, irradiated semiconductors, plasma systems and FPGA design motivated me to continue my PhD studies at TU Dortmund. I aim to develop deep learning models for reconstructing radio signals from extensive air showers initiated by ultra-high-energy cosmic rays or neutrinos. My background will enable me to simulate air shower development and radio emission processes to train neural networks for improved event identification. I am enthusiastic to work under the guidance of Prof. Christian Glaser at TU Dortmund to integrate deep learning techniques with radio propagation models and to compare them with results from experimental platforms. 
+
+\vspace{10pt}
+Having been an international student and having collaborated across multiple scientific institutions, I am comfortable working between partner laboratories and I would welcome the opportunity to split time between TU Dortmund and other collaboration sites to advance this research. I am driven by research that couples numerical methods with experiments, and I look forward to leveraging my skills in FPGA development for real-time data processing that enhance trigger systems in remote detectors, ultimately contributing to breakthroughs in neutrino astrophysics. It would be an honor to work at TU Dortmund in Germany, a country with longstanding traditions of scientific and cultural excellence.
+
+\end{document}
