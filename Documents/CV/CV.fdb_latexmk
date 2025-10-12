@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1760211821.99937 "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV.tex" "CV.pdf" "CV" 1760211823.33073 0
+["pdflatex"] 1760269104.06234 "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV.tex" "CV.pdf" "CV" 1760269106.20652 0
   "C:/Users/tesla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1760197068 83637 15e7234f7f0768b75cfac8317adcc5d1 ""
   "C:/Users/tesla/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1760092711 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/tesla/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1760092583 13286967 c12568ca29e72892bd909202091d3bfb ""
@@ -117,10 +117,10 @@
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1749468414 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "CV.aux" 1760211823 1191 0a90a38911686f442c38af1627b913d8 "pdflatex"
-  "CV.out" 1760211823 781 dc4f49a5b6983a8e47ddf75fd4d06599 "pdflatex"
-  "CV.tex" 1760211820 14649 ff2d9c2ec762e4bcb60f1065dc2418d2 ""
-  "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV.tex" 1760211820 14649 ff2d9c2ec762e4bcb60f1065dc2418d2 ""
+  "CV.aux" 1760269106 1191 0a90a38911686f442c38af1627b913d8 "pdflatex"
+  "CV.out" 1760269106 781 dc4f49a5b6983a8e47ddf75fd4d06599 "pdflatex"
+  "CV.tex" 1760269101 14648 dcbc30149419b5d994d1b517e0d7ffe9 ""
+  "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV.tex" 1760269101 14648 dcbc30149419b5d994d1b517e0d7ffe9 ""
   (generated)
   "CV.aux"
   "CV.log"
