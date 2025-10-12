@@ -22,7 +22,7 @@
 1) Understand camera params. 
 2) Make a new image in Python for specific camera params that you have set. 
 3) Obtain LORs for PhD Application.
-4) The Germany AstroPhysics Application. 
+4) The Germany AstroPhysics Application, Aarhus Quantum physics. 
 5) Skoltech
 6) education-in-russia
 7) TUDelft
