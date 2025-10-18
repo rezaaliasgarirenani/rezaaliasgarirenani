@@ -19,8 +19,7 @@
 5) Finding suitable PhD Positions.
 
 # Immediate Plan: 
-1) Find the largest possible image for fisheye. 
-2) Make the video processing wrapper consistent for delays.
-3) Obtain LORs for PhD Application.
-4) The AstroPhysics Application, Aarhus Quantum physics. 
-5) education-in-russia
+1) Synthesize Fisheye. 
+2) The AstroPhysics Application, Aarhus Quantum physics. 
+3) education-in-russia
+4) Nuromph RAM PhD
