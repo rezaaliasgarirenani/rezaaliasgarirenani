@@ -22,4 +22,4 @@
 1) Synthesize Fisheye. 
 2) The AstroPhysics Application, Aarhus Quantum physics. 
 3) education-in-russia
-4) Nuromph RAM PhD
+4) Nuromph RAM, Alabama PhD
