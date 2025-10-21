@@ -21,5 +21,5 @@
 # Immediate Plan: 
 1) Synthesize Fisheye. 
 2) The AstroPhysics Application, Aarhus Quantum physics. 
-3) education-in-russia
-4) Nuromph RAM, Alabama PhD
+3) education-in-russia, LOR Chesnokov.
+4) Yadro Algorithms: Grayworld
