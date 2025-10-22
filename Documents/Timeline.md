@@ -19,7 +19,7 @@
 5) Finding suitable PhD Positions.
 
 # Immediate Plan: 
-1) Synthesize Fisheye. 
+1) Synthesize Fisheye, See if it works on Nexys Video. 
 2) The AstroPhysics Application, Aarhus Quantum physics. 
-3) education-in-russia, LOR Chesnokov.
-4) Yadro Algorithms: Grayworld
+3) education-in-russia, get docs: Motivation letter, etc.
+4) Yadro Algorithms: Scaling, Grayworld

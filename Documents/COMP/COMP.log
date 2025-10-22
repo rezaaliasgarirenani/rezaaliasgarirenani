@@ -1,16 +1,16 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.10)  21 OCT 2025 19:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.10)  21 OCT 2025 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV.tex
-(c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV.tex
+**c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/COMP/COMP.tex
+(c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/COMP/COMP.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+(C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
 \c@section=\count276
@@ -469,59 +469,86 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
+) (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+ (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen199
+\ESO@tempdimb=\dimen256
+) (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen257
+\Gin@req@width=\dimen258
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 71.
+\AM@pagewidth=\dimen259
+\AM@pageheight=\dimen260
+\AM@fboxrule=\dimen261
+ (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count334
+\AM@pagebox=\box105
+\AM@global@opts=\toks30
+\AM@pagecnt=\count335
+\AM@toc@title=\toks31
+\AM@lof@heading=\toks32
+\c@AM@survey=\count336
+\AM@templatesizebox=\box106
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 68.
  (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 92.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 89.
  (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (CV.aux)
-\openout1 = `CV.aux'.
+) (COMP.aux)
+\openout1 = `COMP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
  (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count334
-\scratchdimen=\dimen199
-\scratchbox=\box105
-\nofMPsegments=\count335
-\nofMParguments=\count336
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count337
-\MPscratchDim=\dimen256
-\MPnumerator=\count338
-\makeMPintoPDFobject=\count339
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count337
+\scratchdimen=\dimen262
+\scratchbox=\box107
+\nofMPsegments=\count338
+\nofMParguments=\count339
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count340
+\MPscratchDim=\dimen263
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
+\everyMPtoPDFconversion=\toks34
 ) (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 92.
- (CV.out) (CV.out)
+Package hyperref Info: Link coloring ON on input line 89.
+ (COMP.out) (COMP.out)
 \@outlinefile=\write3
-\openout3 = `CV.out'.
+\openout3 = `COMP.out'.
 
 
-Package chemgreek Info: Activating mapping `default' on line 92.
+Package chemgreek Info: Activating mapping `default' on line 89.
 
 
 *geometry* driver: auto-detecting
@@ -543,12 +570,12 @@ Package chemgreek Info: Activating mapping `default' on line 92.
 * \topmargin=-60.9004pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=-1.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -558,70 +585,116 @@ Package chemgreek Info: Activating mapping `default' on line 92.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 99.
-(C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 99.
+(C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 96.
  (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 99.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 96.
  (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 99.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 96.
  (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 99.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 96.
  (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 99.
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 100.
- (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomebrands1.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 100.
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 104.
- (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 104.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
 
 
 [1
 
-{C:/Users/tesla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}]
+{C:/Users/tesla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (COMP.toc)
+\tf@toc=\write4
+\openout4 = `COMP.toc'.
 
-[2] (CV.aux)
+
+
+[2]
+<CV.pdf, id=18, 597.50829pt x 845.0471pt>
+File: CV.pdf Graphic file (type pdf)
+<use CV.pdf>
+Package pdftex.def Info: CV.pdf  used on input line 103.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<CV.pdf, id=20, page=1, 597.50829pt x 845.0471pt>
+File: CV.pdf Graphic file (type pdf)
+<use CV.pdf, page 1>
+Package pdftex.def Info: CV.pdf , page1 used on input line 103.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: CV.pdf Graphic file (type pdf)
+<use CV.pdf, page 1>
+Package pdftex.def Info: CV.pdf , page1 used on input line 103.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: CV.pdf Graphic file (type pdf)
+<use CV.pdf, page 1>
+Package pdftex.def Info: CV.pdf , page1 used on input line 103.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: CV.pdf Graphic file (type pdf)
+<use CV.pdf, page 1>
+Package pdftex.def Info: CV.pdf , page1 used on input line 103.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: CV.pdf Graphic file (type pdf)
+<use CV.pdf, page 1>
+Package pdftex.def Info: CV.pdf , page1 used on input line 103.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[3
+
+ <./CV.pdf>]
+<CV.pdf, id=60, page=2, 597.50829pt x 845.0471pt>
+File: CV.pdf Graphic file (type pdf)
+<use CV.pdf, page 2>
+Package pdftex.def Info: CV.pdf , page2 used on input line 103.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: CV.pdf Graphic file (type pdf)
+<use CV.pdf, page 2>
+Package pdftex.def Info: CV.pdf , page2 used on input line 103.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: CV.pdf Graphic file (type pdf)
+<use CV.pdf, page 2>
+Package pdftex.def Info: CV.pdf , page2 used on input line 103.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[4
+
+ <./CV.pdf>] (COMP.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: DC4F49A5B6983A8E47DDF75FD4D06599;781.
+Package rerunfilecheck Info: File `COMP.out' has not changed.
+(rerunfilecheck)             Checksum: 2DB8DD12A85B43CB88D7F987CF10B2A8;126.
  ) 
 Here is how much of TeX's memory you used:
- 16617 strings out of 468130
- 290072 string characters out of 5430632
- 738299 words of memory out of 5000000
- 44996 multiletter control sequences out of 15000+600000
- 668635 words of font info for 116 fonts, out of 8000000 for 9000
+ 17374 strings out of 468130
+ 303326 string characters out of 5430632
+ 729149 words of memory out of 5000000
+ 45762 multiletter control sequences out of 15000+600000
+ 645799 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,760b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,79p,422b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CV.pdf (2 pages, 109127 bytes).
+Output written on COMP.pdf (4 pages, 113526 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

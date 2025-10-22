@@ -1,7 +1,7 @@
-PWD c:\Users\tesla\Documents\git\github_reza\rezaaliasgarirenani\Documents\SOP\TU Dortmund
+PWD c:\Users\tesla\Documents\git\github_reza\rezaaliasgarirenani\Documents\EXT\TU Dortmund
 INPUT C:\Users\tesla\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\tesla\Documents\git\github_reza\rezaaliasgarirenani\Documents\SOP\TU Dortmund\SOP.tex
-OUTPUT SOP.log
+INPUT c:\Users\tesla\Documents\git\github_reza\rezaaliasgarirenani\Documents\EXT\TU Dortmund\EXT.tex
+OUTPUT EXT.log
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -112,6 +112,14 @@ INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
@@ -119,19 +127,14 @@ INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\generic\pdftex\glyphtounicode.tex
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\generic\pdftex\glyphtounicode.tex
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\generic\pdftex\glyphtounicode.tex
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\generic\pdftex\glyphtounicode.tex
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\generic\pdftex\glyphtounicode.tex
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT .\SOP.aux
-INPUT .\SOP.aux
-INPUT SOP.aux
-OUTPUT SOP.aux
+INPUT .\EXT.aux
+INPUT .\EXT.aux
+INPUT EXT.aux
+OUTPUT EXT.aux
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -140,14 +143,14 @@ INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\SOP.out
-INPUT .\SOP.out
-INPUT SOP.out
-INPUT SOP.out
-INPUT .\SOP.out
-INPUT .\SOP.out
-OUTPUT SOP.out
-OUTPUT SOP.pdf
+INPUT .\EXT.out
+INPUT .\EXT.out
+INPUT EXT.out
+INPUT EXT.out
+INPUT .\EXT.out
+INPUT .\EXT.out
+OUTPUT EXT.out
+OUTPUT EXT.pdf
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
@@ -183,9 +186,6 @@ INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
@@ -204,8 +204,6 @@ INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
@@ -221,16 +219,14 @@ INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tf
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\tesla\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT SOP.aux
-INPUT .\SOP.out
-INPUT .\SOP.out
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT EXT.aux
+INPUT .\EXT.out
+INPUT .\EXT.out
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\tesla\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
