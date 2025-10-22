@@ -16,10 +16,10 @@
 2) Fish-eye-view correction, Demosaic on FPGA and testing with camera. 
 3) Literature Review for Master's Thesis.
 4) Experimental setup preparation for EBP system for Master's thesis. 
-5) Finding suitable PhD Positions.
+5) Applying for suitable PhD Positions.
 
 # Immediate Plan: 
 1) Synthesize Fisheye, See if it works on Nexys Video. 
-2) The AstroPhysics Application, Aarhus Quantum physics. 
-3) education-in-russia, get docs: Motivation letter, etc.
-4) Yadro Algorithms: Scaling, Grayworld
+2) education-in-russia, get docs: Motivation letter, etc.
+3) Yadro Algorithms: Scaling, Grayworld
+4) Find PhD Positions in Nordic Countries
