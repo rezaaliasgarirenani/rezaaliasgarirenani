@@ -7,19 +7,19 @@
 6) Uphold the western values: christianity, greek philosophy, Roman law and above all, AMERICANISM: FREEDOM, HONOR, STRENGTH
 
 # Long-term Plan: 
-1) Master Thesis: Radiating FPGAs with available plasma technology and radiation environment.
-2) Work Projects: Completing Image Signal Processing Algorithms for FPGA-based Designs.
-3) PhD Research: Conduct research in Physics in the fields of electronics, energy, radiation and plasma physics.
+1) Work Projects: Completing Image Signal Processing Algorithms for FPGA-based Designs.
+2) Research: Conduct research in Physics in the fields of electronics, energy, radiation and plasma physics.
 
 # Short-term Plan: 
 1) Yadro Conference Materials.
-2) Fish-eye-view correction, Demosaic on FPGA and testing with camera. 
-3) Literature Review for Master's Thesis.
-4) Experimental setup preparation for EBP system for Master's thesis. 
+2) SoC Laboratory: Fish-eye Correction, Demosaic, Resize, GrayWorld. 
+3) Master Thesis: Literature Review.
+4) Master Thesis: EBP Experimental setup, logistics of exposing FPGAs in the setup.
 5) Applying for suitable PhD Positions.
 
 # Immediate Plan: 
-1) Synthesize Fisheye, See if it works on Nexys Video. 
-2) education-in-russia, get docs: Motivation letter, etc.
+1) Synthesize Fisheye, See if it works on Nexys Video
+2) education-in-russia, get docs: Motivation letter, etc
 3) Yadro Algorithms: Scaling, Grayworld
 4) Find PhD Positions in Nordic Countries
+5) Presentation for YADRO Conference
