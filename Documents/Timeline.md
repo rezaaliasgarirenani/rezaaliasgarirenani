@@ -15,11 +15,8 @@
 2) SoC Laboratory: Fish-eye Correction, Demosaic, Resize, GrayWorld. 
 3) Master Thesis: Literature Review.
 4) Master Thesis: EBP Experimental setup, logistics of exposing FPGAs in the setup.
-5) Applying for suitable PhD Positions.
+5) Applying for suitable PhD Positions (NORDIC).
 
 # Immediate Plan: 
-1) Synthesize Fisheye, See if it works on Nexys Video
-2) education-in-russia, get docs: Motivation letter, etc
-3) Yadro Algorithms: Scaling, Grayworld
-4) Find PhD Positions in Nordic Countries
-5) Presentation for YADRO Conference
+1) Presentation for YADRO Conference: Demosaic, HSV, Sobel, GTM
+2) UGent Apply Docs
