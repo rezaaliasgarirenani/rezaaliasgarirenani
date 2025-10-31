@@ -20,3 +20,4 @@
 # Immediate Plan: 
 1) Presentation for YADRO Conference: Demosaic, HSV, Sobel, GTM
 2) UGent Apply Docs
+3) Fixedpoint mult pipelining
