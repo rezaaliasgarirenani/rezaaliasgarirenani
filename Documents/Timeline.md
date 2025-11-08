@@ -18,4 +18,5 @@
 5) Applying for suitable PhD Positions (NORDIC).
 
 # Immediate Plan: 
-1) Presentation for YADRO Conference: Demosaic, HSV, Sobel, GTM
+1) Fixedpoint Library: Namings, Documentation, check for rgb2hsv.
+2) 
