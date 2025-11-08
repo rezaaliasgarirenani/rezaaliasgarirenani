@@ -64,7 +64,7 @@
 
 - **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  _Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons, by methods of Capacitance-Voltage characteristics and thermally-stimulated current._ [Poster, CALT 2023](https://cebt23.iptm.ru/download/numbered/91.pdf).
 
-- **R. Aliasgari Renani**, V. Vasilevskiy, V. Vologin, V. Chesnokov.  _Comparative analysis of manual Verilog and Simulink-generated HDL code for image processing algorithms._ Forthcoming presentation, Yadro FPGA Systems Conference, 2025.
+- V. Vologin, **R. Aliasgari Renani**, V. Vasilevskiy, V. Chesnokov.  _Comparative analysis of manual Verilog and Simulink-generated HDL code for image processing algorithms._ Forthcoming presentation, [FPGA-Systems Conference 2025](https://meetups.yadro.com/fpga-msk-1125/).
 
 ---
 

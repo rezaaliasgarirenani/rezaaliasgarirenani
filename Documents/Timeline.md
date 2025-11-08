@@ -11,12 +11,14 @@
 2) Research: Conduct research in Physics in the fields of electronics, energy, radiation and plasma physics.
 
 # Short-term Plan: 
-1) Yadro Conference Materials.
-2) SoC Laboratory: Fish-eye Correction, Demosaic, Resize, GrayWorld. 
-3) Master Thesis: Literature Review.
-4) Master Thesis: EBP Experimental setup, logistics of exposing FPGAs in the setup.
-5) Applying for suitable PhD Positions (NORDIC).
+1) SoC Laboratory: Fish-eye Correction, Resize, GrayWorld. 
+2) Master Thesis: Literature Review, EBP Experimental setup and exposing FPGAs.
+3) Applying for suitable PhD Positions (NORDIC, Europe).
 
 # Immediate Plan: 
-1) Fixedpoint Library: Namings, Documentation, check for rgb2hsv.
-2) 
+1) Fixedpoint Library: Namings, Documentation
+2) Motivation letter for opendoors
+3) Motivation letter for ghent
+4) Recommendation Letter
+5) Vasiliev small presentation
+6) Russian CV
