@@ -1,0 +1,266 @@
+%-------------------------
+% Resume in Latex
+% Author: Reza Aliasgari Renani (reordered to reverse-chronological)
+% License: MIT
+%------------------------
+
+\documentclass[a4paper, 10pt]{article} % Changed to 10pt to accommodate longer Russian text
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian,english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[version=4]{mhchem}
+\usepackage[
+  a4paper,
+  top    = 1.50cm, % Slightly reduced margins to fit content
+  bottom = 1.50cm,
+  left   = 1.70cm,
+  right  = 1.70cm
+]{geometry}
+\usepackage{mathptmx} % Times New Roman-like font, but with T2A it should support Cyrillic
+
+\renewcommand{\baselinestretch}{1.05} % Reduced stretch to fit more content
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Defining custom commands
+\newcommand{\resumeItem}[1]{
+    \item\small{
+        {#1 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textbf{\small #2} \\
+        \small#3 & \small #4
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+        \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    urlcolor=RoyalBlue,
+    citecolor=RoyalBlue,
+    anchorcolor=RoyalBlue
+}
+
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\setlength{\footskip}{30pt} % Fixes \footskip warning
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Formatting section titles
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Starting the document
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape {\fontsize{25}{30}\selectfont{Реза}} {\fontsize{25}{30}\selectfont{\textbf{Алиасгари Ренани}}}} \\ \vspace{3pt}
+    \small ~ 
+    \href{mailto:rezaaliasgarirenani@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{rezaaliasgarirenani@gmail.com}} $|$ ~
+    \href{https://orcid.org/0009-0000-8983-755X}{\raisebox{-0.2\height}\faOrcid\ \underline{ORCID}} $|$ ~
+    \href{https://www.researchgate.net/profile/Reza-Aliasgari-Renani}{\raisebox{-0.2\height}\faResearchgate\
+    \underline{ResearchGate}} $|$ ~
+    \href{https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en}{\raisebox{-0.2\height}\faGraduationCap\ \underline{Google Scholar}} $|$ ~
+    \href{https://github.com/rezaaliasgarirenani}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} $|$ ~
+    \href{https://linkedin.com/in/reza-aliasgari-renani}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}
+    \vspace{-10pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{\textcolor{red}{Об}разование}
+\resumeSubHeadingListStart
+    %--- Most recent (M.Sc.) first ---
+    \resumeSubheading
+        {\href{https://mipt.ru/}{\parbox[t]{\dimexpr\linewidth-6cm}{Московский физико-технический институт (МФТИ, Физтех)}}}{Сентябрь 2024 -- Июнь 2026}
+        {\textbf{Магистр} прикладной математики и физики, Программа: Физика плазмы, GPA: 4.7/5.0}{Москва, Россия}
+        {\resumeItem{\textbf{Тема диссертации:} Исследование эффектов, вызванных радиацией, на системах обработки сигналов на основе FPGA для космических применений.}}
+    %--- Earlier (B.Sc.) after ---
+    \resumeSubheading
+        {\href{https://mipt.ru/}{\parbox[t]{\dimexpr\linewidth-6cm}{Московский физико-технический институт (МФТИ, Физтех)}}}{Сентябрь 2020 -- Июнь 2024}
+        {\textbf{Бакалавр} технической физики, Программа: Аэрокосмические технологии, GPA: 4.56/5.0}{Москва, Россия}
+        {\resumeItem{\textbf{Тема диссертации:} Исследование эффектов облучения низкоэнергетичными (1 - 20 кэВ) электронами и высокоэнергетичными (1 МэВ) гамма-квантами на электрофизические свойства диэлектрик-полупроводниковых структур.}}
+\resumeSubHeadingListEnd
+\vspace{-18pt} % Adjusted spacing
+
+%-----------EXPERIENCE-----------
+\section{\textcolor{red}{Оп}ыт научных исследований}
+\resumeSubHeadingListStart
+    %--- Current / Most recent position first ---
+    \resumeSubheading
+        {\href{http://ai.mipt.ru/design-center}{\parbox[t]{\dimexpr\linewidth-7cm}{Дизайн-центр по проектированию микропроцессорной техники для систем с ИИ, Лаборатория разработки систем на кристалле}}}
+        {Сентябрь 2024 -- Настоящее время}
+        {\textbf{Программист / Инженер проектирования RTL}}{Москва, Россия}
+        \resumeItemListStart
+            \resumeItem{\textbf{Реализация DSP} \\ Перенос математических алгоритмов в эффективные реализации на Verilog. Создание библиотеки фиксированной точки и аппроксимаций функций на основе LUT (метод Горнера) для поддержки вычислений с фиксированной точкой. Реализация алгоритмов обработки изображений (rgb2hsv, сегментация цвета, обнаружение краев Собеля, глобальное тональное картирование, демозаицинг, вид с высоты птичьего полета, коррекция «рыбьего глаза», изменение размера изображения) через генерацию HDL-кода в Simulink и вручную написанный Verilog. Оптимизация задержки и пропускной способности, решение проблем синхронизации и конвейеризации.}
+            \resumeItem{\textbf{Симуляция, верификация и синтез} \\ Создание всесторонних тестовых стендов на Verilog и использование Python для автоматизации симуляции и анализа данных для проверки функциональности и производительности DSP. Синтез, размещение и трассировка HDL-кода с использованием Vivado (FPGA: Xilinx Artix-7, Zybo Z7). Верификация алгоритмов ISP путем передачи тестовых изображений через HDMI с хост-компьютера, а затем с живой камеры, подключенной к FPGA.}
+           \resumeItem{\textbf{Исследование устройств FPGA под воздействием электронно-плазменного излучения} \\ Проведение экспериментов по облучению плат FPGA электронными пучками (25 -- 60 кэВ, до 100 мА) в низкодавленном кислороде ($10^{-6}$ -- 50 Торр), генерируя плазму и рентгеновские лучи. Применение комбинированного термоциклирования (218--393 K) и поверхностного заряда для оценки надежности FPGA под радиационным и плазменным стрессом.}
+
+        \resumeItemListEnd
+
+    %--- Previous (concurrent) roles ---
+    \resumeSubheading
+        {\href{https://new.ras.ru/en/}{\parbox[t]{\dimexpr\linewidth-5cm}{Институт проблем технологии микроэлектроники и особочистых материалов Российской академии наук}}}{Март 2023 -- Август 2024}
+        {\textbf{Лабораторный исследователь}}{Москва, Россия}
+        \resumeItemListStart
+            \resumeItem{\textbf{Установка и автоматизация экспериментального оборудования} \\ Установка экспериментальных устройств, включая Everbeing Cryo-station (80K – 450K) с 4 микроманипуляторами, Lakeshore Temperature Controller Model 336, Keithley SourceMeter 2450, Parametric Analyzer Keithley 4200A-SCS, Keysight Electrometer B2987A, Aktakom 3048 и Zurich Instruments MFIA Impedance Analyzer. Разработка {\href{https://github.com/rezaaliasgarirenani/IMT-Automation}{приложений}} в MATLAB для автоматизации экспериментальных методов: термостимулированный ток, емкость-напряжение, ток-напряжение, ток-время и спектроскопия глубоких уровней с переходными процессами.}
+            \resumeItem{\textbf{Теоретическое исследование} \\ Разработка теоретического понимания и изучение экспериментальных методов для полупроводниковых устройств (MOS, MOSFET, диод, RRAM). Прогнозирование поведения образцов и определение параметров измерений.}
+            \resumeItem{\textbf{Экспериментальное исследование и обработка данных} \\ Проведение экспериментов по электрической характеризации микроэлектронных структур, обработка данных с использованием MATLAB и Origin Pro, удаление посторонних точек случайного телеграфного шума, сравнение результатов с теоретическими моделями.}
+        \resumeItemListEnd
+    \resumeSubheading
+        {\href{https://mipt.ru/dasr/about/kaf_faculty/mmsp}{\parbox[t]{\dimexpr\linewidth-6cm}{Лаборатория моделирования механических систем и процессов}}}{Март 2023 -- Август 2024}
+        {\textbf{Инженер / Техник}}{Москва, Россия}
+        \resumeItemListStart
+            \resumeItem{\textbf{Инженерное проектирование и разработка} \\ Проектирование, разработка и анализ моделей для орбитального развертывателя CubeSat и вибрационного крепления с использованием SolidWorks. Создание нескольких прототипов, прошедших симуляцию случайных вибраций и динамический анализ, тестирование на вибростенде UVE 4000 для механических факторов окружающей среды и устойчивости к вибрациям.}
+        \resumeItemListEnd
+        
+\resumeSubHeadingListEnd
+\vspace{-18pt} % Adjusted spacing
+
+%-----------PUBLICATIONS---------------
+\section{\textcolor{red}{Пу}бликации и конференции}
+\resumeSubHeadingListStart
+    \item \underline{Р. Алиасгари Ренани}, О.А. Солтанович, М.А. Князев, С.В. Ковешников. \\ \textit{Исследование устройств MOS на основе \ce{SiO2}, облученных низкоэнергетичными электронами, методами емкость-напряжение и термостимулированный ток.} \href{https://doi.org/10.1134/S1063739723600516}{Журнальная статья}, Russian Microelectronics, 2023
+    \item \underline{Р. Алиасгари Ренани}, О.А. Солтанович, М.А. Князев, С.В. Ковешников. \\ \textit{Изучение устройств MOS на основе \ce{SiO2} методами емкость-напряжение и термостимулированный ток.} \href{https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf}{Презентация}, p.122. 15-я Международная конференция по микро- и наноэлектронике (\href{https://icmne.ftian.ru}{ICMNE 2023})
+    \item \underline{Р. Алиасгари Ренани}, О.А. Солтанович, М.А. Князев, С.В. Ковешников. \\ \textit{Исследование электрически активных дефектов, введенных в оксид кремния облучением низкоэнергетичными электронами, методами характеристик емкость-напряжение и термостимулированного тока.} \href{https://cebt23.iptm.ru/download/numbered/91.pdf}{Постер}, Вторая совместная конференция по технологиям электронных пучков и рентгеновской оптике в микроэлектронике (\href{https://cebt23.iptm.ru}{CALT 2023})
+    \item \underline{В. Вологин}, Р. Алиасгари Ренани, В. Васильевский, В. Чесноков \\ \textit{Сравнительный анализ ручного Verilog и HDL-кода, сгенерированного в Simulink, для алгоритмов обработки изображений.} Предстоящая презентация, \href{https://meetups.yadro.com/fpga-msk-1125/}{Конференция FPGA-Systems 2025}
+    
+\resumeSubHeadingListEnd
+\vspace{-22pt} % Adjusted spacing
+
+%-----------TECHNICAL SKILLS-----------
+\section{\textcolor{red}{Те}хнические навыки}
+\begin{center}
+    \begin{minipage}[t]{0.45\textwidth}
+        \textbf{Продвинутый уровень}
+        \vspace{-7pt}
+        \begin{itemize}
+            \setlength{\itemindent}{0em}
+            \setlength{\itemsep}{-3pt}
+            \item Экспериментальная автоматизация
+            \item Электрическая характеризация
+            \item Обработка данных
+            \item MATLAB, Simulink, HDL Coder
+            \item Verilog, проектирование RTL
+            \item Разработка FPGA
+            \item Вычисления с фиксированной точкой
+            \item SciPy, NumPy, OpenCV
+        \end{itemize}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.45\textwidth}
+        \textbf{Средний уровень}
+        \vspace{-7pt}
+        \begin{itemize}
+            \setlength{\itemindent}{0em}
+            \setlength{\itemsep}{-3pt}
+            \item Python, C++, Arduino
+            \item Vivado, Vitis
+            \item Git, Unix/Linux OS
+            \item OriginLab
+            \item SolidWorks
+            \item ERDAS IMAGINE
+            \item PCB, EasyEDA
+            \item OpenRocket
+        \end{itemize}
+    \end{minipage}
+\end{center}
+\vspace{-18pt} % Adjusted spacing
+
+%-----------PROJECTS-----------
+\section{\textcolor{red}{Пр}оекты}
+    %--- Most recent projects first ---
+    {\href{https://github.com/icarus-imperium/rocket-2025}{\textbf{Модельная ракета}}} \hfill \textbf{Апрель 2023 и 2025} \\
+    \begin{itemize}
+        \vspace{-9pt}
+    \item Построил модельные ракеты с импульсами 40 и 60 Ньютон-секунд в составе команды.
+        \vspace{-9pt}
+    \item Запустил три модельные ракеты за два года на День космонавтики МФТИ.
+    \end{itemize}
+    \vspace{-9pt}
+    {\href{https://github.com/rezaaliasgarirenani/Rover}{\textbf{Модель лунохода}}} \hfill \textbf{Июнь 2023}
+    \begin{itemize}
+        \vspace{-9pt}
+    \item Сотрудничал над машиной, способной преодолевать препятствия без круглых колес.
+        \vspace{-9pt}
+    \item Протестировал несколько прототипов, финальный дизайн одобрен главой лаборатории.
+    \end{itemize}
+    \vspace{-9pt}
+    {\href{https://github.com/rezaaliasgarirenani/Aircraft-Detection-System}{\textbf{Система обнаружения самолетов}}} \hfill \textbf{Июнь 2022}
+    \begin{itemize}
+        \vspace{-9pt}
+    \item Исследовал и применил алгоритмы для обнаружения самолетов с использованием фоторезисторов и транзисторов.
+        \vspace{-9pt}
+    \item Разработал систему, способную к ротационному и трансляционному движению для отслеживания самолетов.
+    \end{itemize}
+    \vspace{-9pt}
+    {\href{https://github.com/rezaaliasgarirenani/Non-Conservative-Electric-Fields-and-Voltmeters}{\textbf{Исследование неконсервативных электрических полей и вольтметров}}} \hfill \textbf{Май 2022} \\
+    \begin{itemize}
+        \vspace{-9pt}
+    \item Разработал экспериментальную установку для анализа зависимости показаний вольтметра от позиции в параллельных цепях.
+        \vspace{-9pt}
+    \item Продемонстрировал неинтуитивные разности потенциалов, генерируемые изменяющимися магнитными полями.
+    \end{itemize}
+    \vspace{-18pt} % Adjusted spacing
+
+%-----------AWARDS-----------
+\section{\textcolor{red}{На}грады}
+\begin{itemize}
+    %--- Most recent award first ---
+     \resumeItem{Полная государственная российская стипендия для иностранных студентов, МФТИ} \hfill \textbf{Сентябрь 2024}
+    \resumeItem{Иранская государственная стипендия, Исфаханский технологический университет} \hfill \textbf{Сентябрь 2019}
+    \resumeItem{Участник \href{https://congress.aero/en/}{5-го и 7-го Евразийского аэрокосмического конгресса}} \hfill \textbf{Июль 2023 и 2025}
+
+\end{itemize}
+\vspace{-18pt} % Adjusted spacing
+
+%-----------LANGUAGES-----------
+\section{\textcolor{red}{Яз}ыки}
+\begin{center}
+    \textbf{Английский}: C2 (TOEFL iBT 113) \quad $|$ \quad 
+    \textbf{Русский}: B1 \quad $|$ \quad 
+    \textbf{Немецкий}: B1 (ÖSD) \quad $|$ \quad 
+    \textbf{Персидский}: Родной
+\end{center}
+
+\end{document}

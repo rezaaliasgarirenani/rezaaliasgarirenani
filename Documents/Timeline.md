@@ -17,8 +17,6 @@
 
 # Immediate Plan: 
 1) Fixedpoint Library: Namings, Documentation
-2) Motivation letter for opendoors
-3) Motivation letter for ghent
-4) Recommendation Letter
-5) Vasiliev small presentation
-6) Russian CV
+2) Motivation letter for opendoors, ghent, mipt
+3) Vasiliev small presentation
+4) Russian CV
