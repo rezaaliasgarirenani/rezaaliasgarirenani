@@ -13,7 +13,7 @@
 \usepackage{fancyhdr}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[russian,english]{babel}
+\usepackage[noconfigs,russian,english]{babel}
 \usepackage{tabularx}
 \usepackage{fontawesome5}
 \usepackage{multicol}
@@ -25,7 +25,7 @@
   left   = 1.70cm,
   right  = 1.70cm
 ]{geometry}
-\usepackage{mathptmx} % Times New Roman-like font, but with T2A it should support Cyrillic
+\usepackage{cmbright} % Sans-serif font family (Computer Modern Bright) for easier readability, supports Cyrillic with T2A
 
 \renewcommand{\baselinestretch}{1.05} % Reduced stretch to fit more content
 \renewcommand{\headrulewidth}{0pt}
@@ -113,22 +113,22 @@
     %--- Most recent (M.Sc.) first ---
     \resumeSubheading
         {\href{https://mipt.ru/}{\parbox[t]{\dimexpr\linewidth-6cm}{Московский физико-технический институт (МФТИ, Физтех)}}}{Сентябрь 2024 -- Июнь 2026}
-        {\textbf{Магистр} прикладной математики и физики, Программа: Физика плазмы, GPA: 4.7/5.0}{Москва, Россия}
+        {\textbf{Магистр} прикладной математики и физики, Программа: Физика плазмы, Средний балл: 4.7/5.0}{Москва, Россия}
         {\resumeItem{\textbf{Тема диссертации:} Исследование эффектов, вызванных радиацией, на системах обработки сигналов на основе FPGA для космических применений.}}
     %--- Earlier (B.Sc.) after ---
     \resumeSubheading
         {\href{https://mipt.ru/}{\parbox[t]{\dimexpr\linewidth-6cm}{Московский физико-технический институт (МФТИ, Физтех)}}}{Сентябрь 2020 -- Июнь 2024}
-        {\textbf{Бакалавр} технической физики, Программа: Аэрокосмические технологии, GPA: 4.56/5.0}{Москва, Россия}
+        {\textbf{Бакалавр} технической физики, Программа: Аэрокосмические технологии, Средний балл: 4.56/5.0}{Москва, Россия}
         {\resumeItem{\textbf{Тема диссертации:} Исследование эффектов облучения низкоэнергетичными (1 - 20 кэВ) электронами и высокоэнергетичными (1 МэВ) гамма-квантами на электрофизические свойства диэлектрик-полупроводниковых структур.}}
 \resumeSubHeadingListEnd
-\vspace{-18pt} % Adjusted spacing
+\vspace{-10pt} % Adjusted spacing
 
 %-----------EXPERIENCE-----------
 \section{\textcolor{red}{Оп}ыт научных исследований}
 \resumeSubHeadingListStart
     %--- Current / Most recent position first ---
     \resumeSubheading
-        {\href{http://ai.mipt.ru/design-center}{\parbox[t]{\dimexpr\linewidth-7cm}{Дизайн-центр по проектированию микропроцессорной техники для систем с ИИ, Лаборатория разработки систем на кристалле}}}
+        {\href{http://ai.mipt.ru/design-center}{\parbox[t]{\dimexpr\linewidth-6cm}{Дизайн-центр по проектированию микропроцессорной техники для систем с ИИ, Лаборатория разработки систем на кристалле}}}
         {Сентябрь 2024 -- Настоящее время}
         {\textbf{Программист / Инженер проектирования RTL}}{Москва, Россия}
         \resumeItemListStart
@@ -140,7 +140,7 @@
 
     %--- Previous (concurrent) roles ---
     \resumeSubheading
-        {\href{https://new.ras.ru/en/}{\parbox[t]{\dimexpr\linewidth-5cm}{Институт проблем технологии микроэлектроники и особочистых материалов Российской академии наук}}}{Март 2023 -- Август 2024}
+        {\href{https://new.ras.ru/en/}{\parbox[t]{\dimexpr\linewidth-4cm}{Институт проблем технологии микроэлектроники и особочистых материалов Российской академии наук}}}{Март 2023 -- Август 2024}
         {\textbf{Лабораторный исследователь}}{Москва, Россия}
         \resumeItemListStart
             \resumeItem{\textbf{Установка и автоматизация экспериментального оборудования} \\ Установка экспериментальных устройств, включая Everbeing Cryo-station (80K – 450K) с 4 микроманипуляторами, Lakeshore Temperature Controller Model 336, Keithley SourceMeter 2450, Parametric Analyzer Keithley 4200A-SCS, Keysight Electrometer B2987A, Aktakom 3048 и Zurich Instruments MFIA Impedance Analyzer. Разработка {\href{https://github.com/rezaaliasgarirenani/IMT-Automation}{приложений}} в MATLAB для автоматизации экспериментальных методов: термостимулированный ток, емкость-напряжение, ток-напряжение, ток-время и спектроскопия глубоких уровней с переходными процессами.}
@@ -155,7 +155,7 @@
         \resumeItemListEnd
         
 \resumeSubHeadingListEnd
-\vspace{-18pt} % Adjusted spacing
+\vspace{-10pt} % Adjusted spacing
 
 %-----------PUBLICATIONS---------------
 \section{\textcolor{red}{Пу}бликации и конференции}
@@ -166,7 +166,7 @@
     \item \underline{В. Вологин}, Р. Алиасгари Ренани, В. Васильевский, В. Чесноков \\ \textit{Сравнительный анализ ручного Verilog и HDL-кода, сгенерированного в Simulink, для алгоритмов обработки изображений.} Предстоящая презентация, \href{https://meetups.yadro.com/fpga-msk-1125/}{Конференция FPGA-Systems 2025}
     
 \resumeSubHeadingListEnd
-\vspace{-22pt} % Adjusted spacing
+\vspace{-12pt} % Adjusted spacing
 
 %-----------TECHNICAL SKILLS-----------
 \section{\textcolor{red}{Те}хнические навыки}
@@ -205,7 +205,7 @@
         \end{itemize}
     \end{minipage}
 \end{center}
-\vspace{-18pt} % Adjusted spacing
+\vspace{-10pt} % Adjusted spacing
 
 %-----------PROJECTS-----------
 \section{\textcolor{red}{Пр}оекты}
@@ -241,7 +241,7 @@
         \vspace{-9pt}
     \item Продемонстрировал неинтуитивные разности потенциалов, генерируемые изменяющимися магнитными полями.
     \end{itemize}
-    \vspace{-18pt} % Adjusted spacing
+    \vspace{-10pt} % Adjusted spacing
 
 %-----------AWARDS-----------
 \section{\textcolor{red}{На}грады}
@@ -252,14 +252,13 @@
     \resumeItem{Участник \href{https://congress.aero/en/}{5-го и 7-го Евразийского аэрокосмического конгресса}} \hfill \textbf{Июль 2023 и 2025}
 
 \end{itemize}
-\vspace{-18pt} % Adjusted spacing
+\vspace{-10pt} % Adjusted spacing
 
 %-----------LANGUAGES-----------
 \section{\textcolor{red}{Яз}ыки}
 \begin{center}
     \textbf{Английский}: C2 (TOEFL iBT 113) \quad $|$ \quad 
-    \textbf{Русский}: B1 \quad $|$ \quad 
-    \textbf{Немецкий}: B1 (ÖSD) \quad $|$ \quad 
+    \textbf{Русский}: B1-B2 \quad $|$ \quad 
     \textbf{Персидский}: Родной
 \end{center}
 
