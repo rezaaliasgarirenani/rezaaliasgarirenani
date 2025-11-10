@@ -18,3 +18,5 @@
 # Immediate Plan: 
 1) Fixedpoint Library: Namings, Documentation
 2) Motivation letter for opendoors, mipt
+3) Sydney email
+4) infection tests and green card
