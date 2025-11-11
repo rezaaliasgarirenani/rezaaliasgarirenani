@@ -16,7 +16,7 @@
 3) Applying for suitable PhD Positions (NORDIC, Europe).
 
 # Immediate Plan: 
-1) Fixedpoint Library: Namings, Documentation
+1) Fixedpoint Library: Documentation
 2) Motivation letter for opendoors, mipt
 3) Sydney email
 4) infection tests and green card
