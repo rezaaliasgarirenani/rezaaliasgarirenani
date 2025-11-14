@@ -18,4 +18,3 @@
 # Immediate Plan: 
 1) Motivation letter for opendoors, mipt
 2) Sydney email
-3) Mock Presentation
