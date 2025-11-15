@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1762725162.27897 "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV_Russian.tex" "CV_Russian.pdf" "CV_Russian" 1762725163.27766 0
+["pdflatex"] 1763234992.94162 "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV-Russian.tex" "CV-Russian.pdf" "CV-Russian" 1763234994.07105 0
   "C:/Users/tesla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762724520 83637 15e7234f7f0768b75cfac8317adcc5d1 ""
   "C:/Users/tesla/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi1493/labbx10.pk" 1762724540 55560 ec874a8c69ff5b49eff3324eeccd427e ""
   "C:/Users/tesla/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi525/labmo8.pk" 1762724528 16844 a33432adfb8e08f449e45b2a1b009e81 ""
@@ -129,13 +129,13 @@
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1749468414 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "CV_Russian.aux" 1762725163 1294 8d2c9c4496b8bc8fd5cdc749f8a84bd6 "pdflatex"
-  "CV_Russian.out" 1762725163 1077 fb2c8d7bac2b7ec71cbcd294387a18dc "pdflatex"
-  "CV_Russian.tex" 1762725160 20599 0f34c371400b3a58f17df4bd5837b0e5 ""
-  "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV_Russian.tex" 1762725160 20599 0f34c371400b3a58f17df4bd5837b0e5 ""
+  "CV-Russian.aux" 1763234993 1294 8d2c9c4496b8bc8fd5cdc749f8a84bd6 "pdflatex"
+  "CV-Russian.out" 1763234993 1077 fb2c8d7bac2b7ec71cbcd294387a18dc "pdflatex"
+  "CV-Russian.tex" 1762725160 20599 0f34c371400b3a58f17df4bd5837b0e5 ""
+  "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV-Russian.tex" 1762725160 20599 0f34c371400b3a58f17df4bd5837b0e5 ""
   (generated)
-  "CV_Russian.aux"
-  "CV_Russian.log"
-  "CV_Russian.out"
-  "CV_Russian.pdf"
+  "CV-Russian.aux"
+  "CV-Russian.log"
+  "CV-Russian.out"
+  "CV-Russian.pdf"
   (rewritten before read)

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.9)  10 NOV 2025 00:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.9)  15 NOV 2025 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV_Russian.tex
-(c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV_Russian.tex
+**c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV-Russian.tex
+(c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV-Russian.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-09>
 (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -719,8 +719,8 @@ LaTeX Font Info:    Trying to load font information for T2A+cmbr on input line 1
 File: t2acmbr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 73.
- (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (CV_Russian.aux)
-\openout1 = `CV_Russian.aux'.
+ (C:\Users\tesla\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (CV-Russian.aux)
+\openout1 = `CV-Russian.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
@@ -762,9 +762,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 94.
- (CV_Russian.out) (CV_Russian.out)
+ (CV-Russian.out) (CV-Russian.out)
 \@outlinefile=\write3
-\openout3 = `CV_Russian.out'.
+\openout3 = `CV-Russian.out'.
 
 LaTeX Info: Redefining \th on input line 94.
 
@@ -865,7 +865,7 @@ LaTeX Font Info:    Font shape `T2A/cmbr/m/it' in size <5> not available
 
 {C:/Users/tesla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}]
 
-[2] (CV_Russian.aux)
+[2] (CV-Russian.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-09>
@@ -874,7 +874,7 @@ L3 programming layer <2025-10-09>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `CV_Russian.out' has not changed.
+Package rerunfilecheck Info: File `CV-Russian.out' has not changed.
 (rerunfilecheck)             Checksum: FB2C8D7BAC2B7EC71CBCD294387A18DC;1077.
  ) 
 Here is how much of TeX's memory you used:
@@ -886,7 +886,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1278b,588s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrsy10.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi525\labmo8.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labmo10.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labmr10.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\cmbr8.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi450\cmbrsy8.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbr9.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi375\cmbrsy8.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi540\labbx10.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labbx10.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi720\labbx10.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cmbright/dpi600\cmbrsy9.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labmr9.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi1493\labbx10.pk> <C:\Users\tesla\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi864\labmr17.pk><C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb>
-Output written on CV_Russian.pdf (2 pages, 187526 bytes).
+Output written on CV-Russian.pdf (2 pages, 187526 bytes).
 PDF statistics:
  568 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
