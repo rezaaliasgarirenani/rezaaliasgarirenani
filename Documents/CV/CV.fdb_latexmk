@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763042402.17357 "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV.tex" "CV.pdf" "CV" 1763042404.11273 0
-  "C:/Users/tesla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762724520 83637 15e7234f7f0768b75cfac8317adcc5d1 ""
+["pdflatex"] 1763336016.43963 "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV.tex" "CV.pdf" "CV" 1763336017.51781 0
+  "C:/Users/tesla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763335066 83637 15e7234f7f0768b75cfac8317adcc5d1 ""
   "C:/Users/tesla/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1762700240 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/tesla/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762700154 13321867 061d138be6d51b4ae305c8f6a29fb592 ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -117,10 +117,10 @@
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1749468414 33259 db80f750a01491473161bd4d0f6986d2 ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1749468414 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "CV.aux" 1763042403 1191 0a90a38911686f442c38af1627b913d8 "pdflatex"
-  "CV.out" 1763042403 781 dc4f49a5b6983a8e47ddf75fd4d06599 "pdflatex"
-  "CV.tex" 1763042400 14634 4cb8d1f816b2204e058d66a2611ce736 ""
-  "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV.tex" 1763042400 14634 4cb8d1f816b2204e058d66a2611ce736 ""
+  "CV.aux" 1763336017 1191 0a90a38911686f442c38af1627b913d8 "pdflatex"
+  "CV.out" 1763336017 781 dc4f49a5b6983a8e47ddf75fd4d06599 "pdflatex"
+  "CV.tex" 1763336015 14585 925abd79ad83da61fe84ac5ac2452927 ""
+  "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/CV/CV.tex" 1763336015 14585 925abd79ad83da61fe84ac5ac2452927 ""
   (generated)
   "CV.aux"
   "CV.log"

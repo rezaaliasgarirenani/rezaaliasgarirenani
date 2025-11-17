@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1762724153.25236 "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/SOP/MIPT/SOP.tex" "SOP.pdf" "SOP" 1762724154.02413 0
-  "C:/Users/tesla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762724044 83637 15e7234f7f0768b75cfac8317adcc5d1 ""
+["pdflatex"] 1763339301.31436 "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/SOP/MIPT/SOP.tex" "SOP.pdf" "SOP" 1763339302.0695 0
+  "C:/Users/tesla/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763335066 83637 15e7234f7f0768b75cfac8317adcc5d1 ""
   "C:/Users/tesla/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1762700240 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/tesla/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762700154 13321867 061d138be6d51b4ae305c8f6a29fb592 ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -52,7 +52,6 @@
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1759409308 46885 8953c67ffba03252c6090aa19568b8ba ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty" 1740138435 31715 19e60610b63819fe670dfa1cd84a4e94 ""
-  "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/footmisc/footmisc.sty" 1746880395 18109 4de394dbf43fe44e00e619c01475403a ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1578053545 1104 7ac475a4e3466b0b43e138e9356bda83 ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -87,10 +86,10 @@
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1749468414 10374 2ffd4f27c7f90b8a300608069537743c ""
   "C:/Users/tesla/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "SOP.aux" 1762724153 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "SOP.out" 1762724153 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "SOP.tex" 1762724152 5844 28581c9e2b0d69bde3118c3b59241f96 ""
-  "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/SOP/MIPT/SOP.tex" 1762724152 5844 28581c9e2b0d69bde3118c3b59241f96 ""
+  "SOP.aux" 1763339301 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "SOP.out" 1763339301 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "SOP.tex" 1763339300 7973 3a991abf98abc20f745fbe6efd375235 ""
+  "c:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/Documents/SOP/MIPT/SOP.tex" 1763339300 7973 3a991abf98abc20f745fbe6efd375235 ""
   (generated)
   "SOP.aux"
   "SOP.log"

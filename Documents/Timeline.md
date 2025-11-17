@@ -16,6 +16,6 @@
 3) Applying for suitable PhD Positions (NORDIC, Europe).
 
 # Immediate Plan: 
-1) Motivation letter for opendoors, MIPT
+1) Submit education in russia
 2) Sydney Emails 
 3) Presentation final stuff

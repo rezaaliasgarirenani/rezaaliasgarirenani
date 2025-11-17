@@ -1,9 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author: Reza Aliasgari Renani (reordered to reverse-chronological)
-% License: MIT
-%------------------------
-
 \documentclass[a4paper, 10pt]{article} % Changed to 10pt to accommodate longer Russian text
 \usepackage{titlesec}
 \usepackage{marvosym}
@@ -13,7 +7,7 @@
 \usepackage{fancyhdr}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[noconfigs,russian,english]{babel}
+\usepackage[russian]{babel}
 \usepackage{tabularx}
 \usepackage{fontawesome5}
 \usepackage{multicol}
@@ -95,7 +89,7 @@
 
 %----------HEADING----------
 \begin{center}
-    {\Huge \scshape {\fontsize{25}{30}\selectfont{Реза}} {\fontsize{25}{30}\selectfont{\textbf{Алиасгари Ренани}}}} \\ \vspace{3pt}
+    {\Huge {\fontsize{25}{30}\selectfont{Реза}} {\fontsize{25}{30}\selectfont{\textbf{Алиасгари Ренани}}}} \\ \vspace{3pt}
     \small ~ 
     \href{mailto:rezaaliasgarirenani@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{rezaaliasgarirenani@gmail.com}} $|$ ~
     \href{https://orcid.org/0009-0000-8983-755X}{\raisebox{-0.2\height}\faOrcid\ \underline{ORCID}} $|$ ~
@@ -112,12 +106,12 @@
 \resumeSubHeadingListStart
     %--- Most recent (M.Sc.) first ---
     \resumeSubheading
-        {\href{https://mipt.ru/}{\parbox[t]{\dimexpr\linewidth-6cm}{Московский физико-технический институт (МФТИ, Физтех)}}}{Сентябрь 2024 -- Июнь 2026}
+        {\href{https://mipt.ru/}{\parbox[t]{\dimexpr\linewidth-6cm}{Московский физико-технический институт (МФТИ, Физтех)}}}{Сент 2024 -- Июн 2026}
         {\textbf{Магистр} прикладной математики и физики, Программа: Физика плазмы, Средний балл: 4.7/5.0}{Москва, Россия}
         {\resumeItem{\textbf{Тема диссертации:} Исследование эффектов, вызванных радиацией, на системах обработки сигналов на основе FPGA для космических применений.}}
     %--- Earlier (B.Sc.) after ---
     \resumeSubheading
-        {\href{https://mipt.ru/}{\parbox[t]{\dimexpr\linewidth-6cm}{Московский физико-технический институт (МФТИ, Физтех)}}}{Сентябрь 2020 -- Июнь 2024}
+        {\href{https://mipt.ru/}{\parbox[t]{\dimexpr\linewidth-6cm}{Московский физико-технический институт (МФТИ, Физтех)}}}{Сент 2020 -- Июн 2024}
         {\textbf{Бакалавр} технической физики, Программа: Аэрокосмические технологии, Средний балл: 4.56/5.0}{Москва, Россия}
         {\resumeItem{\textbf{Тема диссертации:} Исследование эффектов облучения низкоэнергетичными (1 - 20 кэВ) электронами и высокоэнергетичными (1 МэВ) гамма-квантами на электрофизические свойства диэлектрик-полупроводниковых структур.}}
 \resumeSubHeadingListEnd
@@ -129,7 +123,7 @@
     %--- Current / Most recent position first ---
     \resumeSubheading
         {\href{http://ai.mipt.ru/design-center}{\parbox[t]{\dimexpr\linewidth-6cm}{Дизайн-центр по проектированию микропроцессорной техники для систем с ИИ, Лаборатория разработки систем на кристалле}}}
-        {Сентябрь 2024 -- Настоящее время}
+        {Сент 2024 -- Настоящее время}
         {\textbf{Программист / Инженер проектирования RTL}}{Москва, Россия}
         \resumeItemListStart
             \resumeItem{\textbf{Реализация DSP} \\ Перенос математических алгоритмов в эффективные реализации на Verilog. Создание библиотеки фиксированной точки и аппроксимаций функций на основе LUT (метод Горнера) для поддержки вычислений с фиксированной точкой. Реализация алгоритмов обработки изображений (rgb2hsv, сегментация цвета, обнаружение краев Собеля, глобальное тональное картирование, демозаицинг, вид с высоты птичьего полета, коррекция «рыбьего глаза», изменение размера изображения) через генерацию HDL-кода в Simulink и вручную написанный Verilog. Оптимизация задержки и пропускной способности, решение проблем синхронизации и конвейеризации.}
@@ -140,7 +134,7 @@
 
     %--- Previous (concurrent) roles ---
     \resumeSubheading
-        {\href{https://new.ras.ru/en/}{\parbox[t]{\dimexpr\linewidth-4cm}{Институт проблем технологии микроэлектроники и особочистых материалов Российской академии наук}}}{Март 2023 -- Август 2024}
+        {\href{https://new.ras.ru/en/}{\parbox[t]{\dimexpr\linewidth-4cm}{Институт проблем технологии микроэлектроники и особочистых материалов Российской академии наук}}}{Мар 2023 -- Авг 2024}
         {\textbf{Лабораторный исследователь}}{Москва, Россия}
         \resumeItemListStart
             \resumeItem{\textbf{Установка и автоматизация экспериментального оборудования} \\ Установка экспериментальных устройств, включая Everbeing Cryo-station (80K – 450K) с 4 микроманипуляторами, Lakeshore Temperature Controller Model 336, Keithley SourceMeter 2450, Parametric Analyzer Keithley 4200A-SCS, Keysight Electrometer B2987A, Aktakom 3048 и Zurich Instruments MFIA Impedance Analyzer. Разработка {\href{https://github.com/rezaaliasgarirenani/IMT-Automation}{приложений}} в MATLAB для автоматизации экспериментальных методов: термостимулированный ток, емкость-напряжение, ток-напряжение, ток-время и спектроскопия глубоких уровней с переходными процессами.}
@@ -148,7 +142,7 @@
             \resumeItem{\textbf{Экспериментальное исследование и обработка данных} \\ Проведение экспериментов по электрической характеризации микроэлектронных структур, обработка данных с использованием MATLAB и Origin Pro, удаление посторонних точек случайного телеграфного шума, сравнение результатов с теоретическими моделями.}
         \resumeItemListEnd
     \resumeSubheading
-        {\href{https://mipt.ru/dasr/about/kaf_faculty/mmsp}{\parbox[t]{\dimexpr\linewidth-6cm}{Лаборатория моделирования механических систем и процессов}}}{Март 2023 -- Август 2024}
+        {\href{https://mipt.ru/dasr/about/kaf_faculty/mmsp}{\parbox[t]{\dimexpr\linewidth-6cm}{Лаборатория моделирования механических систем и процессов}}}{Мар 2023 -- Авг 2024}
         {\textbf{Инженер / Техник}}{Москва, Россия}
         \resumeItemListStart
             \resumeItem{\textbf{Инженерное проектирование и разработка} \\ Проектирование, разработка и анализ моделей для орбитального развертывателя CubeSat и вибрационного крепления с использованием SolidWorks. Создание нескольких прототипов, прошедших симуляцию случайных вибраций и динамический анализ, тестирование на вибростенде UVE 4000 для механических факторов окружающей среды и устойчивости к вибрациям.}
@@ -210,7 +204,7 @@
 %-----------PROJECTS-----------
 \section{\textcolor{red}{Пр}оекты}
     %--- Most recent projects first ---
-    {\href{https://github.com/icarus-imperium/rocket-2025}{\textbf{Модельная ракета}}} \hfill \textbf{Апрель 2023 и 2025} \\
+    {\href{https://github.com/icarus-imperium/rocket-2025}{\textbf{Модельная ракета}}} \hfill \textbf{Апр 2023 и 2025} \\
     \begin{itemize}
         \vspace{-9pt}
     \item Построил модельные ракеты с импульсами 40 и 60 Ньютон-секунд в составе команды.
@@ -218,7 +212,7 @@
     \item Запустил три модельные ракеты за два года на День космонавтики МФТИ.
     \end{itemize}
     \vspace{-9pt}
-    {\href{https://github.com/rezaaliasgarirenani/Rover}{\textbf{Модель лунохода}}} \hfill \textbf{Июнь 2023}
+    {\href{https://github.com/rezaaliasgarirenani/Rover}{\textbf{Модель лунохода}}} \hfill \textbf{Июн 2023}
     \begin{itemize}
         \vspace{-9pt}
     \item Сотрудничал над машиной, способной преодолевать препятствия без круглых колес.
@@ -226,7 +220,7 @@
     \item Протестировал несколько прототипов, финальный дизайн одобрен главой лаборатории.
     \end{itemize}
     \vspace{-9pt}
-    {\href{https://github.com/rezaaliasgarirenani/Aircraft-Detection-System}{\textbf{Система обнаружения самолетов}}} \hfill \textbf{Июнь 2022}
+    {\href{https://github.com/rezaaliasgarirenani/Aircraft-Detection-System}{\textbf{Система обнаружения самолетов}}} \hfill \textbf{Июн 2022}
     \begin{itemize}
         \vspace{-9pt}
     \item Исследовал и применил алгоритмы для обнаружения самолетов с использованием фоторезисторов и транзисторов.
@@ -247,9 +241,9 @@
 \section{\textcolor{red}{На}грады}
 \begin{itemize}
     %--- Most recent award first ---
-     \resumeItem{Полная государственная российская стипендия для иностранных студентов, МФТИ} \hfill \textbf{Сентябрь 2024}
-    \resumeItem{Иранская государственная стипендия, Исфаханский технологический университет} \hfill \textbf{Сентябрь 2019}
-    \resumeItem{Участник \href{https://congress.aero/en/}{5-го и 7-го Евразийского аэрокосмического конгресса}} \hfill \textbf{Июль 2023 и 2025}
+     \resumeItem{Полная государственная российская стипендия для иностранных студентов, МФТИ} \hfill \textbf{Сент 2024}
+    \resumeItem{Иранская государственная стипендия, Исфаханский технологический университет} \hfill \textbf{Сент 2019}
+    \resumeItem{Участник \href{https://congress.aero/en/}{5-го и 7-го Евразийского аэрокосмического конгресса}} \hfill \textbf{Июл 2023 и 2025}
 
 \end{itemize}
 \vspace{-10pt} % Adjusted spacing
@@ -258,8 +252,9 @@
 \section{\textcolor{red}{Яз}ыки}
 \begin{center}
     \textbf{Английский}: C2 (TOEFL iBT 113) \quad $|$ \quad 
+    \textbf{Немецкий}: B1 \quad $|$ \quad
     \textbf{Русский}: B1-B2 \quad $|$ \quad 
-    \textbf{Персидский}: Родной
+    \textbf{Персидский}: Родной 
 \end{center}
 
 \end{document}
