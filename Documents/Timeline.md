@@ -17,5 +17,4 @@
 
 # Immediate Plan: 
 1) Submit education in russia
-2) Sydney Emails 
-3) Presentation final stuff
+2) Sydney Emails
