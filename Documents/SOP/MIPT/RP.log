@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.10)  20 NOV 2025 00:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.10)  20 NOV 2025 00:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/reza-aliasgari-renani/Documents/git/github_reza/rezaaliasgarirenani/Documents/SOP/MIPT/SOP.tex
-(/home/reza-aliasgari-renani/Documents/git/github_reza/rezaaliasgarirenani/Documents/SOP/MIPT/SOP.tex
+**/home/reza-aliasgari-renani/Documents/git/github_reza/rezaaliasgarirenani/Documents/SOP/MIPT/RP.tex
+(/home/reza-aliasgari-renani/Documents/git/github_reza/rezaaliasgarirenani/Documents/SOP/MIPT/RP.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -330,8 +330,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 21.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (./SOP.aux)
-\openout1 = `SOP.aux'.
+) (./RP.aux)
+\openout1 = `RP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
@@ -409,9 +409,9 @@ Package chemgreek Info: Activating mapping `default' on line 33.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 33.
-(./SOP.out) (./SOP.out)
+(./RP.out) (./RP.out)
 \@outlinefile=\write3
-\openout3 = `SOP.out'.
+\openout3 = `RP.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 36.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
@@ -444,24 +444,24 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
- [2] (./SOP.aux)
+ [2] (./RP.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `SOP.out' has not changed.
+Package rerunfilecheck Info: File `RP.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  11035 strings out of 474222
- 177518 string characters out of 5748732
+ 177499 string characters out of 5748732
  1937975 words of memory out of 5000000
  33129 multiletter control sequences out of 15000+600000
  591146 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1239b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1238b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on SOP.pdf (2 pages, 38745 bytes).
+Output written on RP.pdf (2 pages, 38745 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
