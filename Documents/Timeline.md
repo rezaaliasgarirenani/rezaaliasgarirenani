@@ -16,7 +16,7 @@
 3) Applying for suitable PhD Positions (NORDIC, Europe).
 
 # Immediate Plan: 
-1) Submit education in russia / differentiate between referat and research proposal
+1) Submit education in russia
 2) Sydney Emails, new PhD
 3) Finish grayworld, try to get gtm right
 4) make one bus of 23 bits for wrappers

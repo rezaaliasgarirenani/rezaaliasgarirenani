@@ -4,10 +4,10 @@
 \usepackage[version=4]{mhchem}
 \usepackage[
   a4paper,
-  top = 1.70cm,
-  bottom = 1.70cm,
-  left = 1.70cm,
-  right = 1.70cm
+  top    = 2.00cm,
+  bottom = 2.00cm,
+  left   = 1.70cm,
+  right  = 1.70cm
 ]{geometry}
 \usepackage{fancyhdr}
 \usepackage{hyperref}
@@ -22,53 +22,57 @@
 
 \urlstyle{same}
 \input{glyphtounicode}
-\renewcommand{\baselinestretch}{1.3}
+
+\renewcommand{\baselinestretch}{1.5}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-\setlength{\footskip}{30pt}
-\setlength{\skip\footins}{20pt}
+
+\setlength{\footskip}{15pt}
+\setlength{\skip\footins}{15pt}
 \pagestyle{fancy}
+
 \fancyhf{}
-\fancyfoot[C]{\thepage}
+\fancyfoot[R]{\thepage}
 \begin{document}
+
 \begin{center}
-    {\Huge \scshape {\fontsize{25}{30}\selectfont{Reza}} {\fontsize{25}{30}\selectfont{\textbf{Aliasgari Renani}}}} \\ \vspace{3pt}
-    {\small \raisebox{-0.2\height}\ {17/11/2025}} $|$
-    {\small \raisebox{-0.2\height}\ {Essay}} $|$
-    {\small \raisebox{-0.2\height}\ {System Analysis, Control and Information Processing}} $|$
+    {\Huge \scshape {\fontsize{25}{30}\selectfont{Reza}} {\fontsize{25}{30}\selectfont{\textbf{Aliasgari Renani}}}} \\ 
+    \vspace{3pt}
+    {\small \raisebox{-0.2\height}\ {01/12/2025}} $|$
     {\small \raisebox{-0.2\height}\ {Russian Federation}} $|$
+    {\small \raisebox{-0.2\height}\ {Research Proposal}} $|$
     {\small \raisebox{-0.2\height}\ {PhD}}
+    \\
+    {\small \raisebox{-0.2\height}\ {System Analysis, Control and Information Processing and Statistics}} 
     \vspace{-10pt}
 \end{center}
 \vspace{-10pt}
-\noindent\rule{\textwidth}{0.5pt}
 
-My research objective is to advance the field of electronic engineering by developing radiation-resistant FPGA based video processors for space applications, focusing on optimizing image signal processing algorithms for hardware implementation. The PhD program in System Analysis, Control and Information Processing, Statistics in Russian Federation and specifically at Moscow Institute of Physics and Technology (MIPT) provides an ideal platform for me to achieve this, building directly on my previous studies and research at the university.
+\noindent\rule{\textwidth}{1pt}
+
+My research objective is to advance radiation-resistant FPGA-based video processors for space applications by investigating ionizing radiation effects on FPGA components and exploring integrations of radiation-tolerant memory like ReRAM. This will involve detailed analysis of single event effects (SEEs) and total ionizing dose (TID) impacts, followed by developing optimized DSP video pipelines tailored for harsh space environments. The PhD program in System Analysis, Control and Information Processing, Statistics at MIPT offers the resources and expertise to pursue this, leveraging my prior work in semiconductor characterization and FPGA design.
+
 \vspace{10pt}
 
-I have completed my Bachelor's degree in technical physics and Master's degree in applied mathematics and physics at MIPT, where my work on radiation effects in semiconductors and Field Programmable Gate Arrays (FPGA) development has deepened my interest in creating radiation-hardened hardware systems. I want to develop FPGA and Application-Specific Integrated Circuit (ASIC) based video processors, integrating system analysis and control techniques to enhance throughput, latency, and reliability under harsh conditions.
+Ionizing radiation in space, from sources like cosmic rays and solar particles, poses significant challenges to FPGA reliability. Key effects include single event upsets (SEUs) in configuration memory, which can flip bits in SRAM cells leading to functional errors, single event latchups (SELs) that may cause high current draws and potential device failure, and total ionizing dose accumulation, which degrades transistor performance over time through charge buildup in oxides. Components most susceptible include SRAM-based configuration logic, embedded RAM blocks, and MOSFETs, where scaling to smaller nodes increases vulnerability to these effects. My plan starts with comprehensive testing to map these impacts: using particle accelerators to simulate space radiation, measuring upset rates in different FPGA blocks, and employing techniques like capacitance-voltage profiling to assess oxide trap densities post-irradiation.
+
 \vspace{10pt}
 
-I joined Dr.\ Koveshnikov's laboratory in the Institute of Microelectronics Technology at the Russian Academy of Sciences over two years ago to study radiation effects on microelectronic structures, focusing on electrical characterization of semiconductors and \ce{SiO2}-based Metal-Oxide-Semiconductor (MOS) devices. We studied the impact of electron and gamma irradiation and hydrogen plasma treatment on MOS devices, identified traps by location (oxide, semiconductor, interface) and carrier type (electrons, holes). This work has resulted in a first author publication\footnotemark[1] and provides insight into device stability under bias stress, radiation immunity, and oxide trap density at the dielectric-semiconductor interface. I also developed optimized MATLAB applications to automate the experimental characterization techniques, which reduced run times and created measurement pipelines. Beyond deepening my understanding of semiconductor physics, this research also gave me invaluable experience handling experimental equipment and automating experimental techniques using MATLAB and Python.
-\vspace{10pt}
+Building on this, I aim to explore mitigation strategies, particularly replacing vulnerable SRAM with ReRAM (resistive RAM) for configuration memory. ReRAM's non-volatile nature and higher resistance to radiation—due to its reliance on resistance changes rather than charge storage—makes it promising. Studies show that integrating ReRAM atop CMOS layers can reduce FPGA area by 2-3 times while lowering power consumption by about 20\%, as it eliminates the need for constant refresh and offers better endurance against SEUs. I will investigate hybrid architectures where ReRAM cells store configuration data, potentially using 3D stacking to maintain density. This involves modeling radiation interactions with ReRAM materials, like hafnium oxide, to quantify TID tolerance and SEU cross-sections, then prototyping small-scale FPGA fabrics with ReRAM switches via simulation tools like Vivado and Simulink.
 
-After my undergraduate degree, I joined the System on Chip Development Laboratory (Design center for the development of microprocessor technology for AI systems) and the Laboratory of Plasma Systems under the supervision of Dr.\ Vasiliev and Dr.\ Chesnokov to develop FPGA-based systems and to study radiation and plasma effects on these structures. I implemented video processing algorithms by manual Verilog coding and by generating HDL from Simulink models. I verified functionality of the algorithms using testbenches and Python automation scripts. In the Plasma Lab, we ran experiments where an FPGA with an attached camera and a synthesized image processing design was placed in an electron beam plasma system with low pressure oxygen and exposed to electron irradiation and X-rays generated from a tungsten target. The FPGA output signal was monitored while thermal cycling was applied and preliminary functionality tests were performed.
 \vspace{10pt}
 
 \newpage
 
-In the System on Chip Development Laboratory, which operates under the company YADRO, I ported mathematical algorithms into efficient Verilog implementations, built a fixed-point library, and created LUT-based function approximations using Horner’s method to support fixed-point computations. I implemented a range of image processing algorithms, including rgb2hsv conversion, color segmentation, Sobel edge detection, global tone mapping, demosaicing, bird’s eye view transformation, fisheye correction, and image resizer, through both Simulink HDL code generation and manually written Verilog. I optimized these for latency and throughput, addressing synchronization and pipelining challenges. 
-\vspace{10pt}
-
-For verification, I developed comprehensive testbenches in Verilog and employed Python for simulation automation and data analysis to confirm DSP functionality and performance. I then synthesized, mapped, and routed the HDL code using Vivado on Xilinx Zybo Z7 boards, verifying the ISP algorithms first by streaming test images via HDMI from a host computer and later with a live camera connected directly to the FPGA. This hands on experience in hardware implementation and testing has strengthened my collaboration with YADRO.
+For other components, I will evaluate integrating radiation-hardened alternatives, such as using larger-area memory cells or error-correcting codes (ECC) in BRAMs, and applying triple modular redundancy (TMR) to logic paths most prone to transients. This aligns with radiation-hardened FPGA designs from vendors like Xilinx, where enhanced scrubbing detects and corrects configuration errors in real-time. My experiments will include exposing modified FPGA prototypes to gamma rays and heavy ions, monitoring for functional integrity using built-in self-tests, and comparing performance metrics like upset rates and power draw against standard SRAM-based devices.
 
 \vspace{10pt}
-My experience with irradiated semiconductors, plasma systems, and FPGA design has inspired me to pursue PhD studies at MIPT in System Analysis, Control and Information Processing, Statistics. I plan to investigate radiation effects on FPGA devices, identifying impacts on components like RAMs and MOSFETs, and design more resistant architectures such as replacing SRAM with ReRAM to improve tolerance in space environments. This aligns with my ongoing work in the Design Center for the Development of Microprocessor Technology for AI Systems and the System on Chip Development Laboratory at MIPT, where I can continue optimizing ISP algorithms for video processors. My work on generating HDL code for video-processing algorithms is forthcoming and will be presented\footnotemark[2] at the FPGA-Systems 2025 Conference in Moscow. I look forward to continuing my research in Russia to deploy these systems for real-time signal processing in aerospace applications.
+
+The final phase focuses on developing DSP video-pipeline algorithms optimized for these radiation-resistant FPGAs, targeting space applications like satellite imaging or rover vision systems. Starting from my experience with algorithms such as Sobel edge detection, demosaicing, and fisheye correction, I will extend to space-specific needs: noise reduction for cosmic ray artifacts, real-time compression for bandwidth-limited transmissions, and adaptive filtering under varying lighting. These will be implemented in pipelined Verilog, leveraging FPGA DSP slices for high-speed operations, with fixed-point arithmetic to minimize resource use. To ensure radiation tolerance, pipelines will incorporate fault-tolerant designs, like voter circuits in TMR setups to mask SEUs, and dynamic reconfiguration to bypass damaged blocks.
+
 \vspace{10pt}
 
-As an international student already integrated into MIPT's research community, including collaboration with the Institute of Microelectronics Technology, Russian Academy of Sciences, I am well prepared to contribute to and benefit from its collaborative environment. I am motivated by projects that combine experimental testing with hardware optimization, and I look forward to applying my skills in Verilog and radiation analysis to advance FPGA-based video processors, potentially supporting Russia's space initiatives. It would be a privilege to continue my education at MIPT in Russia, a center of scientific innovation with a strong emphasis on practical engineering solutions.
+Verification will involve hardware-in-the-loop testing: synthesizing designs on radiation-tolerant boards, streaming video from emulated space cameras, and subjecting them to simulated radiation via fault injection tools. Performance goals include achieving at least 60 fps at 1080p resolution with latency under 10 ms, while maintaining functionality up to 100 krad TID. This work will culminate in integrating the technology into Russian industry and academia, potentially collaborating with entities like Roscosmos for deployment in orbital missions, contributing to advancements in autonomous navigation and remote sensing. By addressing these challenges, my research will enhance FPGA reliability for aerospace, supporting Russia's space initiatives through practical, deployable systems, and aims to produce publications on ReRAM-FPGA hybrids and space-grade FPGA-based video processors.
 
-\footnotetext[1]{R. Aliasgari Renani, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov, Investigation of low energy electron irradiated \ce{SiO2} based MOS devices by capacitance-voltage and thermally stimulated current techniques, Russian Microelectronics, 2023}
-\footnotetext[2]{V. Vologin, R. Aliasgari Renani, V. Vasilevskiy, V. Chesnokov, Comparative analysis of manual Verilog and Simulink-generated HDL code for image processing algorithms. Presentation, \href{https://meetups.yadro.com/fpga-msk-1125/}{YADRO FPGA-Systems Conference 2025}}
 
 \end{document}
