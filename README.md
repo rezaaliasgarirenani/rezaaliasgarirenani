@@ -13,13 +13,13 @@
 
 ## Education
 
-- **[Moscow Institute of Physics and Technology (MIPT)](https://mipt.ru/)** — **M.Sc. in Applied Mathematics and Physics (Program: Plasma Physics)**
+- **[Moscow Institute of Physics and Technology (MIPT, Phystech)](https://mipt.ru/)** — **M.Sc. in Applied Mathematics and Physics, Plasma Physics**
   - **Dates:** Sep 2024 – Jun 2026
   - **GPA:** 4.7 / 5.0
   - **Location:** Moscow, Russian Federation
   - **Thesis:** *Investigation of radiation induced effects on FPGA-based signal processing systems for space applications.*
 
-- **[Moscow Institute of Physics and Technology (MIPT)](https://mipt.ru/)** — **B.Sc. in Technical Physics (Program: Aerospace Technology)**
+- **[Moscow Institute of Physics and Technology (MIPT, Phystech)](https://mipt.ru/)** — **B.Sc. in Technical Physics, Aerospace Technology**
   - **Dates:** Sep 2020 – Jun 2024
   - **GPA:** 4.56 / 5.0
   - **Location:** Moscow, Russian Federation
