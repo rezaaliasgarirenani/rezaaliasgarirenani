@@ -106,9 +106,7 @@
 
 ## <span style="color:red">La</span>nguages
 
-<center>
-**English:** C2 (TOEFL iBT 113) &nbsp; | &nbsp; 
-**Russian:** B1 &nbsp; | &nbsp; 
-**German:** B1 (ÖSD) &nbsp; | &nbsp; 
-**Farsi:** Native
-</center>
+- **English:** C2 (TOEFL iBT 113)
+- **Russian:** B1
+- **German:** B1 (ÖSD)
+- **Farsi:** Native
