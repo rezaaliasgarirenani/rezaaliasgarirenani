@@ -1,4 +1,4 @@
-# Reza Aliasgari Renani
+<h1 align="center">Reza Aliasgari Renani</h1>
 
 <p align="center">
 <a href="mailto:rezaaliasgarirenani@gmail.com">📧 rezaaliasgarirenani@gmail.com</a> |
