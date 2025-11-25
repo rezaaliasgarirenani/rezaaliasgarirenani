@@ -1,3 +1,4 @@
+
 # General Plan:
 1) Contribute to science and technology applicable for space exploration as a NASA Engineer.
 2) Get as rich as possible as soon as possible through establishing a productive for profit business.
