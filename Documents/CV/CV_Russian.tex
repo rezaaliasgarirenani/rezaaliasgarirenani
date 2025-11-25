@@ -1,16 +1,18 @@
+
 \documentclass[a4paper, 10pt]{article}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
 \usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
-\usepackage[T2A]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[russian]{babel}
-\usepackage{tabularx}
 \usepackage{fontawesome5}
-\usepackage{multicol}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage[usenames,dvipsnames]{color}
 \usepackage[version=4]{mhchem}
 \usepackage[
   a4paper,
@@ -20,42 +22,38 @@
   right  = 1.70cm
 ]{geometry}
 
-
-\renewcommand{\baselinestretch}{1}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
 \newcommand{\resumeItem}[1]{
     \item\small{
         {#1 \vspace{-2pt}}
     }
 }
-
 \newcommand{\resumeSubheading}[4]{
     \vspace{-2pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
         \textbf{#1} & \textbf{\small #2} \\
         \small#3 & \small #4
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
-
 \newcommand{\resumeProjectHeading}[2]{
     \item
-    \begin{tabular*}{1.00\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
         \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
-
-\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-\setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
+\renewcommand{\baselinestretch}{1.11}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 \hypersetup{
     colorlinks=true,
@@ -65,23 +63,11 @@
     anchorcolor=RoyalBlue
 }
 
-\input{glyphtounicode}
-
-
-\pagestyle{fancy}
+\setlength{\tabcolsep}{0in}
 \fancyhf{}
 \fancyfoot{}
-\setlength{\footskip}{30pt}
+\pagestyle{fancy}
 \urlstyle{same}
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-\titleformat{\section}{
-    \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-\pdfgentounicode=1
 
 \begin{document}
 
@@ -111,7 +97,7 @@
         {\textbf{Бакалавр} технической физики, Аэрокосмические технологии, Средний балл: 4.56/5.0}{Москва, Россия}
         {\resumeItem{\textbf{Тема диссертации:} Исследование эффектов облучения низкоэнергетичными (1 - 20 кэВ) электронами и высокоэнергетичными (1 МэВ) гамма-квантами на электрофизические свойства диэлектрик-полупроводниковых структур.}}
 \resumeSubHeadingListEnd
-\vspace{-10pt}
+\vspace{-25pt}
 
 %-----------EXPERIENCE-----------
 \section{\textcolor{red}{Оп}ыт научных исследований}
@@ -122,12 +108,13 @@
         {\textbf{Программист / Инженер проектирования RTL}}{Москва, Россия}
         \resumeItemListStart
             \resumeItem{\textbf{Реализация DSP} \\ Перенос математических алгоритмов в эффективные реализации на Verilog. Создание библиотеки фиксированной точки и аппроксимаций функций на основе LUT (метод Горнера) для поддержки вычислений с фиксированной точкой. Реализация алгоритмов обработки изображений (rgb2hsv, сегментация цвета, обнаружение краев Собеля, глобальное тональное картирование, демозаицинг, вид с высоты птичьего полета, коррекция «рыбьего глаза», изменение размера изображения) через генерацию HDL-кода в Simulink и вручную написанный Verilog. Оптимизация задержки и пропускной способности, решение проблем синхронизации и конвейеризации.}
-            \resumeItem{\textbf{Симуляция, верификация и синтез} \\ Создание всесторонних тестовых стендов на Verilog и использование Python для автоматизации симуляции и анализа данных для проверки функциональности и производительности DSP. Синтез, размещение и трассировка HDL-кода с использованием Vivado (FPGA: Xilinx Artix-7, Zybo Z7). Верификация алгоритмов ISP путем передачи тестовых изображений через HDMI с хост-компьютера, а затем с живой камеры, подключенной к FPGA.}
-           \resumeItem{\textbf{Исследование устройств FPGA под воздействием электронно-плазменного излучения} \\ Проведение экспериментов по облучению плат FPGA электронными пучками (25 -- 60 кэВ, до 100 мА) в низкодавленном кислороде ($10^{-6}$ -- 50 Торр), генерируя плазму и рентгеновские лучи. Применение комбинированного термоциклирования (218--393 K) и поверхностного заряда для оценки надежности FPGA под радиационным и плазменным стрессом.}
+            \resumeItem{\textbf{Симуляция, верификация и синтез} \\ Создание всесторонних тестовых стендов на Verilog и использование Python для автоматизации симуляции и анализа данных для проверки функциональности и производительности DSP. Синтез, размещение и трассировка HDL-кода с использованием Vivado (Xilinx Zybo Z7). Верификация алгоритмов ISP путем передачи тестовых изображений через HDMI с хост-компьютера, а затем с живой камеры, подключенной к FPGA.}
+            \resumeItem{\textbf{Исследование устройств FPGA под воздействием электронно-плазменного излучения} \\ 
+            Проведение экспериментов по облучению плат FPGA электронными пучками (25 -- 60 кэВ, до 100 мА) в низкодавленном кислороде ($10^{-6}$ -- 50 Торр), генерируя плазму и рентгеновские лучи. Применение комбинированного термоциклирования (218--393 K) и поверхностного заряда для оценки надежности FPGA под радиационным и плазменным стрессом.}
 
         \resumeItemListEnd
     \resumeSubheading
-        {\href{https://new.ras.ru/en/}{\parbox[t]{\dimexpr\linewidth-4cm}{Институт проблем технологии микроэлектроники и особочистых материалов Российской академии наук}}}{Мар 2023 -- Авг 2024}
+        {\href{https://new.ras.ru/en/}{\parbox[t]{\dimexpr\linewidth-4cm}{Институт проблем технологии микроэлектроники и особочистых материалов, Российской академии наук}}}{Мар 2023 -- Авг 2024}
         {\textbf{Лабораторный исследователь}}{Москва, Россия}
         \resumeItemListStart
             \resumeItem{\textbf{Установка и автоматизация экспериментального оборудования} \\ Установка экспериментальных устройств, включая Everbeing Cryo-station (80K – 450K) с 4 микроманипуляторами, Lakeshore Temperature Controller Model 336, Keithley SourceMeter 2450, Parametric Analyzer Keithley 4200A-SCS, Keysight Electrometer B2987A, Aktakom 3048 и Zurich Instruments MFIA Impedance Analyzer. Разработка {\href{https://github.com/rezaaliasgarirenani/IMT-Automation}{приложений}} в MATLAB для автоматизации экспериментальных методов: термостимулированный ток, емкость-напряжение, ток-напряжение, ток-время и спектроскопия глубоких уровней с переходными процессами.}
@@ -196,35 +183,35 @@
 
 %-----------PROJECTS-----------
 \section{\textcolor{red}{Пр}оекты}
-    {\href{https://github.com/icarus-imperium/rocket-2025}{\textbf{Модельная ракета}}} \hfill \textbf{Апр 2023 и 2025} \\
+    {\href{https://github.com/icarus-imperium/rocket-2025}{\textbf{Модельная ракета}}} \hfill \textbf{Апр 2023 и 2025}
     \begin{itemize}
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item Построил модельные ракеты с импульсами 40 и 60 Ньютон-секунд в составе команды.
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item Запустил три модельные ракеты за два года на День космонавтики МФТИ.
     \end{itemize}
-    \vspace{-9pt}
+    \vspace{-6pt}
     {\href{https://github.com/rezaaliasgarirenani/Rover}{\textbf{Модель лунохода}}} \hfill \textbf{Июн 2023}
     \begin{itemize}
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item Сотрудничал над машиной, способной преодолевать препятствия без круглых колес.
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item Протестировал несколько прототипов, финальный дизайн одобрен главой лаборатории.
     \end{itemize}
-    \vspace{-9pt}
+    \vspace{-6pt}
     {\href{https://github.com/rezaaliasgarirenani/Aircraft-Detection-System}{\textbf{Система обнаружения самолетов}}} \hfill \textbf{Июн 2022}
     \begin{itemize}
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item Исследовал и применил алгоритмы для обнаружения самолетов с использованием фоторезисторов и транзисторов.
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item Разработал систему, способную к ротационному и трансляционному движению для отслеживания самолетов.
     \end{itemize}
-    \vspace{-9pt}
-    {\href{https://github.com/rezaaliasgarirenani/Non-Conservative-Electric-Fields-and-Voltmeters}{\textbf{Исследование неконсервативных электрических полей и вольтметров}}} \hfill \textbf{Май 2022} \\
+    \vspace{-6pt}
+    {\href{https://github.com/rezaaliasgarirenani/Non-Conservative-Electric-Fields-and-Voltmeters}{\textbf{Исследование неконсервативных электрических полей и вольтметров}}} \hfill \textbf{Май 2022}
     \begin{itemize}
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item Разработал экспериментальную установку для анализа зависимости показаний вольтметра от позиции в параллельных цепях.
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item Продемонстрировал неинтуитивные разности потенциалов, генерируемые изменяющимися магнитными полями.
     \end{itemize}
     \vspace{-10pt}
@@ -232,20 +219,20 @@
 %-----------AWARDS-----------
 \section{\textcolor{red}{На}грады}
 \begin{itemize}
-     \resumeItem{Полная государственная российская стипендия для иностранных студентов, МФТИ} \hfill \textbf{Сент 2024}
-    \resumeItem{Иранская государственная стипендия, Исфаханский технологический университет} \hfill \textbf{Сент 2019}
-    \resumeItem{Участник \href{https://congress.aero/en/}{5-го и 7-го Евразийского аэрокосмического конгресса}} \hfill \textbf{Июл 2023 и 2025}
+    \resumeItem{\parbox[t]{\dimexpr\linewidth-3cm}{\textbf{Получатель:} Полная государственная российская стипендия для иностранных студентов, МФТИ}} \hfill \textbf{Сент 2024}
+    \resumeItem{\textbf{Получатель:} Иранская государственная стипендия, Исфаханский технологический университет} \hfill \textbf{Сент 2019}
+    \resumeItem{\textbf{Награжденный:} Участник \href{https://congress.aero/en/}{5-го и 7-го Евразийского аэрокосмического конгресса}} \hfill \textbf{Июл 2023 и 2025}
 
 \end{itemize}
 \vspace{-10pt}
 
 %-----------LANGUAGES-----------
 \section{\textcolor{red}{Яз}ыки}
-\begin{center}
-    \textbf{Английский}: C2 (TOEFL iBT 113) \quad $|$ \quad 
+    \begin{center}
+    \textbf{Английский}: C2 (TOEFL iBT 113) \quad $|$ \quad
+    \textbf{Русский}: B1-B2 \quad $|$ \quad
     \textbf{Немецкий}: B1 \quad $|$ \quad
-    \textbf{Русский}: B1-B2 \quad $|$ \quad 
-    \textbf{Персидский}: Родной 
+    \textbf{Персидский}: Родной
 \end{center}
 
 \end{document}

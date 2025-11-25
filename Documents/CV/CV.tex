@@ -1,14 +1,18 @@
+
 \documentclass[a4paper, 11pt]{article}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
 \usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
 \usepackage{fontawesome5}
-\usepackage{multicol}
+\usepackage{mathptmx}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage[usenames,dvipsnames]{color}
 \usepackage[version=4]{mhchem}
 \usepackage[
   a4paper,
@@ -17,43 +21,39 @@
   left   = 1.70cm,
   right  = 1.70cm
 ]{geometry}
-\usepackage{mathptmx}
-
-\renewcommand{\baselinestretch}{1.15}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
 
 \newcommand{\resumeItem}[1]{
     \item\small{
         {#1 \vspace{-2pt}}
     }
 }
-
 \newcommand{\resumeSubheading}[4]{
     \vspace{-2pt}\item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
         \textbf{#1} & \textbf{\small #2} \\
         \small#3 & \small #4
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
-
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
         \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
-
-\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-\setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
+\renewcommand{\baselinestretch}{1.11}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 \hypersetup{
     colorlinks=true,
@@ -63,22 +63,12 @@
     anchorcolor=RoyalBlue
 }
 
-\input{glyphtounicode}
-
-\pagestyle{fancy}
+\setlength{\tabcolsep}{0in}
 \fancyhf{}
 \fancyfoot{}
-\setlength{\footskip}{30pt}
+\pagestyle{fancy}
 \urlstyle{same}
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
 
-\titleformat{\section}{
-    \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-\pdfgentounicode=1
 
 \begin{document}
 
@@ -193,35 +183,35 @@
 
 %-----------PROJECTS-----------
 \section{{\textcolor{red}{Pr}ojects}}
-    {\href{https://github.com/icarus-imperium/rocket-2025}{\textbf{Model Rocket}}} \hfill \textbf{Apr 2023 and 2025} \\
+    {\href{https://github.com/icarus-imperium/rocket-2025}{\textbf{Model Rocket}}} \hfill \textbf{Apr 2023 and 2025}
     \begin{itemize}
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item Constructed model rockets with 40 and 60 Newton-second impulses as part of a team.
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item  Launched three model rockets over two years at the Cosmonautics Day of MIPT.
     \end{itemize}
-    \vspace{-9pt}
+    \vspace{-6pt}
     {\href{https://github.com/rezaaliasgarirenani/Rover}{\textbf{Model Lunar Rover}}} \hfill \textbf{Jun 2023}
     \begin{itemize}
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item  Collaborated on a machine capable of navigating obstacles without round wheels.
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item  Tested multiple prototypes, with the final design approved by the laboratory head.
     \end{itemize}
-    \vspace{-9pt}
+    \vspace{-6pt}
     {\href{https://github.com/rezaaliasgarirenani/Aircraft-Detection-System}{\textbf{Aircraft Detection System}}} \hfill \textbf{Jun 2022}
     \begin{itemize}
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item  Investigated and applied algorithms to detect aircraft using photoresistors and transistors.
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item  Developed a system capable of rotational and translational movement to track aircraft.
     \end{itemize}
-    \vspace{-9pt}
-    {\href{https://github.com/rezaaliasgarirenani/Non-Conservative-Electric-Fields-and-Voltmeters}{\textbf{Investigation of Non-Conservative Electric Fields and Voltmeters}}} \hfill \textbf{May 2022} \\
+    \vspace{-6pt}
+    {\href{https://github.com/rezaaliasgarirenani/Non-Conservative-Electric-Fields-and-Voltmeters}{\textbf{Investigation of Non-Conservative Electric Fields and Voltmeters}}} \hfill \textbf{May 2022}
     \begin{itemize}
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item  Designed an experimental setup to analyze position-dependency of voltmeter readings in parallel circuits.
-        \vspace{-9pt}
+        \vspace{-6pt}
     \item  Demonstrated the non-intuitive potential differences generated by changing magnetic fields.
     \end{itemize}
     \vspace{-15pt}
