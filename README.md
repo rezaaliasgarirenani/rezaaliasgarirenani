@@ -1,4 +1,4 @@
-<h1 align="center">Reza Aliasgari Renani</h1>
+# Reza Aliasgari Renani
 
 <p align="center">
 <a href="mailto:rezaaliasgarirenani@gmail.com">📧 rezaaliasgarirenani@gmail.com</a> |
@@ -11,7 +11,7 @@
 
 ---
 
-## Education
+## <span style="color:red">Ed</span>ucation
 
 - **[Moscow Institute of Physics and Technology (MIPT, Phystech)](https://mipt.ru/)** — **M.Sc. in Applied Mathematics and Physics, Plasma Physics**
   - **Dates:** Sep 2024 – Jun 2026
@@ -27,7 +27,7 @@
 
 ---
 
-## Research Experience
+## <span style="color:red">Re</span>search Experience
 
 - **[Design Center for the Development of Microprocessor Technology for AI Systems — System-on-Chip Development Laboratory](http://ai.mipt.ru/design-center)**
   - **Role:** Programmer / RTL Design Engineer
@@ -36,7 +36,7 @@
   - **Highlights:**
     - **DSP Implementation:** Ported mathematical algorithms into efficient Verilog implementations. Built a fixed-point library and LUT-based function approximations (Horner’s method) to support fixed-point computations. Implemented image processing algorithms (rgb2hsv, color segmentation, Sobel edge detection, global tone-mapping, demosaicing, bird’s-eye view, fisheye correction, image resizer) via Simulink HDL code generation and manually written Verilog. Optimized latency and throughput, resolved synchronization and pipelining issues.
     - **Simulation, Verification and Synthesis:** Created comprehensive testbenches in Verilog and used Python for simulation automation and data analysis to verify DSP functionality and performance. Synthesized, mapped, and routed HDL code using Vivado (Xilinx Zybo Z7). Verified ISP algorithms by first streaming test images via HDMI from a host computer, and subsequently with a live camera connected to the FPGA.
-    - **Investigation of FPGA devices under electron-beam plasma exposure:** Conducted irradiation experiments on FPGA boards using electron beams (25 – 60 keV, up to 100 mA) in low-pressure oxygen atmospheres (10^{-6} – 50 Torr), generating plasma and X-rays. Applied combined thermal cycling (218–393 K) and surface charging to evaluate FPGA reliability under radiation- and plasma-induced stress.
+    - **Investigation of FPGA devices under electron-beam plasma exposure:** Conducted irradiation experiments on FPGA boards using electron beams (25 – 60 keV, up to 100 mA) in low-pressure oxygen atmospheres (10<sup>-6</sup> – 50 Torr), generating plasma and X-rays. Applied combined thermal cycling (218–393 K) and surface charging to evaluate FPGA reliability under radiation- and plasma-induced stress.
 
 - **[Institute of Microelectronics Technology, Russian Academy of Sciences (IMT, RAS)](https://new.ras.ru/en/)**
   - **Role:** Laboratory Researcher
@@ -56,11 +56,11 @@
 
 ---
 
-## Publications & Conferences
+## <span style="color:red">Pu</span>blications & Conferences
 
-- **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  _Investigation of low energy electron irradiated SiO₂ based MOS devices by capacitance-voltage and thermally stimulated current techniques._ [Journal Paper (Russian Microelectronics, 2023)](https://doi.org/10.1134/S1063739723600516).
+- **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  _Investigation of low energy electron irradiated SiO<sub>2</sub> based MOS devices by capacitance-voltage and thermally stimulated current techniques._ [Journal Paper (Russian Microelectronics, 2023)](https://doi.org/10.1134/S1063739723600516).
 
-- **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  _Study of SiO₂ based MOS by capacitance-voltage and thermally stimulated current techniques._ [Presentation, ICMNE 2023 (p.122)](https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf).
+- **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  _Study of SiO<sub>2</sub> based MOS by capacitance-voltage and thermally stimulated current techniques._ [Presentation, ICMNE 2023 (p.122)](https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf).
 
 - **R. Aliasgari Renani**, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov.  _Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons, by methods of Capacitance-Voltage characteristics and thermally-stimulated current._ [Poster, CALT 2023](https://cebt23.iptm.ru/download/numbered/91.pdf).
 
@@ -68,7 +68,7 @@
 
 ---
 
-## Projects
+## <span style="color:red">Pr</span>ojects
 
 - **[Model Rocket](https://github.com/icarus-imperium/rocket-2025)** — **Apr 2023 and 2025**
   - Constructed model rockets with 40 and 60 Newton-second impulses as part of a team.
@@ -88,33 +88,15 @@
 
 ---
 
-## Technical Skills
+## <span style="color:red">Te</span>chnical Skills
 
-**Advanced**
-
-- Automation of Experimental Techniques
-- Electrical Characterization
-- Data Processing
-- MATLAB, Simulink, HDL Coder
-- Verilog, RTL Design
-- FPGA Development
-- Fixed-Point Computations
-- SciPy, NumPy, OpenCV
-
-**Intermediate**
-
-- Python, C++, Arduino
-- Vivado, Vitis
-- Git, Unix/Linux OS
-- OriginLab
-- SolidWorks
-- ERDAS IMAGINE
-- PCB, EasyEDA
-- OpenRocket
+| **Advanced** | **Intermediate** |
+|--------------|------------------|
+| - Automation of Experimental Techniques<br>- Electrical Characterization<br>- Data Processing<br>- MATLAB, Simulink, HDL Coder<br>- Verilog, RTL Design<br>- FPGA Development<br>- Fixed-Point Computations<br>- SciPy, NumPy, OpenCV | - Python, C++, Arduino<br>- Vivado, Vitis<br>- Git, Unix/Linux OS<br>- OriginLab<br>- SolidWorks<br>- ERDAS IMAGINE<br>- PCB, EasyEDA<br>- OpenRocket |
 
 ---
 
-## Awards
+## <span style="color:red">Aw</span>ards
 
 - **Recipient:** Full State Russian Scholarship for Foreign Students, MIPT — **Sep 2024**
 - **Recipient:** Iranian State Scholarship, Isfahan University of Technology — **Sep 2019**
@@ -122,9 +104,11 @@
 
 ---
 
-## Languages
+## <span style="color:red">La</span>nguages
 
-- **English:** C2 (TOEFL iBT 113)
-- **Russian:** B1
-- **German:** B1 (ÖSD)
-- **Farsi:** Native
+<center>
+**English:** C2 (TOEFL iBT 113) &nbsp; | &nbsp; 
+**Russian:** B1 &nbsp; | &nbsp; 
+**German:** B1 (ÖSD) &nbsp; | &nbsp; 
+**Farsi:** Native
+</center>
