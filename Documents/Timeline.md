@@ -20,5 +20,6 @@
 1) Submit education in russia
 2) Sydney Emails, new PhD
 3) Finish grayworld, try to get gtm right
-4) make one bus of 23 bits for wrappers, namings all with _
+4) make one bus of 23 bits for wrappers
 5) make cocotb work
+6) bram and general simulink info
