@@ -22,3 +22,4 @@
 3) grayworld, resize scaling, gamma correction, demosaic with sobel, line buffer ctrl check, cocotb
 4) wireless rtl interview 02/12/2025
 5) Vasiliev presentation 05/12/2025
+6) Word and Excel Templates
