@@ -12,14 +12,13 @@
 2) Research: Conduct research in Physics in the fields of electronics, energy, radiation and plasma physics.
 
 # Short-term Plan: 
-1) SoC Laboratory: GrayWorld, Resize, Fish-eye Correction
+1) SoC Laboratory: Fish-eye Correction
 2) Master Thesis: Literature Review, EBP Experimental setup and exposing FPGAs.
-3) Applying for suitable PhD Positions (NORDIC, Europe).
+3) Applying for suitable PhD Positions.
 
-# Immediate Plan: 
-1) Submit education in russia
-2) Sydney Emails, new PhD
-3) Finish grayworld, try to get gtm right
-4) make one bus of 23 bits for wrappers
-5) make cocotb work
-6) bram, dsp and general simulink info
+# Immediate Plan:
+1) Submit education in russia, opendoors
+2) Sydney and other PhDs
+3) grayworld, resize scaling, gamma correction, demosaic with sobel, line buffer ctrl check, cocotb
+4) wireless rtl interview 02/12/2025
+5) Vasiliev presentation 05/12/2025
