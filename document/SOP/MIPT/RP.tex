@@ -1,7 +1,16 @@
+
 \documentclass[a4paper,12pt]{article}
-\usepackage[usenames,dvipsnames]{color}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
 \usepackage{mathptmx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
 \usepackage[version=4]{mhchem}
+\usepackage[usenames,dvipsnames]{color}
 \usepackage[
   a4paper,
   top    = 2.00cm,
@@ -9,8 +18,10 @@
   left   = 1.70cm,
   right  = 1.70cm
 ]{geometry}
-\usepackage{fancyhdr}
-\usepackage{hyperref}
+
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 
 \hypersetup{
     colorlinks=true,
@@ -21,18 +32,10 @@
 }
 
 \urlstyle{same}
-\input{glyphtounicode}
-
-\renewcommand{\baselinestretch}{1.5}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-
-\setlength{\footskip}{15pt}
-\setlength{\skip\footins}{15pt}
 \pagestyle{fancy}
-
 \fancyhf{}
 \fancyfoot[R]{\thepage}
+
 \begin{document}
 
 \begin{center}
