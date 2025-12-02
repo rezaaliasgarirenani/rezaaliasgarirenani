@@ -17,8 +17,7 @@
 3) Applying for suitable PhD Positions.
 
 # Immediate Plan:
-1) Submit education in russia, opendoors
-2) Sydney and other PhDs
-3) grayworld, resize scaling, gamma correction, demosaic with sobel, line buffer ctrl check, cocotb
-4) wireless rtl design engineer interview 02/12/2025, 11:00
-5) Vasiliev presentation 05/12/2025
+1) Open doors exam on       05/12/2025, 17:30
+2) Vasiliev presentation on 05/12/2025, 12:30
+3) Sydney and other PhDs
+4) grayworld, resize scaling, gamma correction, demosaic with sobel, line buffer ctrl check, cocotb
