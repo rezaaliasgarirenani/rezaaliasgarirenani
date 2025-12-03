@@ -19,5 +19,6 @@
 # Immediate Plan:
 1) Open doors exam on       05/12/2025, 17:30
 2) Vasiliev presentation on 05/12/2025, 12:30
-3) Sydney and other PhDs
+3) PhD
 4) grayworld, resize scaling, gamma correction, demosaic with sobel, line buffer ctrl check, cocotb
+5) Fixedpoint lib fix
