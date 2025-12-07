@@ -1,5 +1,5 @@
 
-# Date format: DD/MM/YYYY - Time Format: Hour/Minute/Second (24)
+# Date Format: DD/MM/YYYY - Time Format: Hour/Minute/Second (24)
 
 # General Plan:
 1) Contribute to science and technology applicable for space exploration as a NASA Engineer.
@@ -21,25 +21,4 @@
 # Immediate Plan:
 1) Vasilieva Exam on 22/12/2025, 10:00
 2) grayworld, resize scaling, gamma correction, demosaic with sobel, line buffer ctrl check, cocotb, Fixedpoint lib fix
-
-
-# PhD Application
-00) https://www.linkedin.com/posts/tabssum-naz-8713b91a5_44-phd-websites-in-denmark-sweden-norway-activity-7370385903690784768-T-UF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuFYC4B7fnX7OVmkhj7mGfbH4UaadFIy_4
-
-
-1) Sweden
-    1) https://studyinsweden.se/plan-your-studies/degree-programmes/phd-programmes/
-    2) KTH: https://www.kth.se/en/studies/phd
-    3) UMEA: https://www.umu.se/en/research/research-with-us/doctoral-studies/
-
-2) Denmark
-    1) https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000003514094
-
-3) Norway
-    1) https://www.ntnu.edu/nv/phd/admission#apply
-   
-4) Finland 
-    1) Helsinki: https://www.helsinki.fi/en/admissions-and-education/apply-doctoral-programmes/doctoral-programmes
-
-5) esailors
-    1) https://esailors.ut.ee/phd-positions/
+3) Applying for open PhD from TG
