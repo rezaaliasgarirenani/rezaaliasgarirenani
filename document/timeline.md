@@ -6,7 +6,7 @@ updated: 1765200670946
 created: 1765199739008
 ---
 
-# Date Format: DD/MM/YYYY - Time Format: Hour/Minute/Second (24)
+# Date Format: DD/MM/YYYY - Time Format: HH/MM/SS (24)
 
 # General Plan:
 1) Contribute to science and technology applicable for space exploration as a NASA Engineer.
