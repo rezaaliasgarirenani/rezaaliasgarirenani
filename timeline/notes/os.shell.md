@@ -2,7 +2,7 @@
 id: i7yhhnz456da0ec8sl6l5088
 title: Shell
 desc: ''
-updated: 1765734898731
+updated: 1765741386696
 created: 1765650803300
 ---
 
@@ -30,3 +30,7 @@ alias dis_vpn="openvpn3 session-manage --config /home/reza-aliasgari-renani/Docu
 ## Python Virtual Environment
 ### Creating python virtual environment: 
 python3 -m venv ~/Documents/virtual_env/my_new_env_name
+
+## Updates and Upgrades: 
+sudo apt update && sudo apt upgrade -y
+sudo dpkg -i 
