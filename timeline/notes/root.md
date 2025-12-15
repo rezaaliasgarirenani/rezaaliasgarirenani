@@ -2,7 +2,7 @@
 id: yaz7le1pqxlxzo6wfxkjfh5
 title: Root
 desc: ''
-updated: 1765808423295
+updated: 1765823606725
 created: 1765203468747
 ---
 
@@ -20,4 +20,4 @@ Date Format: DD/MM/YYYY - Time Format: HH/MM/SS
 ![[git]]
 
 ## The OS structure and details will be indicated in the following file:
-![[os]] 
+![[os]]
