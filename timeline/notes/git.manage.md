@@ -2,7 +2,7 @@
 id: i7yhhnz456da0ec8sl6l5087
 title: Git Manage
 desc: ''
-updated: 1765739349546
+updated: 1765808398508
 created: 1765650334839
 ---
 
@@ -19,8 +19,17 @@ git pull
 ### Stashing:
 git stash save "temp changes"
 git stash pop
+
 ### Rebasing:
 git pull --rebase origin main
+
+### Diff:
+git status -sb
+git diff -- file
+
+### Branch:
+git checkout -b reza/cocotb-env origin/cur_work_v
+git push -u origin reza/cocotb-env
 
 ## Git cloning
 ### Clone W/O Dependencies:

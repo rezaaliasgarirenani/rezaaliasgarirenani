@@ -2,7 +2,7 @@
 id: yaz7le1pqxlxzo6wfxkjfh5
 title: Root
 desc: ''
-updated: 1765655675708
+updated: 1765808423295
 created: 1765203468747
 ---
 
@@ -14,10 +14,10 @@ There will be several mother files (plan, git, os) that will serve as the lowest
 Date Format: DD/MM/YYYY - Time Format: HH/MM/SS
 
 ## The Plan structure and details will be indicated in the following file:
-[[plan]]
+![[plan]]
 
 ## The Git structure and details will be indicated in the following file:
-[[git]]
+![[git]]
 
 ## The OS structure and details will be indicated in the following file:
-[[os]] 
+![[os]] 

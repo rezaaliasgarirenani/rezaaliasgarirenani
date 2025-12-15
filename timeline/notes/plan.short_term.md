@@ -1,8 +1,8 @@
 ---
 id: qxbobov77onetrejyyjskyg
-title: Short_ter
+title: Short_term
 desc: ''
-updated: 1765739798646
+updated: 1765804195810
 created: 1765641597288
 ---
 

@@ -2,11 +2,11 @@
 id: 6sm0lw365l7ctp8sbkc1r0n
 title: Plan
 desc: ''
-updated: 1765732813066
+updated: 1765802200571
 created: 1765639876631
 ---
 
-# Plan: 
+# Plan Structure: 
 This file contains the structure of my plans divided into general, long-term, short-term and immediate plans.
 
 # Master Plan Dashboard
