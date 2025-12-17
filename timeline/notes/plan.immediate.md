@@ -2,7 +2,7 @@
 id: 686jfdcmao9ydom7hhkmxhv
 title: Immediate
 desc: ''
-updated: 1765739905894
+updated: 1765971670758
 created: 1765641852149
 ---
 
@@ -10,8 +10,11 @@ created: 1765641852149
 
 1) Vasilieva Exam on 22/12/2025, 10:00
    
-2) Fixedpoint lib, cocotb, line buffer ctrl check, demosaic with sobel, grayworld, gamma correction, resize scaling and (tb)
+2) Fixedpoint lib, cocotb, line buffer ctrl check. 
+Algorithms: demosaic with sobel, grayworld, gamma correction, color noise reduction, resize scaling (tb)
 
 3) Vivado and MATLAB HLS
 
 4) Finish applications from Telegram channel
+
+5) Vasiliev Form, thesis title
