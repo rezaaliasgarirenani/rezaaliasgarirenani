@@ -2,7 +2,7 @@
 id: 686jfdcmao9ydom7hhkmxhv
 title: Immediate
 desc: ''
-updated: 1766166654590
+updated: 1766168994536
 created: 1765641852149
 ---
 
@@ -12,4 +12,4 @@ created: 1765641852149
 2) Fixedpoint lib, cocotb, line buffer ctrl check
 Algorithms: demosaic with sobel, grayworld, gamma correction, color noise reduction, resize scaling (tb) <br>
 3) Vivado and MATLAB HLS <br>
-4) All E-Sailors PhD
+4) All E-Sailors PhD: Estonia first, apply
