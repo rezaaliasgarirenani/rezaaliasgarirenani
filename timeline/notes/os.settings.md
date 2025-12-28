@@ -2,7 +2,7 @@
 id: c35lceii3uuk3ktep3yjisq
 title: Settings
 desc: ''
-updated: 1765734885692
+updated: 1766937022873
 created: 1765730329589
 ---
 
@@ -12,10 +12,6 @@ created: 1765730329589
 ### Public wifi signin:
 connectivity-check.ubuntu.com
 example.com 
-
-### Openvpn connection:
-openvpn3 session-start --config Reza.ovpn
-openvpn3 session-manage --config Reza.ovpn --disconnect
 
 
 ## MacOS

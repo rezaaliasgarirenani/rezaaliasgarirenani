@@ -73,7 +73,7 @@
 
 | **Advanced** | **Intermediate** |
 |--------------|------------------|
-| - Automation of Experimental Techniques<br>- Electrical Characterization<br>- Data Processing<br>- MATLAB, Simulink, HDL Coder<br>- Verilog, RTL Design<br>- FPGA Development<br>- Fixed-Point Computations<br>- SciPy, NumPy, OpenCV | - Python, C++, Arduino<br>- Vivado, Vitis<br>- Git, Unix/Linux OS<br>- OriginLab<br>- SolidWorks<br>- ERDAS IMAGINE<br>- PCB, EasyEDA<br>- OpenRocket |
+| - Automation of Experimental Techniques<br>- Electrical Characterization<br>- Data Processing<br>- MATLAB, Simulink, HDL Coder<br>- Verilog, RTL Design<br>- FPGA Development<br>- Fixed-Point Computations<br>- SciPy, Cocotb, OpenCV | - Python, C++, Arduino<br>- Vivado, Vitis<br>- Git, Unix/Linux OS<br>- OriginLab<br>- SolidWorks<br>- ERDAS IMAGINE<br>- PCB, EasyEDA<br>- OpenRocket |
 
 ---
 

@@ -1,0 +1,12 @@
+Dear Dr. [Professor's Last Name],
+
+I am preparing my application for the PhD position in [Subject of the PhD position] available in your group at TU Delft.
+
+My research background includes electrical characterization of irradiated MOS devices, developing FPGA-based image signal processing systems, and studying radiation-induced effects on FPGA boards using plasma-based facilities.
+
+Would you consider my profile a good fit for this position, and is there anything you would recommend I emphasize to strengthen my application?
+
+My CV is attached. Thank you for your time and consideration.
+
+Respectfully yours,
+Reza Aliasgari Renani

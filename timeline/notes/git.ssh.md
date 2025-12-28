@@ -2,7 +2,7 @@
 id: i7yhhnz456da0ec8sl6l5086
 title: Git SSH
 desc: ''
-updated: 1765736731660
+updated: 1766626799729
 created: 1765648953593
 ---
 
@@ -16,7 +16,7 @@ ssh-add /home/tesla/Documents/git/keys/rezas_zephyrus_key_labdcyadro
 ### Ubuntu (Zephyrus): 
 ssh-add ~/Documents/git/keys/rezas_zephyrus_key_labdcyadro
 
-## Ubuntu (MIPT):
+### Ubuntu (MIPT):
 ssh-add /home/user/Documents/Git/Keys/id_rsa_gitlab
 ssh-add /home/user/Documents/Git/Keys/id_gitlab_yadro
 
