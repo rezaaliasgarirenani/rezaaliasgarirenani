@@ -2,7 +2,7 @@
 id: i7yhhnz456da0ec8sl6l5088
 title: Shell
 desc: ''
-updated: 1765741386696
+updated: 1767027464309
 created: 1765650803300
 ---
 
@@ -15,8 +15,13 @@ Background: # 242424
 ## shell command for current time and date: 
 date +%s%3N 
 
-## Bashrc: 
+## nano editor files: 
 sudo nano ~/.bashrc
+sudo nano /etc/hosts
+sudo nano /etc/systemd/logind.conf (didn't work for lidswitch behaviour)
+sudo nano /etc/UPower/UPower.conf  (did work for lidswitch behaviour)
+
+
 ### Alias commands:
 alias upgate='sudo apt update && sudo apt upgrade'
 alias github_ssh="ssh-add ~/Documents/git/keys/rezas_zephyrus_key_github"
@@ -34,3 +39,6 @@ python3 -m venv ~/Documents/virtual_env/my_new_env_name
 ## Updates and Upgrades: 
 sudo apt update && sudo apt upgrade -y
 sudo dpkg -i 
+
+
+##

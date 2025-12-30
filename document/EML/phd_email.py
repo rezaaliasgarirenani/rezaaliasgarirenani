@@ -13,7 +13,7 @@ SENDER_PASSWORD = "obcl ldkm nrhv twak"
 # CV PDF path to attach.
 CV_PATH = "/home/reza-aliasgari-renani/Downloads/CV_Reza_Aliasgari_Renani.pdf"
 # Job posting URL used to try automatic email extraction.
-JOB_URL = "https://careers.tudelft.nl/job/Delft-PhD-Position-Innovative-Solar-Module-Design-to-Enhance-Sustainability-and-Circularity-2628-CD/1331707257/"
+JOB_URL = "https://oulunyliopisto.varbi.com/en/what:job/jobID:882192/"
 # Email subject used for all outgoing messages.
 EMAIL_SUBJECT = "PhD Applicant"
 
