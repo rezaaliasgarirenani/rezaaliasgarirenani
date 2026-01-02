@@ -1,0 +1,84 @@
+
+\documentclass[a4paper,12pt]{article}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[version=4]{mhchem}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[backend=biber,style=ieee]{biblatex}
+\usepackage{mathptmx}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{footmisc}
+\usepackage{csquotes}
+\usepackage{fontawesome5}
+\usepackage[
+  a4paper,
+  top        = 2.00cm,
+  bottom     = 2.00cm,
+  left       = 2.00cm,
+  right      = 2.00cm,
+  headheight = 15pt,
+  headsep    = 5pt,
+  footskip   = 15pt
+]{geometry}
+
+\addbibresource{references.bib}
+
+\setstretch{1.5}
+\setlist[itemize]{topsep=5pt, itemsep=2pt, parsep=0pt, partopsep=0pt, leftmargin=*}
+\setlist[enumerate]{topsep=5pt, itemsep=2pt, parsep=0pt, partopsep=0pt, leftmargin=*}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=RoyalBlue,
+  urlcolor=RoyalBlue,
+  citecolor=RoyalBlue,
+  anchorcolor=RoyalBlue
+}
+
+\urlstyle{same}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+
+\begin{document}
+
+% \tableofcontents
+% \newpage
+
+\section{Introduction}
+Write your introduction here. \\
+look at me.
+
+\section{Main Body}
+Write the main content here.
+
+\section{Closing}
+Write the closing paragraph here.
+
+% \printbibliography
+
+\end{document}

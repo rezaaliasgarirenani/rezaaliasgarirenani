@@ -1,59 +1,71 @@
 
-\documentclass[a4paper, 11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 \input{glyphtounicode}
 \pdfgentounicode=1
 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[version=4]{mhchem}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[backend=biber,style=ieee]{biblatex}
+\usepackage{mathptmx}
+\usepackage{microtype}
+\usepackage{setspace}
 \usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{indentfirst}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{footmisc}
+\usepackage{csquotes}
 \usepackage{fontawesome5}
-\usepackage{mathptmx}
-\usepackage[english]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage[hidelinks]{hyperref}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage[version=4]{mhchem}
 \usepackage[
   a4paper,
-  top    = 2.00cm,
-  bottom = 2.00cm,
-  left   = 1.70cm,
-  right  = 1.70cm
+  top        = 2.00cm,
+  bottom     = 2.00cm,
+  left       = 2.00cm,
+  right      = 2.00cm,
+  headheight = 15pt,
+  headsep    = 5pt,
+  footskip   = 15pt
 ]{geometry}
 
+\newcommand{\resumesection}[2]{\section{\textcolor{red}{#1}#2}}
 \newcommand{\resumeItem}[1]{
-    \item\small{
-        {#1 \vspace{-2pt}}
-    }
+    \item\small{#1}
 }
 \newcommand{\resumeSubheading}[4]{
-    \vspace{-2pt}\item
+    \item
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
         \textbf{#1} & \textbf{\small #2} \\
         \small#3 & \small #4
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}
 }
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-        \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-5pt}
-}
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=2pt]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
 
-\renewcommand{\baselinestretch}{1.11}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
+
 \titleformat{\section}{
-    \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+    \scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule]
+\titlespacing{\section}{0pt}{5pt}{8pt}
 
 \hypersetup{
     colorlinks=true,
@@ -63,9 +75,10 @@
     anchorcolor=RoyalBlue
 }
 
+\setlist[itemize]{topsep=4pt, itemsep=4pt, parsep=0pt, partopsep=0pt, leftmargin=*}
 \setlength{\tabcolsep}{0in}
+\setstretch{1}
 \fancyhf{}
-\fancyfoot{}
 \pagestyle{fancy}
 \urlstyle{same}
 
@@ -73,13 +86,12 @@
 
 %----------HEADING----------
 \begin{center}
-    {\Huge \scshape {\fontsize{25}{30}\selectfont{Reza}} {\fontsize{25}{30}\selectfont{\textbf{Aliasgari Renani}}}} \\ 
+    {\Huge \scshape \fontsize{25}{30}\selectfont Reza Aliasgari Renani} \\
     \vspace{5pt}
     \small ~ 
     \href{mailto:rezaaliasgarirenani@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{rezaaliasgarirenani@gmail.com}} $|$ ~
     \href{https://orcid.org/0009-0000-8983-755X}{\raisebox{-0.2\height}\faOrcid\ \underline{ORCID}} $|$ ~
-    \href{https://www.researchgate.net/profile/Reza-Aliasgari-Renani}{\raisebox{-0.2\height}\faResearchgate\
-    \underline{ResearchGate}} $|$ ~
+    \href{https://www.researchgate.net/profile/Reza-Aliasgari-Renani}{\raisebox{-0.2\height}\faResearchgate\ \underline{ResearchGate}} $|$ ~
     \href{https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en}{\raisebox{-0.2\height}\faGraduationCap\ \underline{Google Scholar}} $|$ ~
     \href{https://github.com/rezaaliasgarirenani}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} $|$ ~
     \href{https://linkedin.com/in/reza-aliasgari-renani}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}
@@ -87,7 +99,7 @@
 \end{center}
 
 %-----------EDUCATION-----------
-\section{\textcolor{red}{Ed}ucation}
+\resumesection{Ed}{ucation}
 \resumeSubHeadingListStart
     \resumeSubheading
         {\href{https://mipt.ru/}{Moscow Institute of Physics and Technology (MIPT, Phystech)}}{Sep 2024 -- Jun 2026}
@@ -98,10 +110,9 @@
         {\textbf{B.Sc.} in Technical Physics, Aerospace Technology, GPA: 4.56/5.0}{Moscow, Russian Federation}
         {\resumeItem{\textbf{Thesis title:} Investigation of the effects of low energy (1 - 20 keV) electrons and high energy (1 MeV) gamma quanta irradiation on the electro-physical properties of dielectric-semiconductor structures.}}
 \resumeSubHeadingListEnd
-\vspace{-15pt}
 
 %-----------EXPERIENCE-----------
-\section{{\textcolor{red}{Re}search} Experience}
+\resumesection{Re}{search Experience}
 \resumeSubHeadingListStart
     \resumeSubheading
         {\href{http://ai.mipt.ru/design-center}{\parbox[t]{\dimexpr\linewidth-6cm}{Design Center for the Development of Microprocessor Technology for AI Systems, System-on-Chip Development Laboratory}}}
@@ -124,32 +135,25 @@
         {\href{https://mipt.ru/dasr/about/kaf_faculty/mmsp}{Laboratory of Modeling of Mechanical Systems and Processes}}{Mar 2023 -- Aug 2024}
         {\textbf{Engineer / Technician}}{Moscow, Russian Federation}
         \resumeItemListStart
-            \resumeItem{\textbf{Engineering Design and Development} \\ Designed, developed, and analyzed models for a CubeSat orbital deployer and vibration fixture using SolidWorks. Created multiple prototypes, which passed random vibration simulation and dynamic analysis, and tested them on the UVE 4000 vibro-stand for mechanical environmental factors and vibration resistance.}
+            \resumeItem{\textbf{Engineering Design and Development} \\ Designed models for a CubeSat orbital deployer and vibration fixture in SolidWorks. Prototypes passed random vibration simulation and dynamic analysis, and were tested on a UVE vibro-stand for mechanical factors.}
         \resumeItemListEnd
-        
 \resumeSubHeadingListEnd
-\vspace{-15pt}
 
 %-----------PUBLICATIONS---------------
-\section{{\textcolor{red}{Pu}blications} \& Conferences}
+\resumesection{Pu}{blications \& Conferences}
 \resumeSubHeadingListStart
     \item \underline{R. Aliasgari Renani}, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov. \\ \textit{Investigation of low energy electron irradiated \ce{SiO2} based MOS devices by capacitance-voltage and thermally stimulated current techniques.} \href{https://doi.org/10.1134/S1063739723600516}{Journal Paper}, Russian Microelectronics, 2023
     \item \underline{R. Aliasgari Renani}, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov. \\ \textit{Study of \ce{SiO2} based MOS by capacitance-voltage and thermally stimulated current techniques.} \href{https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf}{Presentation}, p.122. The 15th International Conference Micro- And Nanoelectronics (\href{https://icmne.ftian.ru}{ICMNE 2023})
     \item \underline{R. Aliasgari Renani}, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov. \\ \textit{Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons, by methods of Capacitance-Voltage characteristics and thermally-stimulated current.} \href{https://cebt23.iptm.ru/download/numbered/91.pdf}{Poster}, Second Joint Conference on Electron Beam Technologies and X-ray Optics in Microelectronics (\href{https://cebt23.iptm.ru}{CALT 2023})
     \item \underline{V. Vologin}, R. Aliasgari Renani, V. Vasilevskiy, V. Chesnokov \\ \textit{Comparative analysis of manual and Simulink-generated Verilog code for image processing algorithms.} Presentation, \href{https://meetups.yadro.com/fpga-msk-1125/}{FPGA-Systems Conference 2025}
-    
 \resumeSubHeadingListEnd
-\vspace{-15pt}
 
 %-----------TECHNICAL SKILLS-----------
-\section{{\textcolor{red}{Te}chnical Skills}}
+\resumesection{Te}{chnical Skills}
 \begin{center}
     \begin{minipage}[t]{0.45\textwidth}
         \textbf{Advanced}
-        \vspace{-7pt}
         \begin{itemize}
-            \setlength{\itemindent}{0em}
-            \setlength{\itemsep}{-3pt}
             \item Automation of Experimental Techniques
             \item Electrical Characterization
             \item Data Processing
@@ -163,10 +167,7 @@
     \hfill
     \begin{minipage}[t]{0.45\textwidth}
         \textbf{Intermediate}
-        \vspace{-7pt}
         \begin{itemize}
-            \setlength{\itemindent}{0em}
-            \setlength{\itemsep}{-3pt}
             \item Python, C++, Arduino
             \item Vivado, Vitis
             \item Git, Unix/Linux OS
@@ -178,55 +179,40 @@
         \end{itemize}
     \end{minipage}
 \end{center}
-\vspace{-15pt}
 
 %-----------PROJECTS-----------
-\section{{\textcolor{red}{Pr}ojects}}
+\resumesection{Pr}{ojects}
     {\href{https://github.com/icarus-imperium/rocket-2025}{\textbf{Model Rocket}}} \hfill \textbf{Apr 2023 and 2025}
     \begin{itemize}
-        \vspace{-6pt}
     \item Constructed model rockets with 40 and 60 Newton-second impulses as part of a team.
-        \vspace{-6pt}
-    \item  Launched three model rockets over two years at the Cosmonautics Day of MIPT.
+    \item Launched three model rockets over two years at the Cosmonautics Day of MIPT.
     \end{itemize}
-    \vspace{-6pt}
     {\href{https://github.com/rezaaliasgarirenani/Rover}{\textbf{Model Lunar Rover}}} \hfill \textbf{Jun 2023}
     \begin{itemize}
-        \vspace{-6pt}
-    \item  Collaborated on a machine capable of navigating obstacles without round wheels.
-        \vspace{-6pt}
-    \item  Tested multiple prototypes, with the final design approved by the laboratory head.
+    \item Collaborated on a machine capable of navigating obstacles without round wheels.
+    \item Tested multiple prototypes, with the final design approved by the laboratory head.
     \end{itemize}
-    \vspace{-6pt}
     {\href{https://github.com/rezaaliasgarirenani/Aircraft-Detection-System}{\textbf{Aircraft Detection System}}} \hfill \textbf{Jun 2022}
     \begin{itemize}
-        \vspace{-6pt}
-    \item  Investigated and applied algorithms to detect aircraft using photoresistors and transistors.
-        \vspace{-6pt}
-    \item  Developed a system capable of rotational and translational movement to track aircraft.
+    \item Investigated and applied algorithms to detect aircraft using photoresistors and transistors.
+    \item Developed a system capable of rotational and translational movement to track aircraft.
     \end{itemize}
-    \vspace{-6pt}
     {\href{https://github.com/rezaaliasgarirenani/Non-Conservative-Electric-Fields-and-Voltmeters}{\textbf{Investigation of Non-Conservative Electric Fields and Voltmeters}}} \hfill \textbf{May 2022}
     \begin{itemize}
-        \vspace{-6pt}
-    \item  Designed an experimental setup to analyze position-dependency of voltmeter readings in parallel circuits.
-        \vspace{-6pt}
-    \item  Demonstrated the non-intuitive potential differences generated by changing magnetic fields.
+    \item Designed an experimental setup to analyze position-dependency of voltmeter readings in parallel circuits.
+    \item Demonstrated the non-intuitive potential differences generated by changing magnetic fields.
     \end{itemize}
-    \vspace{-15pt}
 
 %-----------AWARDS-----------
-\section{{\textcolor{red}{Aw}ards}}
+\resumesection{Aw}{ards}
 \begin{itemize}
     \resumeItem{\textbf{Recipient:} Full State Russian Scholarship for Foreign Students, MIPT} \hfill \textbf{Sep 2024}
     \resumeItem{\textbf{Recipient:} Iranian State Scholarship, Isfahan University of Technology} \hfill \textbf{Sep 2019}
     \resumeItem{\textbf{Awardee:} Participant of the \href{https://congress.aero/en/}{5th and 7th Eurasian Aerospace Congress}} \hfill \textbf{Jul 2023 and 2025}
-
 \end{itemize}
-\vspace{-15pt}
 
 %-----------LANGUAGES-----------
-\section{{\textcolor{red}{La}nguages}}
+\resumesection{La}{nguages}
 \begin{center}
     \textbf{English}: C2 (TOEFL iBT 113) \quad $|$ \quad 
     \textbf{Russian}: B1 \quad $|$ \quad 
