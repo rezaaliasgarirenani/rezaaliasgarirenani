@@ -2,7 +2,7 @@
 id: 1losxmmu4imf1i4dd90b3sf
 title: Digital
 desc: ''
-updated: 1766942453365
+updated: 1767570019486
 created: 1766937598830
 ---
 
@@ -12,7 +12,7 @@ created: 1766937598830
 01) rezaliasgarirenani@gmail.com (Primary) <br>
 02) teslaturing01@gmail.com (Devices) <br>
 03) royford1776@gmail.com (American) <br>
-04) rezavpn41@gmailcom (VPN) <br>
+04) rezavpn41@gmail.com (VPN) <br>
 05) siavash11sia@gmail.com (auxiliary) <br>
 06) selenatorgomez@icloud.com (Apple ID) <br>
 07) rezaaliasgarirenani@icloud.com (Secondary) <br>
