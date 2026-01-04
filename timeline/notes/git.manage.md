@@ -2,7 +2,7 @@
 id: i7yhhnz456da0ec8sl6l5087
 title: Git Manage
 desc: ''
-updated: 1766508886659
+updated: 1767569705656
 created: 1765650334839
 ---
 
@@ -45,3 +45,4 @@ git remote set-url origin "ssh://git@proxy2.cod.phystech.edu:10197/image-process
 ### Clear ignored files:
 git clean -ndx
 git clean -fdx
+git rm --cached -r .
