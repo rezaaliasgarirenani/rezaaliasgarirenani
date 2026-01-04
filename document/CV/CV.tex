@@ -65,7 +65,7 @@
 \titleformat{\section}{
     \scshape\raggedright\large\bfseries
 }{}{0em}{}[\color{black}\titlerule]
-\titlespacing{\section}{0pt}{5pt}{8pt}
+\titlespacing{\section}{0pt}{5pt}{7pt}
 
 \hypersetup{
     colorlinks=true,
@@ -77,6 +77,7 @@
 
 \setlist[itemize]{topsep=4pt, itemsep=4pt, parsep=0pt, partopsep=0pt, leftmargin=*}
 \setlength{\tabcolsep}{0in}
+\setlength{\parindent}{0pt}
 \setstretch{1}
 \fancyhf{}
 \pagestyle{fancy}
@@ -84,8 +85,8 @@
 
 \begin{document}
 
-%----------HEADING----------
-\begin{center}
+%---------- HEADING ----------
+{\centering
     {\Huge \scshape \fontsize{25}{30}\selectfont Reza Aliasgari Renani} \\
     \vspace{5pt}
     \small ~ 
@@ -95,10 +96,9 @@
     \href{https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en}{\raisebox{-0.2\height}\faGraduationCap\ \underline{Google Scholar}} $|$ ~
     \href{https://github.com/rezaaliasgarirenani}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} $|$ ~
     \href{https://linkedin.com/in/reza-aliasgari-renani}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}
-    \vspace{-5pt}
-\end{center}
+\par}
 
-%-----------EDUCATION-----------
+%----------- EDUCATION -----------
 \resumesection{Ed}{ucation}
 \resumeSubHeadingListStart
     \resumeSubheading
@@ -111,7 +111,7 @@
         {\resumeItem{\textbf{Thesis title:} Investigation of the effects of low energy (1 - 20 keV) electrons and high energy (1 MeV) gamma quanta irradiation on the electro-physical properties of dielectric-semiconductor structures.}}
 \resumeSubHeadingListEnd
 
-%-----------EXPERIENCE-----------
+%----------- EXPERIENCE -----------
 \resumesection{Re}{search Experience}
 \resumeSubHeadingListStart
     \resumeSubheading
@@ -139,18 +139,21 @@
         \resumeItemListEnd
 \resumeSubHeadingListEnd
 
-%-----------PUBLICATIONS---------------
+%----------- PUBLICATIONS ---------------
 \resumesection{Pu}{blications \& Conferences}
 \resumeSubHeadingListStart
-    \item \underline{R. Aliasgari Renani}, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov. \\ \textit{Investigation of low energy electron irradiated \ce{SiO2} based MOS devices by capacitance-voltage and thermally stimulated current techniques.} \href{https://doi.org/10.1134/S1063739723600516}{Journal Paper}, Russian Microelectronics, 2023
-    \item \underline{R. Aliasgari Renani}, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov. \\ \textit{Study of \ce{SiO2} based MOS by capacitance-voltage and thermally stimulated current techniques.} \href{https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf}{Presentation}, p.122. The 15th International Conference Micro- And Nanoelectronics (\href{https://icmne.ftian.ru}{ICMNE 2023})
-    \item \underline{R. Aliasgari Renani}, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov. \\ \textit{Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons, by methods of Capacitance-Voltage characteristics and thermally-stimulated current.} \href{https://cebt23.iptm.ru/download/numbered/91.pdf}{Poster}, Second Joint Conference on Electron Beam Technologies and X-ray Optics in Microelectronics (\href{https://cebt23.iptm.ru}{CALT 2023})
-    \item \underline{V. Vologin}, R. Aliasgari Renani, V. Vasilevskiy, V. Chesnokov \\ \textit{Comparative analysis of manual and Simulink-generated Verilog code for image processing algorithms.} Presentation, \href{https://meetups.yadro.com/fpga-msk-1125/}{FPGA-Systems Conference 2025}
+    \item \underline{R. Aliasgari Renani}, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov. \\ Investigation of low energy electron irradiated \ce{SiO2} based MOS devices by capacitance-voltage and thermally stimulated current techniques. \href{https://doi.org/10.1134/S1063739723600516}{Journal Paper}, \textit{Russian Microelectronics}, 2023
+    \vspace{1pt}
+    \item \underline{R. Aliasgari Renani}, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov. \\ Study of \ce{SiO2} based MOS by capacitance-voltage and thermally stimulated current techniques. \href{https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf}{Presentation}, p.122. \textit{The 15th International Conference Micro- And Nanoelectronics} (\href{https://icmne.ftian.ru}{ICMNE 2023})
+    \vspace{1pt}
+    \item \underline{R. Aliasgari Renani}, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov. \\ Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons, by methods of Capacitance-Voltage characteristics and thermally-stimulated current. \href{https://cebt23.iptm.ru/download/numbered/91.pdf}{Poster}, \textit{Second Joint Conference on Electron Beam Technologies and X-ray Optics in Microelectronics} (\href{https://cebt23.iptm.ru}{CALT 2023})
+    \vspace{1pt}
+    \item \underline{V. Vologin}, R. Aliasgari Renani, V. Vasilevskiy, V. Chesnokov \\ Comparative analysis of manual and Simulink-generated Verilog code for image processing algorithms. Presentation, \textit{\href{https://meetups.yadro.com/fpga-msk-1125/}{FPGA-Systems Conference 2025}}
 \resumeSubHeadingListEnd
 
-%-----------TECHNICAL SKILLS-----------
+%----------- TECHNICAL SKILLS -----------
 \resumesection{Te}{chnical Skills}
-\begin{center}
+{\centering
     \begin{minipage}[t]{0.45\textwidth}
         \textbf{Advanced}
         \begin{itemize}
@@ -178,9 +181,9 @@
             \item OpenRocket
         \end{itemize}
     \end{minipage}
-\end{center}
+\par}
 
-%-----------PROJECTS-----------
+%----------- PROJECTS -----------
 \resumesection{Pr}{ojects}
     {\href{https://github.com/icarus-imperium/rocket-2025}{\textbf{Model Rocket}}} \hfill \textbf{Apr 2023 and 2025}
     \begin{itemize}
@@ -203,21 +206,21 @@
     \item Demonstrated the non-intuitive potential differences generated by changing magnetic fields.
     \end{itemize}
 
-%-----------AWARDS-----------
+%----------- AWARDS -----------
 \resumesection{Aw}{ards}
 \begin{itemize}
-    \resumeItem{\textbf{Recipient:} Full State Russian Scholarship for Foreign Students, MIPT} \hfill \textbf{Sep 2024}
-    \resumeItem{\textbf{Recipient:} Iranian State Scholarship, Isfahan University of Technology} \hfill \textbf{Sep 2019}
-    \resumeItem{\textbf{Awardee:} Participant of the \href{https://congress.aero/en/}{5th and 7th Eurasian Aerospace Congress}} \hfill \textbf{Jul 2023 and 2025}
+    \item{\textbf{Recipient:} Full State Russian Scholarship for Foreign Students, MIPT} \hfill \textbf{Sep 2024}
+    \item{\textbf{Recipient:} Iranian State Scholarship, Isfahan University of Technology} \hfill \textbf{Sep 2019}
+    \item{\textbf{Awardee:} Participant of the \href{https://congress.aero/en/}{5th and 7th Eurasian Aerospace Congress}} \hfill \textbf{Jul 2023 and 2025}
 \end{itemize}
 
-%-----------LANGUAGES-----------
+%----------- LANGUAGES -----------
 \resumesection{La}{nguages}
-\begin{center}
+{\centering
     \textbf{English}: C2 (TOEFL iBT 113) \quad $|$ \quad 
     \textbf{Russian}: B1 \quad $|$ \quad 
     \textbf{German}: B1 (ÖSD) \quad $|$ \quad 
     \textbf{Farsi}: Native
-\end{center}
+\par}
 
 \end{document}

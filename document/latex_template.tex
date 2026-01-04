@@ -40,16 +40,23 @@
   footskip   = 15pt
 ]{geometry}
 
-\addbibresource{references.bib}
-
 \setstretch{1.5}
 \setlist[itemize]{topsep=5pt, itemsep=2pt, parsep=0pt, partopsep=0pt, leftmargin=*}
 \setlist[enumerate]{topsep=5pt, itemsep=2pt, parsep=0pt, partopsep=0pt, leftmargin=*}
 
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecpresnum}{Chapter~}
+\renewcommand{\cftsecaftersnum}{:}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\settowidth{\cftsecnumwidth}{Chapter 9: }
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {Chapter \thesection:}
+  {0.5em}
+  {}
 
 \hypersetup{
   colorlinks=true,
@@ -59,15 +66,76 @@
   anchorcolor=RoyalBlue
 }
 
-\urlstyle{same}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot[R]{\thepage}
+\urlstyle{same}
+
+\addbibresource{references.bib}
 
 \begin{document}
 
-% \tableofcontents
-% \newpage
+%----------- FRONT MATTER -----------
+\pagenumbering{roman}
+
+%----------- TITLE PAGE -----------
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+{\fontsize{20}{24}\selectfont Investigation of radiation-induced effects on programmable microelectronic systems by means of plasma-based facilities simulating space flight conditions \par}
+\bigskip
+\bigskip
+{\fontsize{14}{18}\selectfont Moscow Institute of Physics and Technology (National Research University) \par}
+\bigskip
+\bigskip
+{\fontsize{14}{18}\selectfont Student and Author: Reza Aliasgari Renani \par}
+{\fontsize{14}{18}\selectfont Scientific Supervisor: Mikhail Vasiliev \par}
+{\fontsize{14}{18}\selectfont Industrial Supervisor: Viacheslav Chesnokov \par}
+\bigskip
+{\fontsize{14}{18}\selectfont Date of Defense: \\ 24/06/2026 \par}
+\end{titlepage}
+
+%----------- ABSTRACT -----------
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+Write your abstract here.
+\newpage
+
+%----------- ACKNOWLEDGMENTS (OPTIONAL) -----------
+\section*{Acknowledgments}
+\addcontentsline{toc}{section}{Acknowledgments}
+Write your acknowledgments here.
+\newpage
+
+%----------- TOC -----------
+\tableofcontents
+\thispagestyle{fancy}
+\newpage
+
+%----------- LIST OF FIGURES -----------
+\listoffigures
+\thispagestyle{fancy}
+\addcontentsline{toc}{section}{List of Figures}
+\newpage
+
+%----------- LIST OF TABLES -----------
+\listoftables
+\thispagestyle{fancy}
+\addcontentsline{toc}{section}{List of Tables}
+\newpage
+
+%----------- LIST OF ABBREVIATIONS -----------
+\section*{List of Abbreviations}
+\thispagestyle{fancy}
+\addcontentsline{toc}{section}{List of Abbreviations}
+\begin{description}
+  \item[AI:] Artificial Intelligence
+  \item[FPGA:] Field-Programmable Gate Array
+\end{description}
+\newpage
+
+%----------- MAIN TEXT -----------
+\pagenumbering{arabic}
 
 \section{Introduction}
 Write your introduction here. \\
@@ -76,9 +144,32 @@ look at me.
 \section{Main Body}
 Write the main content here.
 
+\begin{table}[htbp]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.5}
+  \begin{tabularx}{\textwidth}{@{}>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X@{}}
+    \toprule
+    \textbf{Name} & \textbf{Position} & \textbf{Institution} & \textbf{Relationship} & \textbf{Contacts} \\
+    \midrule
+    Dr. Sergey Negodyaev & Dean of the Phystech School of Aerospace Technology & Moscow Institute of Physics and Technology & Academic Dean and Research Advisor & astech@mipt.ru\newline +7 495 408-53-44 \\
+    \midrule
+    Dr. Yakov Lvovich & Head of the System-on-Chip Development Laboratory & Moscow Institute of Physics and Technology & Department Head and Mentor & frkt@mipt.ru\newline +7 495 408-54-90 \\
+    \midrule
+    Dr. Mikhail Vasiliev & Head of the Laboratory of Plasma Systems & Moscow Institute of Physics and Technology & Scientific Supervisor & vasilev.mn@mipt.ru\newline +7 916 550-18-0 \\
+    \bottomrule
+  \end{tabularx}
+  \caption{Example References}
+  \label{tab:example-references}
+\end{table}
+
 \section{Closing}
 Write the closing paragraph here.
 
-% \printbibliography
+\newpage
+
+%----------- BIBLIOGRAPHY -----------
+\nocite{Aliasgari_Renani_2023}
+\printbibliography
 
 \end{document}

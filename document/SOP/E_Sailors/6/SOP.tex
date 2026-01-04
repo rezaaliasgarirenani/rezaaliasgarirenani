@@ -40,16 +40,23 @@
   footskip   = 15pt
 ]{geometry}
 
-\addbibresource{references.bib}
-
 \setstretch{1.5}
 \setlist[itemize]{topsep=5pt, itemsep=2pt, parsep=0pt, partopsep=0pt, leftmargin=*}
 \setlist[enumerate]{topsep=5pt, itemsep=2pt, parsep=0pt, partopsep=0pt, leftmargin=*}
 
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecpresnum}{Chapter~}
+\renewcommand{\cftsecaftersnum}{:}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\settowidth{\cftsecnumwidth}{Chapter 9: }
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {Chapter \thesection:}
+  {0.5em}
+  {}
 
 \hypersetup{
   colorlinks=true,
@@ -59,23 +66,24 @@
   anchorcolor=RoyalBlue
 }
 
-\urlstyle{same}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot[R]{\thepage}
+\urlstyle{same}
+
+\addbibresource{references.bib}
 
 \begin{document}
 
-\begin{center}
-  {\Huge \scshape \fontsize{25}{30}\selectfont Reza Aliasgari Renani} \\
-  {\fontsize{10}{10}\selectfont 30/12/2025} $|$
+{\centering
+  {\Huge \scshape \fontsize{25}{30}\selectfont Reza Aliasgari Renani}\\ 
+  {\fontsize{10}{10}\selectfont 05/01/2026} $|$
   {\fontsize{10}{10}\selectfont Motivation Letter} $|$
-  {\fontsize{10}{10}\selectfont Aalto University} $|$
-  {\fontsize{10}{10}\selectfont PhD (E-Sailors 4)} $|$
-  {\fontsize{10}{10}\selectfont Design and Engineering for Nanospacecraft}
-\end{center}
-\vspace{-20pt}
-
+  {\fontsize{10}{10}\selectfont Dresden University of Technology} $|$
+  {\fontsize{10}{10}\selectfont PhD (E-Sailors 6)} $|$
+  {\fontsize{10}{10}\selectfont Electron Emitter}
+\par}
+\vspace{-10pt}
 \noindent\rule{\textwidth}{0.5pt}
 
 My research objective is to contribute to the design and qualification of nanospacecraft payloads for electric solar wind sail missions. The E-Sailor 4 doctoral position at Aalto University builds on Aalto's nanosatellite E-sail heritage, from early ESTCube demonstrations and the Foresail-1p mission to the upcoming ESTCube-LuNa payload, and aims to translate those lessons into a more reliable system. That focus on space hardware development, integration, and verification is a strong match for my interests. I am now completing the final year of my Master's degree in Plasma Physics at Moscow Institute of Physics and Technology, where my work on radiation effects in semiconductors and FPGA-based systems strengthened my focus on reliability, testing, and the practical constraints of flight hardware.

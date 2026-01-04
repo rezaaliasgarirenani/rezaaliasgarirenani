@@ -11,6 +11,9 @@
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-
+*.bcf
+*.xml
+*.lot
+*.lof
 
 passwords_28_12_2025.csv
