@@ -8,9 +8,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage[version=4]{mhchem}
-\usepackage[usenames,dvipsnames]{color}
+\usepackage[dvipsnames]{xcolor}
 \usepackage[backend=biber,style=ieee]{biblatex}
-\usepackage{mathptmx}
+\usepackage{newtxtext,newtxmath}
 \usepackage{microtype}
 \usepackage{setspace}
 \usepackage{titlesec}
@@ -25,7 +25,6 @@
 \usepackage{booktabs}
 \usepackage{graphicx}
 \usepackage{amsmath}
-\usepackage{amssymb}
 \usepackage{footmisc}
 \usepackage{csquotes}
 \usepackage{fontawesome5}
@@ -40,7 +39,29 @@
   footskip   = 15pt
 ]{geometry}
 
+\newcommand{\degreeawardvalue}{}
+\newcommand{\universityvalue}{}
+\newcommand{\addressvalue}{}
+\newcommand{\unilogovalue}{}
+\newcommand{\copyyearvalue}{}
+\newcommand{\defenddatevalue}{}
+\newcommand{\orcidvalue}{}
+\newcommand{\rightsstatementvalue}{}
+\newcommand{\degreeaward}[1]{\def\degreeawardvalue{#1}}
+\newcommand{\university}[1]{\def\universityvalue{#1}}
+\newcommand{\address}[1]{\def\addressvalue{#1}}
+\newcommand{\unilogo}[1]{\def\unilogovalue{#1}}
+\newcommand{\copyyear}[1]{\def\copyyearvalue{#1}}
+\newcommand{\defenddate}[1]{\def\defenddatevalue{#1}}
+\newcommand{\orcid}[1]{\def\orcidvalue{#1}}
+\newcommand{\rightsstatement}[1]{\def\rightsstatementvalue{#1}}
+\newcommand{\titleskip}{\vskip 4\bigskipamount}
+\newcommand{\authorskip}{\vskip 2\bigskipamount}
 \newcommand{\resumesection}[2]{\section{\textcolor{red}{#1}#2}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=2pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
 \newcommand{\resumeItem}[1]{
     \item\small{#1}
 }
@@ -51,43 +72,53 @@
         \small#3 & \small #4
     \end{tabular*}
 }
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=2pt]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}}
 
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecpresnum}{Chapter~}
+\renewcommand{\cftsecaftersnum}{:}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-
-\titleformat{\section}{
-    \scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule]
-\titlespacing{\section}{0pt}{5pt}{7pt}
-
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\urlstyle{same}
+\addbibresource{references.bib}
 \hypersetup{
-    colorlinks=true,
-    linkcolor=RoyalBlue,
-    urlcolor=RoyalBlue,
-    citecolor=RoyalBlue,
-    anchorcolor=RoyalBlue
+  colorlinks=true,
+  linkcolor=RoyalBlue,
+  urlcolor=RoyalBlue,
+  citecolor=RoyalBlue,
+  anchorcolor=RoyalBlue
 }
 
-\setlist[itemize]{topsep=4pt, itemsep=3pt, parsep=0pt, partopsep=0pt, leftmargin=*}
-\setlength{\tabcolsep}{0in}
-\setlength{\parindent}{0pt}
+% \settowidth{\cftsecnumwidth}{Chapter 9: }
+% \titleformat{\section}
+%   {\normalfont\Large\bfseries}
+%   {Chapter \thesection:}
+%   {0.5em}
+%   {}
+\settowidth{\cftsecnumwidth}{Chapter 9: }
+\titleformat{\section}{
+    \scshape\raggedright\large\bfseries
+    }{}{0em}{}[\color{black}\titlerule]
+    \titlespacing{\section}{0pt}{5pt}{5pt}
+
+
 \setstretch{1}
-\fancyhf{}
-\pagestyle{fancy}
-\urlstyle{same}
+\setlist[itemize]{topsep=4pt, itemsep=3pt, parsep=0pt, partopsep=0pt, leftmargin=*}
+\setlist[enumerate]{topsep=4pt, itemsep=3pt, parsep=0pt, partopsep=0pt, leftmargin=*}
+\setlength{\footnotesep}{15pt} 
+\setlength{\skip\footins}{15pt} 
+\setlength{\parskip}{0pt}
 
 \begin{document}
 
 %---------- HEADING ----------
 {\centering
-    {\Huge \scshape \fontsize{25}{30}\selectfont Reza Aliasgari Renani} \\
+    {\scshape \textls[50]{\fontsize{25}{30}\selectfont Reza {\bfseries Aliasgari Renani}}} \\
     \vspace{5pt}
     \small ~ 
     \href{mailto:rezaaliasgarirenani@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{rezaaliasgarirenani@gmail.com}} $|$ ~
@@ -98,8 +129,10 @@
     \href{https://linkedin.com/in/reza-aliasgari-renani}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}
 \par}
 
+{\setlength{\tabcolsep}{0pt}
 %----------- EDUCATION -----------
 \resumesection{Ed}{ucation}
+
 \resumeSubHeadingListStart
     \resumeSubheading
         {\href{https://mipt.ru/}{Moscow Institute of Physics and Technology (MIPT, Phystech)}}{Sep 2024 -- Jun 2026}
@@ -138,6 +171,7 @@
             \resumeItem{\textbf{Engineering Design and Development} \\ Designed models for a CubeSat orbital deployer and vibration fixture in SolidWorks. Prototypes passed random vibration simulation and dynamic analysis, and were tested on a UVE vibro-stand for mechanical factors.}
         \resumeItemListEnd
 \resumeSubHeadingListEnd
+}
 
 %----------- PUBLICATIONS ---------------
 \resumesection{Pu}{blications \& Conferences}
@@ -185,7 +219,7 @@
 
 %----------- PROJECTS -----------
 \resumesection{Pr}{ojects}
-    {\href{https://github.com/icarus-imperium/rocket-2025}{\textbf{Model Rocket}}} \hfill \textbf{Apr 2023 and 2025}
+    \noindent {\href{https://github.com/icarus-imperium/rocket-2025}{\textbf{Model Rocket}}} \hfill \textbf{Apr 2023 and 2025}
     \begin{itemize}
     \item Constructed model rockets with 40 and 60 Newton-second impulses as part of a team.
     \item Launched three model rockets over two years at the Cosmonautics Day of MIPT.

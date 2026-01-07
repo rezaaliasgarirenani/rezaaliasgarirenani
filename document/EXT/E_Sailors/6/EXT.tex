@@ -8,9 +8,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage[version=4]{mhchem}
-\usepackage[usenames,dvipsnames]{color}
+\usepackage[dvipsnames]{xcolor}
 \usepackage[backend=biber,style=ieee]{biblatex}
-\usepackage{mathptmx}
+\usepackage{newtxtext,newtxmath}
 \usepackage{microtype}
 \usepackage{setspace}
 \usepackage{titlesec}
@@ -25,7 +25,6 @@
 \usepackage{booktabs}
 \usepackage{graphicx}
 \usepackage{amsmath}
-\usepackage{amssymb}
 \usepackage{footmisc}
 \usepackage{csquotes}
 \usepackage{fontawesome5}
@@ -40,9 +39,39 @@
   footskip   = 15pt
 ]{geometry}
 
-\setstretch{1.5}
-\setlist[itemize]{topsep=5pt, itemsep=2pt, parsep=0pt, partopsep=0pt, leftmargin=*}
-\setlist[enumerate]{topsep=5pt, itemsep=2pt, parsep=0pt, partopsep=0pt, leftmargin=*}
+\newcommand{\degreeawardvalue}{}
+\newcommand{\universityvalue}{}
+\newcommand{\addressvalue}{}
+\newcommand{\unilogovalue}{}
+\newcommand{\copyyearvalue}{}
+\newcommand{\defenddatevalue}{}
+\newcommand{\orcidvalue}{}
+\newcommand{\rightsstatementvalue}{}
+\newcommand{\degreeaward}[1]{\def\degreeawardvalue{#1}}
+\newcommand{\university}[1]{\def\universityvalue{#1}}
+\newcommand{\address}[1]{\def\addressvalue{#1}}
+\newcommand{\unilogo}[1]{\def\unilogovalue{#1}}
+\newcommand{\copyyear}[1]{\def\copyyearvalue{#1}}
+\newcommand{\defenddate}[1]{\def\defenddatevalue{#1}}
+\newcommand{\orcid}[1]{\def\orcidvalue{#1}}
+\newcommand{\rightsstatement}[1]{\def\rightsstatementvalue{#1}}
+\newcommand{\titleskip}{\vskip 4\bigskipamount}
+\newcommand{\authorskip}{\vskip 2\bigskipamount}
+\newcommand{\resumesection}[2]{\section{\textcolor{red}{#1}#2}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=2pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+\newcommand{\resumeItem}[1]{
+    \item\small{#1}
+}
+\newcommand{\resumeSubheading}[4]{
+    \item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textbf{\small #2} \\
+        \small#3 & \small #4
+    \end{tabular*}
+}
 
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\cftsecpresnum}{Chapter~}
@@ -51,13 +80,12 @@
 \renewcommand{\footrulewidth}{0pt}
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\settowidth{\cftsecnumwidth}{Chapter 9: }
-\titleformat{\section}
-  {\normalfont\Large\bfseries}
-  {Chapter \thesection:}
-  {0.5em}
-  {}
 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\urlstyle{same}
+\addbibresource{references.bib}
 \hypersetup{
   colorlinks=true,
   linkcolor=RoyalBlue,
@@ -65,30 +93,41 @@
   citecolor=RoyalBlue,
   anchorcolor=RoyalBlue
 }
-
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot[R]{\thepage}
-\urlstyle{same}
-
-\addbibresource{references.bib}
+\settowidth{\cftsecnumwidth}{Chapter 9: }
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {Chapter \thesection:}
+  {0.5em}
+  {}
+% \titleformat{\section}{
+%     \scshape\raggedright\large\bfseries
+%     }{}{0em}{}[\color{black}\titlerule]
+%     \titlespacing{\section}{0pt}{5pt}{5pt}
+\setstretch{1.5}
+\setlist[itemize]{topsep=4pt, itemsep=3pt, parsep=0pt, partopsep=0pt, leftmargin=*}
+\setlist[enumerate]{topsep=4pt, itemsep=3pt, parsep=0pt, partopsep=0pt, leftmargin=*}
+\setlength{\footnotesep}{15pt} 
+\setlength{\skip\footins}{15pt} 
+\setlength{\parskip}{10pt} 
 
 \begin{document}
 
 {\centering
-  {\Huge \scshape \fontsize{25}{30}\selectfont Reza Aliasgari Renani}\\ 
-  {\fontsize{10}{10}\selectfont 05/01/2026} $|$
+  {\scshape \textls[50]{\fontsize{25}{30}\selectfont Reza {\bfseries Aliasgari Renani}}} \\
+  {\fontsize{10}{10}\selectfont 08/01/2026} $|$
   {\fontsize{10}{10}\selectfont Additional Information} $|$
   {\fontsize{10}{10}\selectfont Dresden University of Technology} $|$
   {\fontsize{10}{10}\selectfont PhD (E-Sailors 6)} $|$
   {\fontsize{10}{10}\selectfont Electron Emitter}
 \par}
-\vspace{-10pt}
+\vspace{-20pt}
 \noindent\rule{\textwidth}{0.5pt}
+
+\vspace{-10pt}
 
 %----------- Starting Date ---------------
 \noindent \textbf{Earliest Starting Date}\\
-My Master's program at MIPT is scheduled to conclude on June 30 2026, at which point I would be available to begin full-time upon my arrival at TUDelft.
+My Master's program at MIPT is scheduled to conclude on 30/06/2026, at which point I would be available to begin full-time upon my arrival at TU Dresden.
 
 \vspace{5pt}
 
