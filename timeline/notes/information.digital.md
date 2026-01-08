@@ -2,14 +2,14 @@
 id: 1losxmmu4imf1i4dd90b3sf
 title: Digital
 desc: ''
-updated: 1767570019486
+updated: 1767826581870
 created: 1766937598830
 ---
 
 # Digital Information
 
 ## Emails:
-01) rezaliasgarirenani@gmail.com (Primary) <br>
+01) rezaaliasgarirenani@gmail.com (Primary) <br>
 02) teslaturing01@gmail.com (Devices) <br>
 03) royford1776@gmail.com (American) <br>
 04) rezavpn41@gmail.com (VPN) <br>

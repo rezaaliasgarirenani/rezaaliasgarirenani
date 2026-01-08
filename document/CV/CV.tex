@@ -83,7 +83,7 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyfoot[R]{\thepage}
+% \fancyfoot[R]{\thepage}
 \urlstyle{same}
 \addbibresource{references.bib}
 \hypersetup{
@@ -93,19 +93,16 @@
   citecolor=RoyalBlue,
   anchorcolor=RoyalBlue
 }
-
-% \settowidth{\cftsecnumwidth}{Chapter 9: }
+\settowidth{\cftsecnumwidth}{Chapter 9: }
 % \titleformat{\section}
 %   {\normalfont\Large\bfseries}
 %   {Chapter \thesection:}
 %   {0.5em}
 %   {}
-\settowidth{\cftsecnumwidth}{Chapter 9: }
 \titleformat{\section}{
     \scshape\raggedright\large\bfseries
     }{}{0em}{}[\color{black}\titlerule]
     \titlespacing{\section}{0pt}{5pt}{5pt}
-
 
 \setstretch{1}
 \setlist[itemize]{topsep=4pt, itemsep=3pt, parsep=0pt, partopsep=0pt, leftmargin=*}
@@ -193,7 +190,7 @@
         \begin{itemize}
             \item Automation of Experimental Techniques
             \item Electrical Characterization
-            \item Data Processing
+            \item Data Processing, LaTeX
             \item MATLAB, Simulink, HDL Coder
             \item Verilog, RTL Design
             \item FPGA Development
