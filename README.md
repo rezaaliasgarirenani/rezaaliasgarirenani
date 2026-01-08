@@ -3,7 +3,7 @@
 <h1 align="center">Reza Aliasgari Renani</h1>
 
 <p align="center">
-<a href="mailto:rezaaliasgarirenani@gmail.com">Email</a> |
+<a href="mailto:rezaaliasgarirenani@gmail.com">rezaaliasgarirenani@gmail.com</a> |
 <a href="https://orcid.org/0009-0000-8983-755X">ORCID</a> |
 <a href="https://www.researchgate.net/profile/Reza-Aliasgari-Renani">ResearchGate</a> |
 <a href="https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en">Google Scholar</a> |
