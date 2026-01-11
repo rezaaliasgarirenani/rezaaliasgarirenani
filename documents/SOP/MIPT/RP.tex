@@ -1,0 +1,81 @@
+
+\documentclass[a4paper,12pt]{article}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage{mathptmx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[version=4]{mhchem}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[
+  a4paper,
+  top    = 2.00cm,
+  bottom = 2.00cm,
+  left   = 1.70cm,
+  right  = 1.70cm
+]{geometry}
+
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    urlcolor=RoyalBlue,
+    citecolor=RoyalBlue,
+    anchorcolor=RoyalBlue
+}
+
+\urlstyle{same}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape {\fontsize{25}{30}\selectfont{Reza}} {\fontsize{25}{30}\selectfont{\textbf{Aliasgari Renani}}}} \\ 
+    \vspace{3pt}
+    {\small \raisebox{-0.2\height}\ {01/12/2025}} $|$
+    {\small \raisebox{-0.2\height}\ {Russian Federation}} $|$
+    {\small \raisebox{-0.2\height}\ {Research Proposal}} $|$
+    {\small \raisebox{-0.2\height}\ {PhD}}
+    \\
+    {\small \raisebox{-0.2\height}\ {System Analysis, Control and Information Processing and Statistics}} 
+    \vspace{-10pt}
+\end{center}
+\vspace{-10pt}
+
+\noindent\rule{\textwidth}{1pt}
+
+My research objective is to advance radiation-resistant FPGA-based video processors for space applications by investigating ionizing radiation effects on FPGA components and exploring integrations of radiation-tolerant memory like ReRAM. This will involve detailed analysis of single event effects (SEEs) and total ionizing dose (TID) impacts, followed by developing optimized DSP video pipelines tailored for harsh space environments. The PhD program in System Analysis, Control and Information Processing, Statistics at MIPT offers the resources and expertise to pursue this, leveraging my prior work in semiconductor characterization and FPGA design.
+
+\vspace{10pt}
+
+Ionizing radiation in space, from sources like cosmic rays and solar particles, poses significant challenges to FPGA reliability. Key effects include single event upsets (SEUs) in configuration memory, which can flip bits in SRAM cells leading to functional errors, single event latchups (SELs) that may cause high current draws and potential device failure, and total ionizing dose accumulation, which degrades transistor performance over time through charge buildup in oxides. Components most susceptible include SRAM-based configuration logic, embedded RAM blocks, and MOSFETs, where scaling to smaller nodes increases vulnerability to these effects. My plan starts with comprehensive testing to map these impacts: using particle accelerators to simulate space radiation, measuring upset rates in different FPGA blocks, and employing techniques like capacitance-voltage profiling to assess oxide trap densities post-irradiation.
+
+\vspace{10pt}
+
+Building on this, I aim to explore mitigation strategies, particularly replacing vulnerable SRAM with ReRAM (resistive RAM) for configuration memory. ReRAM's non-volatile nature and higher resistance to radiation—due to its reliance on resistance changes rather than charge storage—makes it promising. Studies show that integrating ReRAM atop CMOS layers can reduce FPGA area by 2-3 times while lowering power consumption by about 20\%, as it eliminates the need for constant refresh and offers better endurance against SEUs. I will investigate hybrid architectures where ReRAM cells store configuration data, potentially using 3D stacking to maintain density. This involves modeling radiation interactions with ReRAM materials, like hafnium oxide, to quantify TID tolerance and SEU cross-sections, then prototyping small-scale FPGA fabrics with ReRAM switches via simulation tools like Vivado and Simulink.
+
+\vspace{10pt}
+
+\newpage
+
+For other components, I will evaluate integrating radiation-hardened alternatives, such as using larger-area memory cells or error-correcting codes (ECC) in BRAMs, and applying triple modular redundancy (TMR) to logic paths most prone to transients. This aligns with radiation-hardened FPGA designs from vendors like Xilinx, where enhanced scrubbing detects and corrects configuration errors in real-time. My experiments will include exposing modified FPGA prototypes to gamma rays and heavy ions, monitoring for functional integrity using built-in self-tests, and comparing performance metrics like upset rates and power draw against standard SRAM-based devices.
+
+\vspace{10pt}
+
+The final phase focuses on developing DSP video-pipeline algorithms optimized for these radiation-resistant FPGAs, targeting space applications like satellite imaging or rover vision systems. Starting from my experience with algorithms such as Sobel edge detection, demosaicing, and fisheye correction, I will extend to space-specific needs: noise reduction for cosmic ray artifacts, real-time compression for bandwidth-limited transmissions, and adaptive filtering under varying lighting. These will be implemented in pipelined Verilog, leveraging FPGA DSP slices for high-speed operations, with fixed-point arithmetic to minimize resource use. To ensure radiation tolerance, pipelines will incorporate fault-tolerant designs, like voter circuits in TMR setups to mask SEUs, and dynamic reconfiguration to bypass damaged blocks.
+
+\vspace{10pt}
+
+Verification will involve hardware-in-the-loop testing: synthesizing designs on radiation-tolerant boards, streaming video from emulated space cameras, and subjecting them to simulated radiation via fault injection tools. Performance goals include achieving at least 60 fps at 1080p resolution with latency under 10 ms, while maintaining functionality up to 100 krad TID. This work will culminate in integrating the technology into Russian industry and academia, potentially collaborating with entities like Roscosmos for deployment in orbital missions, contributing to advancements in autonomous navigation and remote sensing. By addressing these challenges, my research will enhance FPGA reliability for aerospace, supporting Russia's space initiatives through practical, deployable systems, and aims to produce publications on ReRAM-FPGA hybrids and space-grade FPGA-based video processors.
+
+
+\end{document}

@@ -1,0 +1,65 @@
+
+\documentclass[a4paper,11pt]{article}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage{mathptmx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[version=4]{mhchem}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[
+  a4paper,
+  top    = 2.00cm,
+  bottom = 2.00cm,
+  left   = 1.70cm,
+  right  = 1.70cm
+]{geometry}
+
+\renewcommand{\baselinestretch}{1.25}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    urlcolor=RoyalBlue,
+    citecolor=RoyalBlue,
+    anchorcolor=RoyalBlue
+}
+
+\urlstyle{same}
+\pagestyle{fancy}
+\fancyhf{}
+% \fancyfoot[R]{\thepage}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape {\fontsize{25}{30}\selectfont{Reza}} {\fontsize{25}{30}\selectfont{\textbf{Aliasgari Renani}}}} \\ \vspace{3pt}
+    {\small {15/12/2025}} $|$
+    {\small {Cover Letter}} $|$
+    {\small {University of Zurich}} $|$
+    {\small {PhD Position}} $|$
+    {\small {Space sciences and Radiotherapy}}
+    \vspace{-10pt}
+\end{center}
+\vspace{-10pt}
+\noindent\rule{\textwidth}{0.5pt}
+
+My research objective is to contribute to experimental physics through the development of instrumentation for ionizing radiation, with a particular focus on compact detectors that can connect measurable track structure quantities to biological effectiveness. The Interdisciplinary PhD position in Space sciences and Radiotherapy at the University of Zurich is an excellent opportunity for me to pursue this goal by working on the conception, building and validation of a compact nanodosimeter that measures ionization cluster size distributions for radiation of different qualities, with initial implementations on the proton beam line at the Paul Scherrer Institute. I am now completing the final year of my Master degree in Plasma Physics at Moscow Institute of Physics and Technology, where my research on semiconductor devices exposed to radiation and my work on FPGA based systems have strengthened my interest in radiation effects and experimental methods. 
+
+\vspace{10pt}
+I joined Dr.\ Koveshnikov's laboratory in the Russian Academy of Sciences over two years ago to study radiation effects on microelectronic structures, focusing on electrical characterization of semiconductors and \ce{SiO2}-based MOS devices. We studied the impact of electron and gamma irradiation and hydrogen plasma treatment on MOS devices, identified traps by location (oxide, semiconductor, interface) and carrier type (electrons, holes). This work has resulted in a first-author publication\footnote{R. Aliasgari Renani, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov, Investigation of low energy electron irradiated \ce{SiO2} based MOS devices by C-V and TSC techniques, Russian Microelectronics, 2023} and provides insight into device stability under bias stress, radiation immunity, and oxide trap density at the dielectric-semiconductor interface. I also developed optimized MATLAB applications to automate the experimental characterization techniques, which reduced run-times and created measurement pipelines. 
+
+\vspace{10pt}
+After my undergraduate degree, I joined the System-on-Chip Development Laboratory and the Laboratory of Plasma Systems under the supervision of Dr.\ Vasiliev to develop FPGA-based systems and to study radiation and plasma effects on these structures. I implemented video-processing algorithms by manual Verilog coding and by generating HDL from Simulink models. I verified functionality of the algorithms using testbenches and Python automation scripts. In the Plasma Lab, we ran experiments where an FPGA with an attached camera and a synthesized image-processing design was placed in an electron-beam plasma system with low-pressure oxygen and exposed to electron irradiation and X-rays generated from a tungsten target. The FPGA output signal was monitored while thermal cycling was applied and preliminary functionality tests were performed. 
+
+\vspace{10pt}
+My experience with radiation effects in microelectronic structures, experimental automation, and FPGA based system development motivates me to continue with a PhD in an environment where instrumentation is developed and validated in close connection to applications. In this project, I aim to contribute to the design and operation of a compact nanodosimeter for measuring ionization cluster size distributions, and to support its development with numerical modelling and Monte Carlo simulations. I am particularly interested in the practical cycle of detector conception, construction, validation on a proton beam line, and scientific exploitation of the measured distributions to characterize biological effects of ionizing radiation. I would be glad to work under the guidance of Prof. Dr. Uwe Schneider and to contribute to the interdisciplinary collaboration across UZH, the Hirslanden Clinic Zurich, the Paul Scherrer Institute, and the Cyclotron Centre Bronowice in Krakow, including work between partner laboratories and reliable detector operation in beam tests.
+
+
+\end{document}

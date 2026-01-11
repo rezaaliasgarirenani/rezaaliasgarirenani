@@ -1,0 +1,237 @@
+%-------------------------
+% Transcript in Latex
+% Author: Reza Aliasgari Renani
+% License: MIT
+%------------------------
+
+\documentclass[a4paper, 11pt]{article}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[version=4]{mhchem}
+\usepackage[
+  a4paper,
+  top    = 1.70cm,
+  bottom = 1.70cm,
+  left   = 1.70cm,
+  right  = 1.70cm
+]{geometry}
+\usepackage{mathptmx} % Added for Times New Roman-like font
+\usepackage{graphicx}
+\usepackage{longtable}
+
+\renewcommand{\baselinestretch}{1.1}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Defining custom commands
+\newcommand{\resumeItem}[1]{
+    \item\small{
+        {#1 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textbf{\small #2} \\
+        \small#3 & \small #4
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+        \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    urlcolor=RoyalBlue,
+    citecolor=RoyalBlue,
+    anchorcolor=RoyalBlue
+}
+
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\setlength{\footskip}{30pt} % Fixes \footskip warning
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Formatting section titles
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Starting the document
+\begin{document}
+
+\begin{center}
+\includegraphics[width=0.2\textwidth]{mipt.png} \hfill \large Moscow Institute of Physics and Technology
+\end{center}
+
+\begin{center}
+\Large Academic Transcript
+\end{center}
+
+Last name: ALIASGARI RENANI \hfill Format: Full-time \\
+First name: REZA \hfill Qualification: Bachelor's degree \\
+Date of birth:   \hfill Subject: 16.03.01 Technical Physics \\
+Registration number:   \hfill Major: Aerospace Engineering \\
+Period of study: 01.09.2020 - 01.07.2024 \hfill Research base: Chair of Applied Mechanics \\
+
+Department: Phystech-School of Aerospace Technology \\
+Thesis title: Models of nonequilibrium flow in porous medium
+
+\begin{longtable}{p{0.05\textwidth} p{0.7\textwidth} r l}
+Serial Course &  & Credits & Grade \\ \hline
+\endfirsthead
+Serial Course &  & Credits & Grade \\ \hline
+\endhead
+\multicolumn{4}{l}{1st Semester (Fall 2020)} \\ 
+1 & Foreign Language - English I & 2 & passed \\
+2 & Foundations of Programming I & 4 & good(4) \\
+3 & Fundamentals of Engineering Design & 4 & excellent(5) \\
+4 & General Physics - Introduction to Physics & 3 & good(4) \\
+5 & Geometry & 4 & excellent(5) \\
+6 & Health Concepts and Strategies & 2 & passed \\
+7 & History & 1 & excellent(5) \\
+8 & Introduction to Calculus & 7 & excellent(5) \\
+9 & Foreign Language - Russian & 2 & passed \\
+\multicolumn{4}{l}{2nd Semester (Spring 2021)} \\ 
+10 & Analytic Geometry & 4 & good(4) \\
+11 & Applied Physical Education & x & passed \\
+12 & Foreign Language - English I & 2 & excellent(5) \\
+13 & Foundations of Programming II & 4 & good(4) \\
+14 & Fundamentals of Engineering Design & 4 & excellent(5) \\
+15 & Practical Informatics. Data Analysis & 3 & excellent(5) \\
+16 & General Physics - Mechanics & 3 & good(4) \\
+17 & Foreign Language - Russian & 2 & excellent(5) \\
+\multicolumn{4}{l}{3rd Semester (Fall 2021)} \\ 
+18 & Applied Physical Education & x & passed \\
+19 & General Physics - Laboratory Practicum & 5 & excellent(5) \\
+20 & Practical Informatics & 3 & excellent(5) \\
+21 & General Physics - Thermodynamics and Molecular Physics & 3 & good(4) \\
+22 & Linear Algebra & 4 & good(4) \\
+23 & Multivariable Calculus & 6 & good(4) \\
+24 & Foreign Language - Russian & 2 & passed \\
+\multicolumn{4}{l}{4th Semester (Spring 2022)} \\ 
+25 & Applied Physical Education & x & passed \\
+26 & Experimental Methods of Fluid Mechanics & 3 & excellent(5) \\
+27 & Theoretical Mechanics & 3 & good(4) \\
+28 & General Physics - Electricity and Magnetism & 3 & excellent(5) \\
+29 & General Physics - Laboratory Practicum & 3 & excellent(5) \\
+\multicolumn{4}{l}{5th Semester (Fall 2022)} \\ 
+30 & Introduction to Theoretical Mechanics & 4 & excellent(5) \\
+31 & Mechanics of Deformable Bodies & 2 & excellent(5) \\
+32 & Multiple Integrals and Field Theory & 4 & good(4) \\
+33 & Ordinary Differential Equations & 3 & excellent(5) \\
+34 & Probability Theory & 3 & good(4) \\
+35 & Foreign Language - Russian & 2 & excellent(5) \\
+36 & Solid Mechanics Laboratory & 2 & excellent(5) \\
+\multicolumn{4}{l}{6th Semester (Spring 2023)} \\ 
+37 & Aerodynamics & 2 & good(4) \\
+38 & Applied Fluid Mechanics I & 4 & good(4) \\
+39 & Applied Physical Education & x & passed \\
+40 & Fourier Analysis & 4 & satisfactory(3) \\
+41 & Fundamentals of Spaceflight Dynamics & 1 & excellent(5) \\
+42 & General Physics - Laboratory Practicum & 3 & excellent(5) \\
+43 & General Physics - Quantum Physics & 3 & good(4) \\
+44 & Ordinary Differential Equations & 4 & satisfactory(3) \\
+45 & Probability Theory & 3 & good(4) \\
+46 & Foreign Language - Russian & 2 & passed \\
+47 & Technologies of Thermic Processing of Satellite Remote Sensing Data & 3 & passed \\
+48 & Theoretical Mechanics & 4 & good(4) \\
+\multicolumn{4}{l}{7th Semester (Fall 2023)} \\ 
+49 & Aircraft Basics & 1 & excellent(5) \\
+50 & Applied Fluid Mechanics II & 4 & good(4) \\
+51 & Applied Physical Education & x & passed \\
+52 & Functions of One Complex Variable & 4 & good(4) \\
+53 & Fundamentals of Aerospace Technology & 1 & passed \\
+54 & General Physics - Laboratory Practicum & 3 & excellent(5) \\
+55 & General Physics - Quantum Physics & 3 & good(4) \\
+56 & Numerical Methods & 1 & excellent(5) \\
+57 & Partial Differential Equations & 3 & satisfactory(3) \\
+58 & Mathematics State Examination & 2 & good(4) \\
+59 & Academic Internship - Research & 5 & passed \\
+60 & Foreign Language - Russian & 2 & good(4) \\
+61 & Technologies of Thermic Processing of Satellite Remote Sensing Data & 3 & excellent(5) \\
+\multicolumn{4}{l}{8th Semester (Spring 2024)} \\ 
+62 & Foreign Language - Russian & 2 & passed \\
+63 & Applied Physical Mechanics & 5 & excellent(5) \\
+64 & Physical Mechanics & 3 & good(4) \\
+65 & Philosophy & 2 & excellent(5) \\
+66 & Life Safety & 1 & passed \\
+67 & Fundamentals of Financial and Economic Analysis and Planning & 1 & passed \\
+68 & Internship - Personal Research Project & 15 & excellent(5) \\
+69 & Graduation Thesis & 6 & excellent(5) \\ \hline
+\end{longtable}
+
+Grade point average (GPA) is calculated here as: the sum of all grade points divided by the number of graded courses.
+
+\begin{tabular}{l l}
+Grade & Points \\
+Excellent & 5 \\
+Good & 4 \\
+Satisfactory & 3 \\
+Unsatisfactory & 2 or less \\
+\end{tabular}
+
+Courses graded as "passed/failed" are not considered in the calculation of GPA.
+
+Summary
+
+GPA: 4.56
+
+Total credits: 241
+
+Total academic hours: 4552
+
+Rank: 5 out of 183*
+
+*Graduated from the same department in 2023.
+
+All courses have been passed. Graduation thesis was defended in the state-examination commission, protocol number 0302549, on 21.06.2024. Eligible for admission to graduate programs.
+
+German S. Shehelik
+
+Deputy Director
+
+Phystech-School of Aerospace Technology
+
+Issued: 01.07.2024
+
+Address: 9 Institutskiy per., Dolgoprudny, Moscow Region, 141701
+
+Tel.: +7 495 408 5700 Email: info@mipt.ru
+
+Website: https://mipt.ru
+
+\end{document}

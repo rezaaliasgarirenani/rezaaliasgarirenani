@@ -1,0 +1,79 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Aliasgari_Renani_2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=4b4e9d2cc9cddf512b378220f8866e3a}{%
+           family={Aliasgari\bibnamedelima Renani},
+           familyi={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d29497b79474c8af9a94f82f63445358}{%
+           family={Soltanovich},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ee5bcfafa27ae24678a23fd6d3b2e5ae}{%
+           family={Knyazev},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=df07823956f70f7f5b1825cfde8f0f1d}{%
+           family={Koveshnikov},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{f15bd5ce1ea8d37d37e64011b422920c}
+      \strng{fullhash}{5b3ffaf8b60df30cf2e981bfc3a6071f}
+      \strng{fullhashraw}{5b3ffaf8b60df30cf2e981bfc3a6071f}
+      \strng{bibnamehash}{5b3ffaf8b60df30cf2e981bfc3a6071f}
+      \strng{authorbibnamehash}{5b3ffaf8b60df30cf2e981bfc3a6071f}
+      \strng{authornamehash}{f15bd5ce1ea8d37d37e64011b422920c}
+      \strng{authorfullhash}{5b3ffaf8b60df30cf2e981bfc3a6071f}
+      \strng{authorfullhashraw}{5b3ffaf8b60df30cf2e981bfc3a6071f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Russian Microelectronics}
+      \field{month}{12}
+      \field{number}{S1}
+      \field{title}{Investigation of Low Energy Electron Irradiated {SiO2} Based MOS Devices by Capacitance-Voltage and Thermally Stimulated Current Techniques}
+      \field{volume}{52}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{S274\bibrangedash S278}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1134/S1063739723600516
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1134/S1063739723600516
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1134/S1063739723600516
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

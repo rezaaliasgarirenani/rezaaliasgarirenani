@@ -1,0 +1,88 @@
+
+\documentclass[a4paper,12pt]{article}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage{mathptmx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{booktabs}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[version=4]{mhchem}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[
+a4paper,
+top = 2.00cm,
+bottom = 2.00cm,
+left = 1.70cm,
+right = 1.70cm
+]{geometry}
+
+
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\tabularxcolumn}[1]{m{#1}}
+\setlength{\heavyrulewidth}{\lightrulewidth}
+\setlength{\aboverulesep}{0pt}
+\setlength{\belowrulesep}{0pt}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\hypersetup{
+colorlinks=true,
+linkcolor=RoyalBlue,
+urlcolor=RoyalBlue,
+citecolor=RoyalBlue,
+anchorcolor=RoyalBlue
+}
+
+\urlstyle{same}
+\pagestyle{fancy}
+\fancyhf{}
+% \fancyfoot[R]{\thepage}
+
+\begin{document}
+
+\begin{center}
+  {\Huge \scshape {\fontsize{25}{30}\selectfont{Reza}} {\fontsize{25}{30}\selectfont{\textbf{Aliasgari Renani}}}} \\ 
+  {\fontsize{12}{12}\selectfont 25/12/2025} $|$
+  {\fontsize{12}{12}\selectfont Additional Information} $|$
+  {\fontsize{12}{12}\selectfont TUDelft} $|$
+  {\fontsize{12}{12}\selectfont PhD Position (2955)} $|$
+  {\fontsize{12}{12}\selectfont Integrated Circuit Design}
+\end{center}
+
+\vspace{-20pt}
+\noindent\rule{\textwidth}{0.5pt}
+
+\textbf{Earliest Starting Date}\\
+My Master's program at MIPT is scheduled to conclude on June 30 2026, at which point I would be available to begin full-time upon my arrival at TUDelft.
+
+\vspace{20pt}
+
+\textbf{References}\\
+Below is the contact information for three references who can speak to my qualifications and experience.
+
+\vspace{10pt}
+
+\small
+\centering
+{\renewcommand{\arraystretch}{2}%
+\begin{tabularx}{\textwidth}{@{}YYYYY@{}}
+\toprule
+\addlinespace[-10pt]
+\textbf{Name} & \textbf{Position} & \textbf{Institution} & \textbf{Relationship} & \textbf{Contacts} \\
+\midrule
+Dr. Sergey Negodyaev & Dean of the Phystech School of Aerospace Technology & Moscow Institute of Physics and Technology & Academic Dean and Research Advisor & astech@mipt.ru\newline +7 495 408-53-44 \\
+
+Dr. Yakov Lvovich &  Head of the System-on-Chip Development Laboratory & Moscow Institute of Physics and Technology & Department Head and Mentor & frkt@mipt.ru \newline +7 495 408-54-90 \\
+
+Dr. Mikhail Vasiliev & Head of the Laboratory of Plasma Systems & Moscow Institute of Physics and Technology & Scientific Supervisor & vasilev.mn@mipt.ru \newline +7 916 550-18-0 \\
+\bottomrule
+\end{tabularx}}
+
+\end{document}

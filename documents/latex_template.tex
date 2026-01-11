@@ -1,0 +1,257 @@
+
+\documentclass[a4paper,12pt]{article}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[version=4]{mhchem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[backend=biber,style=ieee]{biblatex}
+\usepackage{newtxtext,newtxmath}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{footmisc}
+\usepackage{csquotes}
+\usepackage{fontawesome5}
+\usepackage[
+  a4paper,
+  top        = 2.00cm,
+  bottom     = 2.00cm,
+  left       = 2.00cm,
+  right      = 2.00cm,
+  headheight = 15pt,
+  headsep    = 5pt,
+  footskip   = 15pt
+]{geometry}
+
+\newcommand{\degreeawardvalue}{}
+\newcommand{\universityvalue}{}
+\newcommand{\addressvalue}{}
+\newcommand{\unilogovalue}{}
+\newcommand{\copyyearvalue}{}
+\newcommand{\defenddatevalue}{}
+\newcommand{\orcidvalue}{}
+\newcommand{\rightsstatementvalue}{}
+\newcommand{\degreeaward}[1]{\def\degreeawardvalue{#1}}
+\newcommand{\university}[1]{\def\universityvalue{#1}}
+\newcommand{\address}[1]{\def\addressvalue{#1}}
+\newcommand{\unilogo}[1]{\def\unilogovalue{#1}}
+\newcommand{\copyyear}[1]{\def\copyyearvalue{#1}}
+\newcommand{\defenddate}[1]{\def\defenddatevalue{#1}}
+\newcommand{\orcid}[1]{\def\orcidvalue{#1}}
+\newcommand{\rightsstatement}[1]{\def\rightsstatementvalue{#1}}
+\newcommand{\titleskip}{\vskip 4\bigskipamount}
+\newcommand{\authorskip}{\vskip 2\bigskipamount}
+\newcommand{\resumesection}[2]{\section{\textcolor{red}{#1}#2}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=2pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+\newcommand{\resumeItem}[1]{
+    \item\small{#1}
+}
+\newcommand{\resumeSubheading}[4]{
+    \item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textbf{\small #2} \\
+        \small#3 & \small #4
+    \end{tabular*}
+}
+
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecpresnum}{Chapter~}
+\renewcommand{\cftsecaftersnum}{:}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\urlstyle{same}
+\addbibresource{references.bib}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=RoyalBlue,
+  urlcolor=RoyalBlue,
+  citecolor=RoyalBlue,
+  anchorcolor=RoyalBlue
+}
+\settowidth{\cftsecnumwidth}{Chapter 9: }
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {Chapter \thesection:}
+  {0.5em}
+  {}
+% \titleformat{\section}{
+%     \scshape\raggedright\large\bfseries
+%     }{}{0em}{}[\color{black}\titlerule]
+%     \titlespacing{\section}{0pt}{5pt}{5pt}
+
+\setstretch{1.5}
+\setlist[itemize]{topsep=4pt, itemsep=3pt, parsep=0pt, partopsep=0pt, leftmargin=*}
+\setlist[enumerate]{topsep=4pt, itemsep=3pt, parsep=0pt, partopsep=0pt, leftmargin=*}
+\setlength{\footnotesep}{15pt} 
+\setlength{\skip\footins}{15pt} 
+\setlength{\parskip}{5pt}
+
+\begin{document}
+
+%----------- FRONT MATTER -----------
+\pagenumbering{roman}
+
+%----------- TITLE PAGE METADATA -----------
+\title{[Thesis Title]}
+\author{[Your Full Name]}
+\degreeaward{[Name of Degree]}
+\university{[Institution Name]}
+\address{[Institution Address]}
+% \unilogo{C:/Users/tesla/Documents/git/github_reza/rezaaliasgarirenani/document/PUB/Thesis/caltech-thesis-template-with-logo/caltech.png}
+\unilogo{/home/reza-aliasgari-renani/Documents/git/github_reza/rezaaliasgarirenani/document/PUB/Thesis/caltech-thesis-template-with-logo/caltech.png}
+\copyyear{[Year Degree Conferred]}
+\defenddate{[Exact Date]}
+\orcid{[Author ORCID]}
+\rightsstatement{All rights reserved}
+%----------- TITLE PAGE (CALTECH-STYLE) -----------
+\thispagestyle{empty}
+\begin{center}
+\makeatletter
+{\Large \@title \par}
+\titleskip
+Thesis by\\
+{\large \@author \par}
+\authorskip
+In Partial Fulfillment of the Requirements for the\\
+degree of\\
+\degreeawardvalue\par
+\ifx\unilogovalue\empty\else
+\vspace{\stretch{2}}
+\includegraphics[width=2in]{\unilogovalue}\\
+\vspace{\stretch{1}}
+\fi
+\universityvalue\\
+\addressvalue\par
+\authorskip
+\copyyearvalue\\
+{\normalsize Defended \defenddatevalue\par}
+\makeatother
+\end{center}
+\clearpage
+
+%----------- ORCID / RIGHTS PAGE (CALTECH-STYLE) -----------
+\thispagestyle{fancy}
+\null
+\vfill
+\begin{center}
+\makeatletter
+{\normalsize \textcopyright~\copyyearvalue \par}
+{\normalsize \@author\par}
+{\normalsize ORCID: \orcidvalue \par}
+{\normalsize \rightsstatementvalue \par}
+\makeatother
+\end{center}
+\clearpage
+
+%----------- ACKNOWLEDGMENTS -----------
+\section*{Acknowledgments}
+\addcontentsline{toc}{section}{Acknowledgments}
+Write your acknowledgments here.
+\newpage
+
+%----------- ABSTRACT -----------
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+Write your abstract here.
+\newpage
+
+%----------- TOC -----------
+\tableofcontents
+\thispagestyle{fancy}
+\newpage
+
+%----------- LIST OF FIGURES -----------
+\listoffigures
+\thispagestyle{fancy}
+\addcontentsline{toc}{section}{List of Figures}
+\newpage
+
+%----------- LIST OF TABLES -----------
+\listoftables
+\thispagestyle{fancy}
+\addcontentsline{toc}{section}{List of Tables}
+\newpage
+
+%----------- LIST OF ABBREVIATIONS -----------
+\section*{List of Abbreviations}
+\thispagestyle{fancy}
+\addcontentsline{toc}{section}{List of Abbreviations}
+\begin{description}
+  \item[AI:] Artificial Intelligence
+  \item[FPGA:] Field-Programmable Gate Array
+\end{description}
+\newpage
+
+%----------- MAIN TEXT -----------
+\pagenumbering{arabic}
+
+\section{Introduction}
+Write your introduction here. \\
+look at me.
+
+\section{Literature Review}
+Write the main content here.
+
+\subsection{Table Ex}
+\begin{table}[htbp]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.5}
+  \begin{tabularx}{\textwidth}{@{}>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X@{}}
+    \toprule
+    \textbf{Name} & \textbf{Position} & \textbf{Institution} & \textbf{Relationship} & \textbf{Contacts} \\
+    \midrule
+    Dr. Sergey Negodyaev & Dean of the Phystech School of Aerospace Technology & Moscow Institute of Physics and Technology & Academic Dean and Research Advisor & astech@mipt.ru\newline +7 495 408-53-44 \\
+    \midrule
+    Dr. Yakov Lvovich & Head of the System-on-Chip Development Laboratory & Moscow Institute of Physics and Technology & Department Head and Mentor & frkt@mipt.ru\newline +7 495 408-54-90 \\
+    \midrule
+    Dr. Mikhail Vasiliev & Head of the Laboratory of Plasma Systems & Moscow Institute of Physics and Technology & Scientific Supervisor & vasilev.mn@mipt.ru\newline +7 916 550-18-0 \\
+    \bottomrule
+  \end{tabularx}
+  \caption{Example References}
+  \label{tab:example-references}
+\end{table}
+
+Table lol. 
+
+\section{Experimental}
+Write experimental part.
+
+\section{Results and Analysis}
+Write the results paragraph here.
+
+\section{Conclusion}
+Write the conclusion here.
+
+\newpage
+
+%----------- BIBLIOGRAPHY -----------
+\nocite{Aliasgari_Renani_2023}
+\printbibliography[heading=bibintoc,title={Bibliography}]
+
+\end{document}

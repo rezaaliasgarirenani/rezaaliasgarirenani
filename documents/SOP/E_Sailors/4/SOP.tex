@@ -1,0 +1,68 @@
+
+\documentclass[a4paper,12pt]{article}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage{mathptmx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{footmisc}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[version=4]{mhchem}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[
+  a4paper,
+  top    = 2.00cm,
+  bottom = 2.00cm,
+  left   = 1.70cm,
+  right  = 1.70cm
+]{geometry}
+
+\renewcommand{\baselinestretch}{1.25}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand\footnotelayout{\fontsize{10}{10}\selectfont} 
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    urlcolor=RoyalBlue,
+    citecolor=RoyalBlue,
+    anchorcolor=RoyalBlue
+}
+
+\urlstyle{same}
+\pagestyle{fancy}
+\fancyhf{}
+% \fancyfoot[R]{\thepage}
+
+\begin{document}
+
+\begin{center}
+  {\Huge \scshape {\fontsize{25}{25}\selectfont{Reza}} {\fontsize{25}{25}\selectfont{\textbf{Aliasgari Renani}}}} \\ 
+  \vspace{2pt}
+  {\fontsize{10}{10}\selectfont 30/12/2025} $|$
+  {\fontsize{10}{10}\selectfont Motivation Letter} $|$
+  {\fontsize{10}{10}\selectfont Aalto University} $|$
+  {\fontsize{10}{10}\selectfont PhD (E-Sailors 4)} $|$
+  {\fontsize{10}{10}\selectfont Design and Engineering for Nanospacecraft}
+\end{center}
+
+\vspace{-20pt}
+\noindent\rule{\textwidth}{0.5pt}
+
+My research objective is to contribute to the design and qualification of nanospacecraft payloads for electric solar wind sail missions. The E-Sailor 4 doctoral position at Aalto University builds on Aalto's nanosatellite E-sail heritage, from early ESTCube demonstrations and the Foresail-1p mission to the upcoming ESTCube-LuNa payload, and aims to translate those lessons into a more reliable system. That focus on space hardware development, integration, and verification is a strong match for my interests. I am now completing the final year of my Master's degree in Plasma Physics at Moscow Institute of Physics and Technology, where my work on radiation effects in semiconductors and FPGA-based systems strengthened my focus on reliability, testing, and the practical constraints of flight hardware.
+
+\vspace{10pt}
+I joined Dr.\ Koveshnikov's laboratory in the Russian Academy of Sciences over two years ago to study radiation effects on microelectronic structures, focusing on electrical characterization of semiconductors and \ce{SiO2}-based MOS devices. We examined electron and gamma irradiation and hydrogen plasma treatments, distinguishing trap contributions by location (oxide, semiconductor, interface) and carrier type (electrons, holes) using C-V and TSC methods. This work resulted in a first-author publication\footnote{R. Aliasgari Renani, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov, Investigation of low energy electron irradiated \ce{SiO2} based MOS devices by C-V and TSC techniques, Russian Microelectronics, 2023} and strengthened my understanding of device stability under bias stress and radiation. I also developed MATLAB automation for experimental characterization techniques such as TSC, C-V, I-V, I-T, and DLTS measurements, which reduced run-times.
+
+\vspace{10pt}
+After my undergraduate degree, I joined the System-on-Chip Development Laboratory and the Laboratory of Plasma Systems under the supervision of Dr.\ Vasiliev to develop FPGA-based systems and to study radiation and plasma effects on these structures. I implemented video-processing algorithms in Verilog using both manual coding and HDL generated from Simulink models, built verification testbenches, and used Python for quality control. I then synthesized the design, checked resource utilization (LUTs and BRAM), and validated it on a Xilinx Zybo Z7 with live camera input and HDMI output. In the plasma facility, we exposed an FPGA board to 25-60 keV electron beams in low-pressure oxygen, generating plasma and X-rays from a tungsten target, while applying thermal cycling. The FPGA output signal was monitored and preliminary functionality tests were performed.
+
+\vspace{10pt}
+My experience with radiation effects in microelectronic structures, experimental automation, FPGA-based system development, and mechanical design for CubeSat hardware motivates me to pursue a PhD centered on E-sail payload design and verification. In E-Sailor 4, I hope to support requirements analysis and translate lessons from earlier missions into the ESTCube-LuNa payload design (mechanical layout, tether deployment mechanisms, electronics, and spacecraft interface), then contribute to prototype manufacturing and functional/thermal-vac testing while staying current with nanosatellite engineering, and plasma interaction technologies. I value clear documentation, conference communication, and collaboration across Aalto University, FMI, and Space Application. Long term, I aim to build a career bridging academia and industry in space exploration and spacecraft systems.
+
+
+\end{document}

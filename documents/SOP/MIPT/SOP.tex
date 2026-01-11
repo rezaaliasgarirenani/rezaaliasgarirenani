@@ -1,0 +1,85 @@
+
+\documentclass[a4paper,12pt]{article}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage{mathptmx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[version=4]{mhchem}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[
+  a4paper,
+  top    = 2.00cm,
+  bottom = 2.00cm,
+  left   = 1.70cm,
+  right  = 1.70cm
+]{geometry}
+
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=RoyalBlue,
+    urlcolor=RoyalBlue,
+    citecolor=RoyalBlue,
+    anchorcolor=RoyalBlue
+}
+
+\urlstyle{same}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape {\fontsize{25}{30}\selectfont{Reza}} {\fontsize{25}{30}\selectfont{\textbf{Aliasgari Renani}}}} \\ \vspace{3pt}
+    {\small \raisebox{-0.2\height}\ {01/12/2025}} $|$
+    {\small \raisebox{-0.2\height}\ {Russian Federation}} $|$
+    {\small \raisebox{-0.2\height}\ {Essay (Motivation Letter)}} $|$
+    {\small \raisebox{-0.2\height}\ {PhD}}
+    \\
+    {\small \raisebox{-0.2\height}\ {System Analysis, Control and Information Processing and Statistics}} 
+    \vspace{-10pt}
+\end{center}
+\vspace{-10pt}
+
+\noindent\rule{\textwidth}{1pt}
+
+My academic journey at Moscow Institute of Physics and Technology (MIPT) has prepared me well for pursuing a PhD in System Analysis, Control and Information Processing, Statistics in Russia. Having completed my Bachelor's in technical physics and Master's in applied mathematics and physics here, I have built a strong foundation in both theoretical and practical aspects of electronic engineering. The program's emphasis on combining system analysis with real-world applications aligns closely with my background and interests.
+
+\vspace{10pt}
+
+I joined Dr. Koveshnikov's laboratory at the Institute of Microelectronics Technology, Russian Academy of Sciences, more than two years ago. There, I focused on studying radiation effects on microelectronic structures, particularly through electrical characterization of semiconductors and \ce{SiO2}-based Metal-Oxide-Semiconductor (MOS) devices. Our experiments involved electron and gamma irradiation, as well as hydrogen plasma treatments, to understand how these affect device performance. We identified charge traps by their location—whether in the oxide, semiconductor, or at the interface—and by carrier type, such as electrons or holes. This led to a first-author publication\footnotemark[1] that explored device stability under bias stress, radiation exposure, and trap densities at interfaces. I also created MATLAB tools to automate data collection and analysis, which streamlined our workflows and reduced processing times significantly. This hands-on work not only solidified my knowledge of semiconductor physics but also taught me how to manage lab equipment and use scripting in MATLAB and Python for automation.
+
+\vspace{10pt}
+
+Following my undergraduate studies, I moved to the System on Chip Development Laboratory (part of the Design Center for Microprocessor Technology for AI Systems) and the Laboratory of Plasma Systems, under Dr. Vasiliev and Dr. Chesnokov. In these labs, I developed FPGA-based systems while examining radiation and plasma impacts on them. I coded video processing algorithms in Verilog manually and generated HDL from Simulink models, then verified them with testbenches and Python scripts for automation. In the plasma lab, we conducted tests by placing an FPGA board with a camera and image processing design inside an electron beam plasma chamber under low-pressure oxygen. We exposed it to electron irradiation and X-rays from a tungsten target, monitored output signals during thermal cycles, and ran basic functionality checks.
+
+\vspace{10pt}
+
+\newpage
+
+At the System on Chip Development Laboratory, affiliated with YADRO\footnotemark[2], I translated mathematical algorithms into Verilog, developed a fixed-point arithmetic library, and used Horner's method for LUT-based approximations in fixed-point operations. I implemented various image processing functions like rgb2hsv conversion, color segmentation, Sobel edge detection, global tone mapping, demosaicing, bird's eye view transformation, fisheye correction, and image resizing—some via Simulink HDL generation, others in pure Verilog. I focused on optimizing for low latency and high throughput, handling issues like data synchronization and pipeline stages.
+
+\vspace{10pt}
+
+For testing, I built detailed Verilog testbenches and used Python to automate simulations and analyze results, ensuring the DSP blocks met performance goals. After that, I synthesized, placed, and routed the designs in Vivado for Xilinx Zybo Z7 boards. Initial verifications involved streaming HDMI test images from a PC, followed by live camera inputs directly to the FPGA. This practical experience has strengthened my ties with YADRO and honed my skills in hardware deployment.
+
+\vspace{10pt}
+
+These experiences in irradiated semiconductors, plasma environments, and FPGA design have motivated me to continue my PhD at MIPT. As an international student already embedded in MIPT's research ecosystem, including partnerships with the Russian Academy of Sciences, I value the collaborative atmosphere here. Russia's focus on engineering solutions for challenging environments, like those in aerospace, resonates with my goals. I am eager to apply my expertise in Verilog, radiation testing, and algorithm optimization to contribute to ongoing projects. Continuing at MIPT would allow me to build on my established network and pursue research that supports practical advancements in the field.
+
+\vspace{10pt}
+
+\footnotetext[1]{R. Aliasgari Renani, O.A. Soltanovich, M.A. Knyazev, S.V. Koveshnikov, Investigation of low energy electron irradiated \ce{SiO2} based MOS devices by capacitance-voltage and thermally stimulated current techniques, \href{https://doi.org/10.1134/S1063739723600516}{Russian Microelectronics}, 2023}
+
+\footnotetext[2]{V. Vologin, R. Aliasgari Renani, V. Vasilevskiy, V. Chesnokov, Comparative analysis of manual Verilog and Simulink-generated HDL code for image processing algorithms. Presentation, \href{https://meetups.yadro.com/fpga-msk-1125/}{YADRO FPGA-Systems Conference 2025}}
+
+\end{document}
