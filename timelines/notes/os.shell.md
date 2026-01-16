@@ -2,7 +2,7 @@
 id: i7yhhnz456da0ec8sl6l5088
 title: Shell
 desc: ''
-updated: 1767027464309
+updated: 1768486945048
 created: 1765650803300
 ---
 
@@ -20,7 +20,7 @@ sudo nano ~/.bashrc
 sudo nano /etc/hosts
 sudo nano /etc/systemd/logind.conf (didn't work for lidswitch behaviour)
 sudo nano /etc/UPower/UPower.conf  (did work for lidswitch behaviour)
-
+sudo nano ~/.local/share/applications/mailspring_mailspring.desktop (mailspring)
 
 ### Alias commands:
 alias upgate='sudo apt update && sudo apt upgrade'
@@ -39,6 +39,3 @@ python3 -m venv ~/Documents/virtual_env/my_new_env_name
 ## Updates and Upgrades: 
 sudo apt update && sudo apt upgrade -y
 sudo dpkg -i 
-
-
-##
