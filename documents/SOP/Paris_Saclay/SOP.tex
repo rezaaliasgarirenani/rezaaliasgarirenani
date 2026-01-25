@@ -1,0 +1,146 @@
+
+\documentclass[a4paper,12pt]{article}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[version=4]{mhchem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[backend=biber,style=ieee]{biblatex}
+\usepackage{newtxtext,newtxmath}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{footmisc}
+\usepackage{csquotes}
+\usepackage{fontawesome5}
+\usepackage[
+  a4paper,
+  top        = 2.00cm,
+  bottom     = 2.00cm,
+  left       = 2.00cm,
+  right      = 2.00cm,
+  headheight = 15pt,
+  headsep    = 5pt,
+  footskip   = 15pt
+]{geometry}
+
+\newcommand{\degreeawardvalue}{}
+\newcommand{\universityvalue}{}
+\newcommand{\addressvalue}{}
+\newcommand{\unilogovalue}{}
+\newcommand{\copyyearvalue}{}
+\newcommand{\defenddatevalue}{}
+\newcommand{\orcidvalue}{}
+\newcommand{\rightsstatementvalue}{}
+\newcommand{\degreeaward}[1]{\def\degreeawardvalue{#1}}
+\newcommand{\university}[1]{\def\universityvalue{#1}}
+\newcommand{\address}[1]{\def\addressvalue{#1}}
+\newcommand{\unilogo}[1]{\def\unilogovalue{#1}}
+\newcommand{\copyyear}[1]{\def\copyyearvalue{#1}}
+\newcommand{\defenddate}[1]{\def\defenddatevalue{#1}}
+\newcommand{\orcid}[1]{\def\orcidvalue{#1}}
+\newcommand{\rightsstatement}[1]{\def\rightsstatementvalue{#1}}
+\newcommand{\titleskip}{\vskip 4\bigskipamount}
+\newcommand{\authorskip}{\vskip 2\bigskipamount}
+\newcommand{\resumesection}[2]{\section{\textcolor{red}{#1}#2}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=2pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+\newcommand{\resumeItem}[1]{
+    \item\small{#1}
+}
+\newcommand{\resumeSubheading}[4]{
+    \item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textbf{\small #2} \\
+        \small#3 & \small #4
+    \end{tabular*}
+}
+
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecpresnum}{Chapter~}
+\renewcommand{\cftsecaftersnum}{:}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\thepage}
+\urlstyle{same}
+\addbibresource{references.bib}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=RoyalBlue,
+  urlcolor=RoyalBlue,
+  citecolor=RoyalBlue,
+  anchorcolor=RoyalBlue
+}
+\settowidth{\cftsecnumwidth}{Chapter 9: }
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {Chapter \thesection:}
+  {0.5em}
+  {}
+% \titleformat{\section}{
+%     \scshape\raggedright\large\bfseries
+%     }{}{0em}{}[\color{black}\titlerule]
+%     \titlespacing{\section}{0pt}{5pt}{5pt}
+
+\setstretch{1.5}
+\setlist[itemize]{topsep=4pt, itemsep=3pt, parsep=0pt, partopsep=0pt, leftmargin=*}
+\setlist[enumerate]{topsep=4pt, itemsep=3pt, parsep=0pt, partopsep=0pt, leftmargin=*}
+\setlength{\footnotesep}{15pt} 
+\setlength{\skip\footins}{15pt} 
+\setlength{\parskip}{5pt}
+
+\begin{document}
+
+{\centering
+  {\scshape \textls[50]{\fontsize{25}{30}\selectfont Reza {\bfseries Aliasgari Renani}}} \\ 
+  {\fontsize{10}{10}\selectfont 25/01/2026} $|$
+  {\fontsize{10}{10}\selectfont Cover Letter} $|$
+  {\fontsize{10}{10}\selectfont PhD} $|$
+  {\fontsize{10}{10}\selectfont Physics} $|$
+  {\fontsize{10}{10}\selectfont ABG-135109} $|$  
+  {\fontsize{10}{10}\selectfont University Paris-Saclay, CEA Saclay (LENSIS Lab)} \\
+  {\fontsize{10}{10}\selectfont Effect of gamma-ray irradiation on
+  ferroelectric, hafnia-based, non-volatile memory for use in extreme
+  environments}
+\par}
+\vspace{-15pt}
+\noindent\rule{\textwidth}{0.5pt}
+
+\vspace{-5pt}
+
+My research objective is to understand radiation effects on microelectronic devices. I want to use experimental techniques for defect characterization to develop memory devices that operate reliably in extreme environments. The project links ferroelectric \ce{HfO2} materials to non-volatile memory behavior. The LENSIS laboratory at CEA Saclay combines gamma ray irradiation at LABRA with the PAGURE irradiator, photoelectron spectroscopy in laboratory and synchrotron environments, and structural analysis by X ray diffraction, electron microscopy, and near field microscopy. I want to contribute to this research using these tools.
+
+I joined Dr.\ Koveshnikov's laboratory in the Russian Academy of Sciences three years ago to study irradiated semiconductor devices. We investigated the effects of electron and gamma irradiation and hydrogen plasma treatments on \ce{SiO2}-based MOS devices, identifying traps by location (insulator, semiconductor, interface) and carrier type (electrons, holes) using electrical characterization techniques. This work resulted in a first-author publication\footnote{R.~Aliasgari~Renani, O.A.~Soltanovich, M.A.~Knyazev, S.V.~Koveshnikov, ``Investigation of low energy electron irradiated \ce{SiO2} based MOS devices by C--V and TSC techniques,'' \textit{Russian Microelectronics}, 2023, DOI: \href{https://doi.org/10.1134/S1063739723600516}{10.1134/S1063739723600516}} and strengthened my understanding of device stability under bias stress and radiation. I also developed optimized MATLAB automation programs for experimental techniques such as TSC, C--V, I--V, I--T, and DLTS measurements, which enabled systematic data acquisition and reduced experimental run-times.
+
+After my undergraduate degree, I was interested in extending my work from basic semiconductor devices to more complex microelectronic systems and their interaction with radiation. I joined the SoC Development Laboratory to learn about programmable hardware and to work on FPGA-based systems. We implemented image signal processing (ISP) algorithms in Verilog using both manual coding and generated HDL code from Simulink models. I developed a fixed-point arithmetic library, built verification testbenches, and used Python for quality control. We evaluated resource utilization after synthesizing the designs on a Xilinx Zybo Z7 board with live camera input and HDMI output. The codebase was maintained under Git-based source control. 
+
+Concurrently, at the Laboratory of Plasma Systems under the supervision of Dr.\ Vasiliev, we conducted research on radiation and plasma effects on FPGA devices. We exposed an FPGA board to 25--60~keV electron beams in low-pressure oxygen, generating plasma and X-rays from a tungsten target while applying thermal cycling. The FPGA output signal was continuously monitored, and preliminary functionality tests were performed during and after exposure.
+
+I want to work under the supervision of Dr.\ Barrett and Dr.\ Ramirez to study gamma ray effects in \ce{HfZrO2} ferroelectric layers and to learn photoelectron spectroscopy for interface analysis. I will perform dose dependent electrical characterization of FeCAP structures and FeRAM arrays, including 1T1C arrays at 16 kb and 512 kb, and use the results to build compact model parameters for circuit level analysis. CEA Leti provides FeCAP and FeRAM circuits integrated on 130 nm CMOS samples and 200 mm wafers, with wafer scale characterization. Irradiation will be performed at the LABRA facility using the PAGURE irradiator. I will conduct measurements with X ray photoelectron spectroscopy, hard X ray photoelectron spectroscopy at synchrotron beamlines, and X ray diffraction.
+
+This project will connect radiation induced defect physics with ferroelectric memory behavior in environments where dose accumulates over long mission times. I will perform careful irradiation experiments, spectroscopy informed interpretation, and electrical characterization that links material changes to device and circuit response. The work extends my research on radiation effects in microelectronics toward hafnia based non-volatile memory at CEA Saclay. This PhD aligns with my long-term goal of contributing to the development of radiation-tolerant memory technologies for space and other extreme-environment
+applications.
+
+\end{document}

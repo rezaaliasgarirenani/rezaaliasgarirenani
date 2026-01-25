@@ -9,11 +9,11 @@ from phd_email_scraper import extract_job_details
 
 # Sender email address used for Gmail SMTP and app-specific password.
 SENDER_EMAIL = "rezaaliasgarirenani@gmail.com"
-SENDER_PASSWORD = "obcl ldkm nrhv twak"
+SENDER_PASSWORD = "obcl ldkm nhv twak"
 # CV PDF path to attach.
 CV_PATH = "/home/reza-aliasgari-renani/Downloads/CV_Reza_Aliasgari_Renani.pdf"
 # Job posting URL used to try automatic email extraction.
-JOB_URL = "https://www.kseta.kit.edu/deutsch/wissenschaftlicher-rat_1567.php"
+JOB_URL = "https://arcnl.nl/jobs/phd-student-measuring-charges-and-fields-in-semiconductor-metrology-1221773?utm_source=academic-positions&utm_medium=jobboard&utm_campaign=1221773&utm_term=phd-student-measuring-charges-and-fields-in-semiconductor-metrology&utm_content=paid"
 # Email subject used for all outgoing messages.
 EMAIL_SUBJECT = "PhD Applicant"
 
