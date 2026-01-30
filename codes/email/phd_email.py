@@ -13,7 +13,7 @@ SENDER_PASSWORD = "obcl ldkm nrhv twak"
 # CV PDF path to attach.
 CV_PATH = "/home/reza-aliasgari-renani/Downloads/CV_Reza_Aliasgari_Renani.pdf"
 # Job posting URL used to try automatic email extraction.
-JOB_URL = "https://www.psi.ch/en/hr/job-opportunities/73925-phd-student-in-experimental-physics"
+JOB_URL = "https://prisma.uni-mainz.de/en/phd-fellowship-program/?#aktuelle-mpa-fellows-und-kollegiaten"
 # Email subject used for all outgoing messages.
 EMAIL_SUBJECT = "PhD Applicant"
 

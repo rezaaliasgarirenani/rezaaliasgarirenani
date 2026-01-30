@@ -1,0 +1,1 @@
+I aim to pursue research with high-precision, high-rate detectors and FPGA-based electronics. In Mu3e I would help develop readout and data-transmission electronics for Phase II rates and support DAQ commissioning. My background in irradiated semiconductor devices and FPGA/RTL fits this position.
