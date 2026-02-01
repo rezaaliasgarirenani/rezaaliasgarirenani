@@ -1,0 +1,12 @@
+Dear Dr. [Professor's Last Name],
+
+I am writing this email to express my interest in a PhD position in your group at [University Name].
+
+My research background includes electrical characterization of irradiated MOS devices, developing FPGA-based image signal processing systems, and studying radiation-induced effects on FPGA boards using plasma-based facilities.
+
+Given that my background and interests align strongly with your research, I was wondering whether you have any open PhD positions in your group currently?
+
+My CV is attached. Thank you for your time and consideration.
+
+Respectfully yours,
+Reza Aliasgari Renani
