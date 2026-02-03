@@ -1,0 +1,86 @@
+%----------- ACKNOWLEDGMENTS -----------
+\section*{Acknowledgments}
+\addcontentsline{toc}{section}{Acknowledgments}
+Write your acknowledgments here.
+\newpage
+
+%----------- ABSTRACT -----------
+\section*{Abstract}
+\addcontentsline{toc}{section}{Abstract}
+Write your abstract here.
+\newpage
+
+%----------- TOC -----------
+\tableofcontents
+\thispagestyle{fancy}
+\newpage
+
+%----------- LIST OF FIGURES -----------
+\listoffigures
+\thispagestyle{fancy}
+\addcontentsline{toc}{section}{List of Figures}
+\newpage
+
+%----------- LIST OF TABLES -----------
+\listoftables
+\thispagestyle{fancy}
+\addcontentsline{toc}{section}{List of Tables}
+\newpage
+
+%----------- LIST OF ABBREVIATIONS -----------
+\section*{List of Abbreviations}
+\thispagestyle{fancy}
+\addcontentsline{toc}{section}{List of Abbreviations}
+\begin{description}
+  \item[AI:] Artificial Intelligence
+  \item[FPGA:] Field-Programmable Gate Array
+\end{description}
+\newpage
+
+%----------- MAIN TEXT -----------
+\pagenumbering{arabic}
+
+\section{Introduction}
+Write your introduction here. \\
+look at me.
+
+\section{Literature Review}
+Write the main content here.
+
+\subsection{Table Ex}
+\begin{table}[htbp]
+  \centering
+  \small
+  \renewcommand{\arraystretch}{1.5}
+  \begin{tabularx}{\textwidth}{@{}>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X@{}}
+    \toprule
+    \textbf{Name} & \textbf{Position} & \textbf{Institution} & \textbf{Relationship} & \textbf{Contacts} \\
+    \midrule
+    Dr. Sergey Negodyaev & Dean of the Phystech School of Aerospace Technology & Moscow Institute of Physics and Technology & Academic Dean and Research Advisor & astech@mipt.ru\newline +7 495 408-53-44 \\
+    \midrule
+    Dr. Yakov Lvovich & Head of the System-on-Chip Development Laboratory & Moscow Institute of Physics and Technology & Department Head and Mentor & frkt@mipt.ru\newline +7 495 408-54-90 \\
+    \midrule
+    Dr. Mikhail Vasiliev & Head of the Laboratory of Plasma Systems & Moscow Institute of Physics and Technology & Scientific Supervisor & vasilev.mn@mipt.ru\newline +7 916 550-18-0 \\
+    \bottomrule
+  \end{tabularx}
+  \caption{Example References}
+  \label{tab:example-references}
+\end{table}
+
+Table lol. 
+
+\section{Experimental}
+Write experimental part.
+
+\section{Results and Analysis}
+Write the results paragraph here.
+
+\section{Conclusion}
+Write the conclusion here.
+
+\newpage
+
+%----------- BIBLIOGRAPHY -----------
+\nocite{Aliasgari_Renani_2023}
+\printbibliography[heading=bibintoc,title={Bibliography}]
+
