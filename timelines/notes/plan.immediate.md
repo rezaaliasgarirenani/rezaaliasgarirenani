@@ -2,7 +2,7 @@
 id: 686jfdcmao9ydom7hhkmxhv
 title: Immediate
 desc: ''
-updated: 1769886416803
+updated: 1769959354211
 created: 1765641852149
 ---
 
@@ -11,4 +11,4 @@ created: 1765641852149
 1) Cocotb, line buffer ctrl check, demosaic with sobel, grayworld, gamma correction, color noise reduction, resize scaling (tb) <br>
 2) Vivado and MATLAB HLS <br>
 3) Fish eye Check on FPGA <br>
-4) PhD Application: JGU LOR
+4) PhD Application: JGU LOR, emailing

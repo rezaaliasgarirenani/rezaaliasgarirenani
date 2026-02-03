@@ -5,17 +5,20 @@ import smtplib
 from email.message import EmailMessage
 from pathlib import Path
 
-from phd_email_scraper import extract_job_details
+from pos_scrapper import extract_job_details as extract_pos_job_details
+from prof_scrapper import extract_job_details as extract_prof_job_details
 
-# Sender email address used for Gmail SMTP and app-specific password.
+# Sender email address used for Gmail SMTP and app-specific password, INPUTS
 SENDER_EMAIL = "rezaaliasgarirenani@gmail.com"
 SENDER_PASSWORD = "obcl ldkm nrhv twak"
-# CV PDF path to attach.
-CV_PATH = "/home/reza-aliasgari-renani/Downloads/CV_Reza_Aliasgari_Renani.pdf"
-# Job posting URL used to try automatic email extraction.
-JOB_URL = "https://prisma.uni-mainz.de/en/phd-fellowship-program/?#aktuelle-mpa-fellows-und-kollegiaten"
-# Email subject used for all outgoing messages.
+
 EMAIL_SUBJECT = "PhD Applicant"
+CV_PATH = "/home/reza-aliasgari-renani/Downloads/CV_Reza_Aliasgari_Renani.pdf"
+
+JOB_URL = "https://tmos.org.au/person/lorenzo-faraone/?utm_source=openai"
+
+POS_BASED_TXT = "/home/reza-aliasgari-renani/Documents/git/github_reza/rezaaliasgarirenani/codes/email/phd/pos_template.txt"
+PROF_BASED_TXT = "/home/reza-aliasgari-renani/Documents/git/github_reza/rezaaliasgarirenani/codes/email/phd/prof_template.txt"
 
 
 # Verify the Gmail SMTP connection and credentials.
@@ -38,9 +41,10 @@ def render_template(
 ) -> str:
     replacements = {
         "[Professor's Last Name]": professor_last_name,
-        "[Subject of the PhD position]": phd_subject,
         "[University Name]": university_name,
     }
+    if phd_subject:
+        replacements["[Subject of the PhD position]"] = phd_subject
     for placeholder, value in replacements.items():
         template = template.replace(placeholder, value)
     return template
@@ -84,7 +88,25 @@ def main() -> None:
     check_gmail_connection(SENDER_EMAIL, SENDER_PASSWORD)
     print("Stage 0: connected to sender email.")
 
-    template_path = Path(__file__).with_name("email_template.txt")
+    mode = ""
+    while mode not in ("pos_based", "prof_based"):
+        raw_mode = input("Select template mode (pos_based/prof_based): ").strip().lower()
+        if raw_mode in ("pos_based", "pos", "position", "position_based"):
+            mode = "pos_based"
+        elif raw_mode in ("prof_based", "prof", "professor", "professor_based"):
+            mode = "prof_based"
+        else:
+            print("Please type 'pos_based' or 'prof_based'.")
+
+    if mode == "pos_based":
+        template_path = Path(POS_BASED_TXT).expanduser()
+        extract_job_details = extract_pos_job_details
+        include_phd_subject = True
+    else:
+        template_path = Path(PROF_BASED_TXT).expanduser()
+        extract_job_details = extract_prof_job_details
+        include_phd_subject = False
+
     template = load_template(template_path)
 
     job_url = JOB_URL.strip()
@@ -118,14 +140,15 @@ def main() -> None:
         else:
             print("Stage 1: no professor last name found; please enter it manually.")
 
-        scraped_subject = scraped.get("phd_subject")
-        if scraped_subject:
-            print(f"Stage 1: PhD subject extracted: {scraped_subject}")
-            use_extracted = input("Use this PhD subject? (yes/no): ").strip().lower()
-            if use_extracted == "yes":
-                phd_subject = scraped_subject
-        else:
-            print("Stage 1: no PhD subject found; please enter it manually.")
+        if include_phd_subject:
+            scraped_subject = scraped.get("phd_subject")
+            if scraped_subject:
+                print(f"Stage 1: PhD subject extracted: {scraped_subject}")
+                use_extracted = input("Use this PhD subject? (yes/no): ").strip().lower()
+                if use_extracted == "yes":
+                    phd_subject = scraped_subject
+            else:
+                print("Stage 1: no PhD subject found; please enter it manually.")
 
         scraped_university = scraped.get("university_name")
         if scraped_university:
@@ -140,7 +163,7 @@ def main() -> None:
         professor_last_name = input("Professor last name: ").strip()
     if not professor_email:
         professor_email = input("Professor email: ").strip()
-    if not phd_subject:
+    if include_phd_subject and not phd_subject:
         phd_subject = input("PhD position subject: ").strip()
     if not university_name:
         university_name = input("University name: ").strip()
