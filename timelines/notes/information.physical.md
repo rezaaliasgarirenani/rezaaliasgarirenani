@@ -2,7 +2,7 @@
 id: q13rxbapot4s3h6wcsfa4oa
 title: Physical
 desc: ''
-updated: 1769956754227
+updated: 1770168393174
 created: 1766937621650
 ---
 
@@ -50,7 +50,7 @@ Russian: <br>
 
 ### Labs:
 English: <br>
-Laboratory of Software and System-on-a-Chip development  (MIPT, FRKT) <br>
+Laboratory of Software and System-on-Chip Development  (MIPT, FRKT) <br>
 Design center for the development of microprocessor technology for artificial intelligence systems (MIPT, FRKT) <br>
 Laboratory of modeling of mechanical systems and processes (MIPT, FAKT) <br>
 Laboratory of local diagnostics of semiconductor materials (IMT, RAS) <br>
