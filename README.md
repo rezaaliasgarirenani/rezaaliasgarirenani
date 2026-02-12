@@ -3,7 +3,7 @@
 <h1 align="center">Reza Aliasgari Renani</h1>
 
 <p align="center">
-<a href="mailto:rezaaliasgarirenani@gmail.com">rezaaliasgarirenani@gmail.com</a> |
+<a href="mailto:aliasgari.rrkh@phystech.edu">aliasgari.rrkh@phystech.edu</a> |
 <a href="https://orcid.org/0009-0000-8983-755X">ORCID</a> |
 <a href="https://www.researchgate.net/profile/Reza-Aliasgari-Renani">ResearchGate</a> |
 <a href="https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en">Google Scholar</a> |
@@ -37,7 +37,7 @@ Moscow, Russian Federation
 Sep 2024 - Present
 
 - **DSP RTL Development:** Ported mathematical algorithms into Verilog code. Built an arithmetic fixed-point library and LUT-based function approximations using Horner's method. Implemented image signal processing algorithms using both Simulink-generated and manually written HDL code. Optimized latency and throughput by resolving synchronization and pipelining issues. **ISP** algorithms: rgb2hsv, color segmentation, Sobel edge detection, global tone-mapping, demosaic, bird's-eye view, fisheye distortion correction, and image resizing.
-- **Simulation, Verification and Synthesis:** Created comprehensive testbenches in Verilog and used Python for simulation automation and data analysis to verify DSP functionality and performance. Synthesized, mapped, and routed HDL code using Vivado (Xilinx Zybo Z7, Nexys Video). Verified ISP algorithms by first streaming test images via HDMI from a host computer, and subsequently with a live camera connected to the FPGA.
+- **Simulation, Verification and Synthesis:** Created comprehensive testbenches in Verilog and used Python for simulation automation and data analysis to verify DSP functionality and performance. Synthesized, mapped, and routed HDL code using Vivado. Verified ISP algorithms by first streaming test images via HDMI from a host computer, and subsequently with a live camera connected to the FPGA Boards: Xilinx Zybo Z7, Nexys Video.
 - **Investigation of FPGA devices under electron-beam plasma exposure:** Conducted irradiation experiments on FPGA boards using electron beams (25 -- 60 keV, up to 100 mA) in low-pressure oxygen atmospheres (10^-6 -- 50 Torr), generating plasma and X-rays. Applied combined thermal cycling (218--393 K) and surface charging to evaluate FPGA reliability under radiation- and plasma-induced stress.
 
 ### [Institute of Microelectronics Technology, Russian Academy of Sciences](https://new.ras.ru/en/)
@@ -45,7 +45,7 @@ Sep 2024 - Present
 Moscow, Russian Federation  
 Mar 2023 - Aug 2024
 
-- **Experimental Equipment Installation and Automation:** Installed experimental devices including Everbeing Cryo-station (80K - 450K) with 4 micromanipulators, Lakeshore Temperature Controller Model 336, Keithley SourceMeter 2450, Parametric Analyzer Keithley 4200A-SCS, Keysight Electrometer B2987A, Aktakom 3048, and Zurich Instruments MFIA Impedance Analyzer. Developed [applications](https://github.com/rezaaliasgarirenani/IMT-Automation) in MATLAB to automate experimental techniques: Thermally Stimulated Current, Capacitance-Voltage, Current-Voltage, Current-Time and Deep-Level Transient Spectroscopy.
+- **Experimental Equipment Installation and Automation:** Installed experimental devices including Everbeing Cryo-station (80K - 450K) with 4 micromanipulators, Lakeshore Temperature Controller Model 336, Keithley SourceMeter 2450, Parametric Analyzer Keithley 4200A-SCS, Keysight Electrometer B2987A, Aktakom 3048, and Zurich Instruments MFIA Impedance Analyzer. Developed [applications](https://github.com/rezaaliasgarirenani/imt_ras) in MATLAB to automate experimental techniques: Thermally Stimulated Current, Capacitance-Voltage, Current-Voltage, Current-Time and Deep-Level Transient Spectroscopy.
 - **Theoretical Investigation:** Developed theoretical understanding and studied experimental techniques for semiconductor devices (MOS, MOSFET, diode, RRAM). Predicted sample behavior, and determined measurement parameters.
 - **Experimental Investigation and Data Processing:** Conducted electrical characterization experiments on microelectronic structures, processed data using MATLAB and Origin Pro, removed extraneous random telegraph noise points, and compared results with theoretical models.
 
@@ -91,19 +91,19 @@ Mar 2023 - Aug 2024
 - Constructed model rockets with 40 and 60 Newton-second impulses as part of a team.
 - Launched three model rockets over two years at the Cosmonautics Day of MIPT.
 
-### [Model Lunar Rover](https://github.com/rezaaliasgarirenani/Rover)
+### [Model Lunar Rover](https://github.com/rezaaliasgarirenani/projects/tree/main/rover)
 **Jun 2023**
 
 - Collaborated on a machine capable of navigating obstacles without round wheels.
 - Tested multiple prototypes, with the final design approved by the laboratory head.
 
-### [Aircraft Detection System](https://github.com/rezaaliasgarirenani/Aircraft-Detection-System)
+### [Aircraft Detection System Model](https://github.com/rezaaliasgarirenani/projects/tree/main/aircraft_detection_system)
 **Jun 2022**
 
 - Investigated and applied algorithms to detect aircraft using photoresistors and transistors.
 - Developed a system capable of rotational and translational movement to track aircraft.
 
-### [Investigation of Non-Conservative Electric Fields and Voltmeters](https://github.com/rezaaliasgarirenani/Non-Conservative-Electric-Fields-and-Voltmeters)
+### [Investigation of Non-Conservative Electric Fields and Voltmeters](https://github.com/rezaaliasgarirenani/phystech_academics/tree/main/non-conservative-electric-fields-and-voltmeters)
 **May 2022**
 
 - Designed an experimental setup to analyze position-dependency of voltmeter readings in parallel circuits.
