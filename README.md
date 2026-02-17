@@ -1,25 +1,21 @@
 <!-- <h1 align="center">✝️🇺🇸🇬🇧🇪🇺✝️</h1> -->
 
-<table>
-  <tr>
-    <td valign="top" width="52%">
-      <h1>Reza Aliasgari Renani</h1>
-      <a href="mailto:aliasgari.rrkh@phystech.edu">Email: aliasgari.rrkh@phystech.edu</a><br>
-      <a href="tel:+79850692342">Phone: +7 (985) 069-23-42</a>
-    </td>
-    <td valign="top" align="center" width="2%">|<br>|<br>|<br>|<br>|</td>
-    <td valign="top" width="46%">
-      <a href="https://orcid.org/0009-0000-8983-755X">ORCID</a> |
-      <a href="https://www.scopus.com/authid/detail.uri?authorId=58953218100">Scopus</a> |
-      <a href="https://www.webofscience.com/wos/author/record/OBN-8060-2025">Web of Science</a><br>
-      <a href="https://www.researchgate.net/profile/Reza-Aliasgari-Renani">ResearchGate</a> |
-      <a href="https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en">Google Scholar</a> |
-      <a href="https://github.com/rezaaliasgarirenani">GitHub</a> |
-      <a href="https://linkedin.com/in/reza-aliasgari-renani">LinkedIn</a><br>
-      <a href="mailto:rezaaliasgarirenani@gmail.com">Gmail: rezaaliasgarirenani@gmail.com</a>
-    </td>
-  </tr>
-</table>
+<h1 align="center">Reza Aliasgari Renani</h1>
+
+<p align="center">
+<a href="mailto:aliasgari.rrkh@phystech.edu">Email: aliasgari.rrkh@phystech.edu</a> |
+<a href="tel:+79850692342">Phone: +7 (985) 069-23-42</a>
+<br>
+<a href="https://orcid.org/0009-0000-8983-755X">ORCID</a> |
+<a href="https://www.scopus.com/authid/detail.uri?authorId=58953218100">Scopus</a> |
+<a href="https://www.webofscience.com/wos/author/record/OBN-8060-2025">Web of Science</a> |
+<a href="https://www.researchgate.net/profile/Reza-Aliasgari-Renani">ResearchGate</a> |
+<a href="https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en">Google Scholar</a> |
+<a href="https://github.com/rezaaliasgarirenani">GitHub</a> |
+<a href="https://linkedin.com/in/reza-aliasgari-renani">LinkedIn</a>
+<br>
+<a href="mailto:rezaaliasgarirenani@gmail.com">Gmail: rezaaliasgarirenani@gmail.com</a>
+</p>
 
 ## Education
 
