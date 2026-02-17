@@ -1,15 +1,25 @@
 <!-- <h1 align="center">✝️🇺🇸🇬🇧🇪🇺✝️</h1> -->
 
-<h1 align="center">Reza Aliasgari Renani</h1>
-
-<p align="center">
-<a href="mailto:aliasgari.rrkh@phystech.edu">aliasgari.rrkh@phystech.edu</a> |
-<a href="https://orcid.org/0009-0000-8983-755X">ORCID</a> |
-<a href="https://www.researchgate.net/profile/Reza-Aliasgari-Renani">ResearchGate</a> |
-<a href="https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en">Google Scholar</a> |
-<a href="https://github.com/rezaaliasgarirenani">GitHub</a> |
-<a href="https://linkedin.com/in/reza-aliasgari-renani">LinkedIn</a>
-</p>
+<table>
+  <tr>
+    <td valign="top" width="52%">
+      <h1>Reza Aliasgari Renani</h1>
+      <a href="mailto:aliasgari.rrkh@phystech.edu">Email: aliasgari.rrkh@phystech.edu</a><br>
+      <a href="tel:+79850692342">Phone: +7 (985) 069-23-42</a>
+    </td>
+    <td valign="top" align="center" width="2%">|<br>|<br>|<br>|<br>|</td>
+    <td valign="top" width="46%">
+      <a href="https://orcid.org/0009-0000-8983-755X">ORCID</a> |
+      <a href="https://www.scopus.com/authid/detail.uri?authorId=58953218100">Scopus</a> |
+      <a href="https://www.webofscience.com/wos/author/record/OBN-8060-2025">Web of Science</a><br>
+      <a href="https://www.researchgate.net/profile/Reza-Aliasgari-Renani">ResearchGate</a> |
+      <a href="https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en">Google Scholar</a> |
+      <a href="https://github.com/rezaaliasgarirenani">GitHub</a> |
+      <a href="https://linkedin.com/in/reza-aliasgari-renani">LinkedIn</a><br>
+      <a href="mailto:rezaaliasgarirenani@gmail.com">Gmail: rezaaliasgarirenani@gmail.com</a>
+    </td>
+  </tr>
+</table>
 
 ## Education
 
@@ -37,7 +47,7 @@ Moscow, Russian Federation
 Sep 2024 - Present
 
 - **DSP RTL Development:** Ported mathematical algorithms into Verilog code. Built an arithmetic fixed-point library and LUT-based function approximations using Horner's method. Implemented image signal processing algorithms using both Simulink-generated and manually written HDL code. Optimized latency and throughput by resolving synchronization and pipelining issues. **ISP** algorithms: rgb2hsv, color segmentation, Sobel edge detection, global tone-mapping, demosaic, bird's-eye view, fisheye distortion correction, and image resizing.
-- **Simulation, Verification and Synthesis:** Created comprehensive testbenches in Verilog and used Python for simulation automation and data analysis to verify DSP functionality and performance. Synthesized, mapped, and routed HDL code using Vivado. Verified ISP algorithms by first streaming test images via HDMI from a host computer, and subsequently with a live camera connected to the FPGA Boards: Xilinx Zybo Z7, Nexys Video.
+- **Simulation, Verification and Synthesis:** Created comprehensive testbenches in SystemVerilog and used Python for simulation automation and data analysis to verify DSP functionality and performance. Synthesized, mapped, and routed HDL code using Vivado. Verified ISP algorithms by first streaming test images via HDMI from a host computer, and subsequently with a live camera (Pcam 5C) connected to the FPGA Board (Xilinx Zybo Z7-20, Artix-7 Nexys Video).
 - **Investigation of FPGA devices under electron-beam plasma exposure:** Conducted irradiation experiments on FPGA boards using electron beams (25 -- 60 keV, up to 100 mA) in low-pressure oxygen atmospheres (10^-6 -- 50 Torr), generating plasma and X-rays. Applied combined thermal cycling (218--393 K) and surface charging to evaluate FPGA reliability under radiation- and plasma-induced stress.
 
 ### [Institute of Microelectronics Technology, Russian Academy of Sciences](https://new.ras.ru/en/)
