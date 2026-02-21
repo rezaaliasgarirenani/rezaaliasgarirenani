@@ -74,7 +74,7 @@ Mar 2023 -- Aug 2024
 
 [2] <u>V. Vologin</u>, R. Aliasgari Renani, V. Vasilevskiy, and V. Chesnokov, "Comparative analysis of manual and Simulink-generated Verilog code for image processing algorithms," *[YADRO FPGA-Systems Conference](https://meetups.yadro.com/fpga-msk-1125/)*, 2025. Presentation
 
-[3] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Study of SiO<sub>2</sub> based MOS by capacitance-voltage and thermally stimulated current techniques," in *Proc. 15th Int. Conf. Micro- and Nanoelectronics (ICMNE)*, 2023, p. 122. [Presentation](https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf)
+[3] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Study of SiO<sub>2</sub> based MOS by capacitance-voltage and thermally stimulated current techniques," in Proc. *[15th Int. Conf. Micro- and Nanoelectronics (ICMNE)](https://inspirehep.net/conferences/2773156)*, 2023, p. 122. [Presentation](https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf)
 
 [4] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons," in *Proc. 2nd Joint Conf. Electron Beam Technol. and X-ray Optics in Microelectronics (CEBT)*, 2023. [Poster](https://cebt23.iptm.ru/download/numbered/91.pdf)
 
