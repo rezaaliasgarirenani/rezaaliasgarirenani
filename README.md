@@ -109,8 +109,8 @@ Mar 2023 -- Aug 2024
 
 - Participant of the [5th and 7th Eurasian Aerospace Congress](https://congress.aero/en/) (Jul 2023 and Jul 2025)
 - Full Government Scholarship: Moscow Institute of Physics and Technology, M.S. (Jul 2024)
+- TU Delft (M.S. admission), Skoltech (M.S. admission + scholarship) (Mar--Jul 2024)
 - Travel Grant: MIPT, for presentation at the 15th ICMNE Conference (Oct 2023)
-- Declined Offers: TU Delft (M.S. admission), Skoltech (M.S. admission + scholarship) (Mar--Jul 2024)
 
 ## Languages
 
