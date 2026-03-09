@@ -70,13 +70,15 @@ Mar 2023 -- Aug 2024
 
 ### Conferences
 
-[1] <u>R. Aliasgari Renani</u>, V. Vasilevskiy, V. Vologin, R. Zaripov, O. Zinovchik, and V. Chesnokov, "Investigation of FPGA resource utilization in manual and Simulink-generated Verilog implementations of image signal processing algorithms," accepted for publication at *[DSPA Conference](http://dspa-conf.org/pages/home)*, 2026. (IEEE Xplore pending)
+[1] <u>R. Aliasgari Renani</u> and M. N. Vasiliev, "Simulating space environments with electron-beam plasma for FPGA radiation testing," to appear in Proc. *[68th All-Russian Scientific Conference of MIPT](https://conf.mipt.ru/conference/23999)*, 2026.
 
-[2] <u>V. Vologin</u>, R. Aliasgari Renani, V. Vasilevskiy, and V. Chesnokov, "Comparative analysis of manual and Simulink-generated Verilog code for image processing algorithms," *[YADRO FPGA-Systems Conference](https://meetups.yadro.com/fpga-msk-1125/)*, 2025. Presentation
+[2] <u>R. Aliasgari Renani</u>, V. Vasilevskiy, V. Vologin, R. Zaripov, O. Zinovchik, and V. Chesnokov, "Investigation of FPGA resource utilization in manual and Simulink-generated Verilog implementations of image signal processing algorithms," to appear in Proc. *[DSPA Conference](http://dspa-conf.org/pages/home)*, 2026. (IEEE Xplore pending)
 
-[3] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Study of SiO<sub>2</sub> based MOS by capacitance-voltage and thermally stimulated current techniques," in Proc. *[15th Int. Conf. Micro- and Nanoelectronics (ICMNE)](https://inspirehep.net/conferences/2773156)*, 2023, p. 122. [Presentation](https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf)
+[3] <u>V. Vologin</u>, R. Aliasgari Renani, V. Vasilevskiy, and V. Chesnokov, "Comparative analysis of manual and Simulink-generated Verilog code for image processing algorithms," *[YADRO FPGA-Systems Conference](https://meetups.yadro.com/fpga-msk-1125/)*, 2025. Presentation
 
-[4] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons," in *Proc. 2nd Joint Conf. Electron Beam Technol. and X-ray Optics in Microelectronics (CEBT)*, 2023. [Poster](https://cebt23.iptm.ru/download/numbered/91.pdf)
+[4] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Study of SiO<sub>2</sub> based MOS by capacitance-voltage and thermally stimulated current techniques," in Proc. *[15th Int. Conf. Micro- and Nanoelectronics (ICMNE)](https://inspirehep.net/conferences/2773156)*, 2023, p. 122. [Presentation](https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf)
+
+[5] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons," in *Proc. 2nd Joint Conf. Electron Beam Technol. and X-ray Optics in Microelectronics (CEBT)*, 2023. [Poster](https://cebt23.iptm.ru/download/numbered/91.pdf)
 
 ## Technical Skills
 
@@ -84,12 +86,10 @@ Mar 2023 -- Aug 2024
 | --- | --- |
 | Automation of Experimental Techniques | Python, C++, Arduino |
 | Electrical Characterization | Vivado, Vitis, Vitis HLS |
-| Data Processing | Git, Unix/Linux OS |
-| MATLAB, Simulink, HDL Coder | OriginLab |
-| Verilog, RTL, Fixed-Point Computations | SolidWorks |
-| FPGA Development | PCB, EasyEDA |
-| SciPy, Cocotb, OpenCV | OpenRocket |
-| LaTeX, Microsoft Office | ERDAS IMAGINE |
+| MATLAB, Simulink, HDL Coder | OriginLab, Data Processing |
+| Verilog, RTL, FPGA Development | SolidWorks, 3D Design |
+| SciPy, Cocotb, OpenCV | PCB, EasyEDA |
+| Git, Linux OS, LaTeX, Microsoft Office | OpenRocket, ERDAS IMAGINE |
 
 ## Projects
 
@@ -109,7 +109,7 @@ Mar 2023 -- Aug 2024
 
 - Participant of the [5th and 7th Eurasian Aerospace Congress](https://congress.aero/en/) (Jul 2023 and Jul 2025)
 - Full Government Scholarship: Moscow Institute of Physics and Technology, M.S. (Jul 2024)
-- TU Delft (M.S. Admission), Skoltech (M.S. Admission + Scholarship) (Mar--Jul 2024)
+- M.S. Admission + Scholarship (Skoltech) (Mar--Jul 2024)
 - Travel Grant: MIPT, for Presentation at the 15th ICMNE Conference (Oct 2023)
 
 ## Languages
