@@ -72,7 +72,7 @@ Mar 2023 -- Aug 2024
 
 [1] <u>R. Aliasgari Renani</u> and M. N. Vasiliev, "Simulating space environments with electron-beam plasma for FPGA radiation testing," to appear in Proc. *[68th All-Russian Scientific Conference of MIPT](https://conf.mipt.ru/conference/23999)*, 2026.
 
-[2] <u>R. Aliasgari Renani</u>, V. Vasilevskiy, V. Vologin, R. Zaripov, O. Zinovchik, and V. Chesnokov, "Investigation of FPGA resource utilization in manual and Simulink-generated Verilog implementations of image signal processing algorithms," to appear in Proc. *[DSPA Conference](http://dspa-conf.org/pages/home)*, 2026. (IEEE Xplore pending)
+[2] <u>R. Aliasgari Renani</u>, V. Vasilevskiy, V. Vologin, R. Zaripov, O. Zinovchik, Y. Lvovich, and V. Chesnokov, "Investigation of FPGA resource utilization in manual and Simulink-generated Verilog implementations of image signal processing algorithms," to appear in Proc. *[DSPA Conference](http://dspa-conf.org/pages/home)*, 2026. (IEEE Xplore pending)
 
 [3] <u>V. Vologin</u>, R. Aliasgari Renani, V. Vasilevskiy, and V. Chesnokov, "Comparative analysis of manual and Simulink-generated Verilog code for image processing algorithms," *[YADRO FPGA-Systems Conference](https://meetups.yadro.com/fpga-msk-1125/)*, 2025. Presentation
 
