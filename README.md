@@ -108,8 +108,8 @@ Mar 2023 -- Aug 2024
 ## Awards & Scholarships
 
 - Participant of the [5th and 7th Eurasian Aerospace Congress](https://congress.aero/en/) (Jul 2023 and Jul 2025)
-- Full Government Scholarship: Moscow Institute of Physics and Technology, M.S. (Jul 2024)
-- M.S. Admission + Scholarship (Skoltech) (Mar--Jul 2024)
+- M.S. Admission & Scholarship: Moscow Institute of Physics and Technology (Apr 2024)
+- M.S. Admission & Scholarship: Skolkovo Institute of Science and Technology (Jul 2024)
 - Travel Grant: MIPT, for Presentation at the 15th ICMNE Conference (Oct 2023)
 
 ## Languages
