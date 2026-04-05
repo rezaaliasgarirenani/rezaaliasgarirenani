@@ -1,5 +1,3 @@
-<!-- <h1 align="center">✝️🇺🇸🇬🇧🇪🇺✝️</h1> -->
-
 <h1 align="center">Reza Aliasgari Renani</h1>
 
 <p align="center">
@@ -20,18 +18,16 @@
 ## Education
 
 ### [Moscow Institute of Physics and Technology (MIPT, Phystech)](https://mipt.ru/)
-**M.S. in Applied Mathematics and Physics, Plasma Physics**  
-Moscow, Russian Federation  
 Sep 2024 -- Jun 2026  
-GPA: **4.76/5.0**
+**M.S.** in Applied Mathematics and Physics, Plasma Physics, **GPA:** 4.76/5.0  
+Moscow, Russian Federation
 
 - **Thesis title:** Investigation of radiation-induced effects on programmable microelectronic systems by means of plasma-based facilities simulating space flight conditions.
 
 ### [Moscow Institute of Physics and Technology (MIPT, Phystech)](https://mipt.ru/)
-**B.S. in Technical Physics, Aerospace Technology**  
-Moscow, Russian Federation  
 Sep 2020 -- Jun 2024  
-GPA: **4.53/5.0**
+**B.S.** in Technical Physics, Aerospace Technology, **GPA:** 4.53/5.0  
+Moscow, Russian Federation
 
 - **Thesis title:** Investigation of the effects of low energy (1 - 20 keV) electrons and high energy (1 MeV) gamma quanta irradiation on the electro-physical properties of dielectric-semiconductor structures.
 
@@ -39,17 +35,17 @@ GPA: **4.53/5.0**
 
 ### [Design Center for the Development of Microprocessor Technology for AI Systems, System-on-Chip Development Laboratory](http://ai.mipt.ru/design-center)
 **Programmer / RTL Design Engineer**  
-Moscow, Russian Federation  
-Sep 2024 -- Present
+Sep 2024 -- Present  
+Moscow, Russian Federation
 
 - **DSP RTL Development:** Ported mathematical algorithms into Verilog code. Built an arithmetic fixed-point library and LUT-based function approximations using Horner's method. Implemented image signal processing algorithms using both Simulink-generated and manually written HDL code. Optimized latency and throughput by resolving synchronization and pipelining issues. **ISP** algorithms: rgb2hsv, color segmentation, Sobel edge detection, global tone-mapping, demosaic, bird's-eye view, fisheye distortion correction, and image resizing.
-- **Simulation, Verification and Synthesis:** Created comprehensive testbenches in SystemVerilog and used Python for simulation automation and data analysis to verify DSP functionality and performance. Synthesized, mapped, and routed HDL code using Vivado. Verified ISP algorithms by first streaming test images via HDMI from a host computer, and subsequently with a live camera (Pcam 5C) connected to the FPGA Board (Xilinx Zybo Z7-20, Artix-7 Nexys Video).
+- **Simulation, Verification and Synthesis:** Created comprehensive testbenches in SystemVerilog and used Python for simulation automation and data analysis to verify DSP functionality and performance. Synthesized, mapped, and routed HDL code using Vivado. Verified ISP algorithms by first streaming test images via HDMI from a host computer, and subsequently with a live camera (Pcam 5C) connected to an FPGA board (Xilinx Zybo Z7-20 or Nexys Video).
 - **Investigation of FPGA devices under electron-beam plasma exposure:** Conducted irradiation experiments on FPGA boards using electron beams (25 -- 60 keV, up to 100 mA) in low-pressure oxygen atmospheres (10^-6 -- 50 Torr), generating plasma and X-rays. Applied combined thermal cycling (218--393 K) and surface charging to evaluate FPGA reliability under radiation- and plasma-induced stress.
 
 ### [Institute of Microelectronics Technology, Russian Academy of Sciences](https://new.ras.ru/en/)
 **Laboratory Researcher**  
-Moscow, Russian Federation  
-Mar 2023 -- Aug 2024
+Mar 2023 -- Aug 2024  
+Moscow, Russian Federation
 
 - **Experimental Equipment Installation and Automation:** Installed experimental devices including Everbeing Cryo-station (80K - 450K) with 4 micromanipulators, Lakeshore Temperature Controller Model 336, Keithley SourceMeter 2450, Parametric Analyzer Keithley 4200A-SCS, Keysight Electrometer B2987A, Aktakom 3048, and Zurich Instruments MFIA Impedance Analyzer. Developed [applications](https://github.com/rezaaliasgarirenani/imt_ras) in MATLAB to automate experimental techniques: Thermally Stimulated Current, Capacitance-Voltage, Current-Voltage, Current-Time and Deep-Level Transient Spectroscopy.
 - **Theoretical Investigation:** Developed theoretical understanding and studied experimental techniques for semiconductor devices (MOS, MOSFET, diode, RRAM). Predicted sample behavior, and determined measurement parameters.
@@ -57,8 +53,8 @@ Mar 2023 -- Aug 2024
 
 ### [Laboratory of Modeling of Mechanical Systems and Processes](https://mipt.ru/dasr/about/kaf_faculty/mmsp)
 **Engineer / Technician**  
-Moscow, Russian Federation  
-Mar 2023 -- Aug 2024
+Mar 2023 -- Aug 2024  
+Moscow, Russian Federation
 
 - **Engineering Design and Development:** Designed models for a CubeSat orbital deployer and vibration fixture in SolidWorks. Prototypes passed random vibration simulation and dynamic analysis, and were tested on a UVE vibro-stand for mechanical factors.
 
@@ -70,15 +66,15 @@ Mar 2023 -- Aug 2024
 
 ### Conferences
 
-[1] <u>R. Aliasgari Renani</u> and M. N. Vasiliev, "Simulating space environments with electron-beam plasma for FPGA radiation testing," to appear in Proc. *[68th All-Russian Scientific Conference of MIPT](https://conf.mipt.ru/conference/23999)*, 2026.
+[1] <u>R. Aliasgari Renani</u>, V. Vasilevskiy, V. Vologin, R. Zaripov, O. Zinovchik, Y. Lvovich, and V. Chesnokov, "Investigation of FPGA resource utilization in manual and Simulink-generated Verilog implementations of image signal processing algorithms," in Proc. *[DSPA Conference](http://dspa-conf.org/pages/home)*, 2026. [Presentation](http://dspa-conf.org/storage/Programmee/DSPA_2026_Programme_FULL_ONLINE.pdf) (IEEE Pending)
 
-[2] <u>R. Aliasgari Renani</u>, V. Vasilevskiy, V. Vologin, R. Zaripov, O. Zinovchik, Y. Lvovich, and V. Chesnokov, "Investigation of FPGA resource utilization in manual and Simulink-generated Verilog implementations of image signal processing algorithms," to appear in Proc. *[DSPA Conference](http://dspa-conf.org/pages/home)*, 2026. (IEEE Xplore pending)
+[2] <u>R. Aliasgari Renani</u> and M. N. Vasiliev, "Simulating space environments with electron-beam plasma for FPGA radiation testing," in Proc. *[68th All-Russian Scientific Conference of MIPT](https://conf.mipt.ru/)*, 2026. [Presentation](https://conf.mipt.ru/conference/23999)
 
-[3] <u>V. Vologin</u>, R. Aliasgari Renani, V. Vasilevskiy, and V. Chesnokov, "Comparative analysis of manual and Simulink-generated Verilog code for image processing algorithms," *[YADRO FPGA-Systems Conference](https://meetups.yadro.com/fpga-msk-1125/)*, 2025. Presentation
+[3] <u>V. Vologin</u>, R. Aliasgari Renani, V. Vasilevskiy, and V. Chesnokov, "Comparative analysis of manual and Simulink-generated Verilog code for image processing algorithms," in Proc. *[YADRO FPGA-Systems Conference](https://meetups.yadro.com/fpga-msk-1125/)*, 2025. [Presentation](https://youtu.be/gtiT_CfQKJo?t=17068)
 
 [4] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Study of SiO<sub>2</sub> based MOS by capacitance-voltage and thermally stimulated current techniques," in Proc. *[15th Int. Conf. Micro- and Nanoelectronics (ICMNE)](https://inspirehep.net/conferences/2773156)*, 2023, p. 122. [Presentation](https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf)
 
-[5] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons," in *Proc. 2nd Joint Conf. Electron Beam Technol. and X-ray Optics in Microelectronics (CEBT)*, 2023. [Poster](https://cebt23.iptm.ru/download/numbered/91.pdf)
+[5] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons," in Proc. *[2nd Joint Conf. Electron Beam Technol. and X-ray Optics in Microelectronics (CEBT)](https://cebt23.iptm.ru/)*, 2023. [Poster](https://cebt23.iptm.ru/download/numbered/91.pdf)
 
 ## Technical Skills
 
@@ -107,10 +103,10 @@ Mar 2023 -- Aug 2024
 
 ## Awards & Scholarships
 
-- Participant of the [5th and 7th Eurasian Aerospace Congress](https://congress.aero/en/) (Jul 2023 and Jul 2025)
-- M.S. Admission & Scholarship: Moscow Institute of Physics and Technology (Apr 2024)
-- M.S. Admission & Scholarship: Skolkovo Institute of Science and Technology (Jul 2024)
-- Travel Grant: MIPT, for Presentation at the 15th ICMNE Conference (Oct 2023)
+- Participant in the [5th and 7th Eurasian Aerospace Congress](https://congress.aero/en/), Jul 2023 and Jul 2025
+- M.S. Admission & Scholarship: Moscow Institute of Physics and Technology, Apr 2024
+- M.S. Admission & Scholarship: Skolkovo Institute of Science and Technology, Jul 2024
+- Travel Grant: MIPT, for Presentation at the 15th ICMNE Conference, Oct 2023
 
 ## Languages
 
