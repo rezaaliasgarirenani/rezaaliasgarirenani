@@ -92,7 +92,7 @@ Moscow, Russian Federation
 ### [Engineering Prototypes](https://github.com/rezaaliasgarirenani/engineering_projects)
 **Jun 2022 -- Apr 2025**
 
-- [Model Rocket:](https://github.com/icarus-imperium/rocket-2025) Built and launched four model rockets (40 and 60 N·s impulse class) at MIPT on Cosmonautics day during three consecutive years.
+- [Model Rocket:](https://github.com/icarus-imperium/) Built and launched model rockets (30 N·s impulse class) for MIPT Cosmonautics day during 4 consecutive years.
 - [Model Lunar Rover:](https://github.com/rezaaliasgarirenani/engineering_projects/tree/main/rover) Developed and iterated a rover prototype capable of obstacle navigation without round wheels; final design approved by the lab head.
 - [Aircraft Detection System Model:](https://github.com/rezaaliasgarirenani/engineering_projects/tree/main/aircraft_detection_system) Implemented photoresistor/transistor-based detection and built a tracking mechanism with rotational and translational motion.
 
