@@ -7,6 +7,7 @@
 <a href="https://orcid.org/0009-0000-8983-755X">ORCID</a> |
 <a href="https://www.scopus.com/authid/detail.uri?authorId=58953218100">Scopus</a> |
 <a href="https://www.webofscience.com/wos/author/record/OBN-8060-2025">Web of Science</a> |
+<a href="https://ieeexplore.ieee.org/author/808687147056276">IEEE</a> |
 <a href="https://www.researchgate.net/profile/Reza-Aliasgari-Renani">ResearchGate</a> |
 <a href="https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en">Google Scholar</a> |
 <a href="https://github.com/rezaaliasgarirenani">GitHub</a> |
@@ -62,19 +63,19 @@ Moscow, Russian Federation
 
 ### Journals
 
-[1] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Investigation of low energy electron irradiated SiO<sub>2</sub> based MOS devices by capacitance-voltage and thermally stimulated current techniques," *Russian Microelectronics*, vol. 52, no. S1, pp. S274--S278, Dec. 2023. [DOI](https://doi.org/10.1134/S1063739723600516)
+[1] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Investigation of low energy electron irradiated SiO<sub>2</sub> based MOS devices by capacitance-voltage and thermally stimulated current techniques," *Russian Microelectronics*, vol. 52, no. S1, pp. S274--S278, Dec. 2023, Journal Paper, [DOI](https://doi.org/10.1134/S1063739723600516).
 
 ### Conferences
 
-[1] <u>R. Aliasgari Renani</u>, V. Vasilevskiy, V. Vologin, R. Zaripov, O. Zinovchik, Y. Lvovich, and V. Chesnokov, "Investigation of FPGA resource utilization in manual and Simulink-generated Verilog implementations of image signal processing algorithms," in Proc. *[DSPA Conference](http://dspa-conf.org/pages/home)*, 2026. [Presentation](http://dspa-conf.org/storage/Programmee/DSPA_2026_Programme_FULL_ONLINE.pdf) (IEEE Pending)
+[1] <u>R. Aliasgari Renani</u> et al., "Investigation of FPGA resource utilization in manual and Simulink-generated Verilog implementations of image signal processing algorithms," in Proc. *[28th International Conference on Digital Signal Processing and its Applications](https://ieeexplore.ieee.org/xpl/conhome/11475814/proceeding)* (*[DSPA](http://dspa-conf.org/pages/home)*), 2026, [Conference Paper](http://dspa-conf.org/storage/Programmee/DSPA_2026_Programme_FULL_ONLINE.pdf), [DOI](https://doi.org/10.1109/DSPA69176.2026.11476776).
 
-[2] <u>R. Aliasgari Renani</u> and M. N. Vasiliev, "Simulating space environments with electron-beam plasma for FPGA radiation testing," in Proc. *[68th All-Russian Scientific Conference of MIPT](https://conf.mipt.ru/)*, 2026. [Presentation](https://conf.mipt.ru/conference/23999)
+[2] <u>R. Aliasgari Renani</u> and M. N. Vasiliev, "Simulating space environments with electron-beam plasma for FPGA radiation testing," in Proc. *[68th All-Russian Scientific Conference of MIPT](https://conf.mipt.ru/)*, 2026, [Presentation](https://conf.mipt.ru/conference/23999).
 
-[3] <u>V. Vologin</u>, R. Aliasgari Renani, V. Vasilevskiy, and V. Chesnokov, "Comparative analysis of manual and Simulink-generated Verilog code for image processing algorithms," in Proc. *[YADRO FPGA-Systems Conference](https://meetups.yadro.com/fpga-msk-1125/)*, 2025. [Presentation](https://youtu.be/gtiT_CfQKJo?t=17068)
+[3] <u>V. Vologin</u>, R. Aliasgari Renani, V. Vasilevskiy, and V. Chesnokov, "Comparative analysis of manual and Simulink-generated Verilog code for image processing algorithms," in Proc. *[YADRO FPGA-Systems Conference](https://meetups.yadro.com/fpga-msk-1125/)*, 2025, [Presentation](https://youtu.be/gtiT_CfQKJo?t=17068).
 
-[4] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Study of SiO<sub>2</sub> based MOS by capacitance-voltage and thermally stimulated current techniques," in Proc. *[15th Int. Conf. Micro- and Nanoelectronics (ICMNE)](https://inspirehep.net/conferences/2773156)*, 2023, p. 122. [Presentation](https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf)
+[4] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Study of SiO<sub>2</sub> based MOS by capacitance-voltage and thermally stimulated current techniques," in Proc. *[15th Int. Conf. Micro- and Nanoelectronics](https://inspirehep.net/conferences/2773156)* (*[ICMNE](https://icmne.ftian.ru/glavnaja/)*), 2023, p. 122, [Presentation](https://icmne.ftian.ru/wp-content/uploads/icmne-2023_e-version.pdf).
 
-[5] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons," in Proc. *[2nd Joint Conf. Electron Beam Technol. and X-ray Optics in Microelectronics (CEBT)](https://cebt23.iptm.ru/)*, 2023. [Poster](https://cebt23.iptm.ru/download/numbered/91.pdf)
+[5] <u>R. Aliasgari Renani</u>, O. A. Soltanovich, M. A. Knyazev, and S. V. Koveshnikov, "Investigation of electrically active defects introduced into silicon oxide by irradiation of low-energy electrons," in Proc. *[2nd Joint Conf. Electron Beam Technol. and X-ray Optics in Microelectronics](https://cebt23.iptm.ru/)* (*[CEBT](https://cebt23.iptm.ru/)*), 2023, [Poster](https://cebt23.iptm.ru/download/numbered/91.pdf).
 
 ## Technical Skills
 
