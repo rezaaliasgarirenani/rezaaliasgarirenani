@@ -1,13 +1,11 @@
+<h1 align="center">Reza Aliasgari Renani</h1>
+
 <p align="center">
   <img src="assets_readme/logo_chip_radiation_transparent.png" alt="Chip radiation logo" width="120">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets_readme/radiation_test.gif" alt="Animated white radiation test schematic with FPGA die shot" width="300">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets_readme/logo_chip_radiation_transparent.png" alt="Chip radiation logo" width="120">
-</p>
-
-<p align="center">
-  <font size="7"><strong>Reza Aliasgari Renani</strong></font>
 </p>
 
 <p align="center">
