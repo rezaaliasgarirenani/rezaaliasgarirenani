@@ -1,19 +1,45 @@
-<h1 align="center">Reza Aliasgari Renani</h1>
+<table width="100%">
+  <tr>
+    <td align="left" width="25%">
+      <img src="assets_readme/logo_chip_radiation_transparent.png" alt="Chip radiation logo" width="125">
+    </td>
+    <td align="center" width="50%">
+      <img src="assets_readme/radiation_test.gif" alt="Animated white radiation test schematic with FPGA die shot" width="300">
+    </td>
+    <td align="right" width="25%">
+      <img src="assets_readme/logo_chip_radiation_transparent.png" alt="Chip radiation logo" width="125">
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-<a href="mailto:aliasgari.rrkh@phystech.edu">Email: aliasgari.rrkh@phystech.edu</a> |
-<a href="tel:+79850692342">Phone: +7 (985) 069-23-42</a>
-<br>
-<a href="https://orcid.org/0009-0000-8983-755X">ORCID</a> |
-<a href="https://www.scopus.com/authid/detail.uri?authorId=58953218100">Scopus</a> |
-<a href="https://www.webofscience.com/wos/author/record/OBN-8060-2025">Web of Science</a> |
-<a href="https://ieeexplore.ieee.org/author/808687147056276">IEEE</a> |
-<a href="https://www.researchgate.net/profile/Reza-Aliasgari-Renani">ResearchGate</a> |
-<a href="https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en">Google Scholar</a> |
-<a href="https://github.com/rezaaliasgarirenani">GitHub</a> |
-<a href="https://linkedin.com/in/reza-aliasgari-renani">LinkedIn</a>
-<br>
-<a href="mailto:rezaaliasgarirenani@gmail.com">Gmail: rezaaliasgarirenani@gmail.com</a>
+  <strong><big><big><big>Reza Aliasgari Renani</big></big></big></strong>
+</p>
+
+<p align="center">
+  <a href="mailto:aliasgari.rrkh@phystech.edu">aliasgari.rrkh@phystech.edu</a> |
+  <a href="tel:+79850692342">+7 (985) 069-23-42</a> |
+  <a href="assets_readme/CV.pdf">CV PDF</a>
+</p>
+
+<p align="center">
+  <strong>RTL Design | Semiconductor Physics | Plasma Systems</strong>
+</p>
+
+<p align="center">
+  I work on Verilog/SystemVerilog implementations of fixed-point DSP and FPGA-based image signal processing pipelines; experimental techniques for electrical characterization of irradiated semiconductor devices with MATLAB-based automation programs and data processing; electron-beam plasma systems for simulating space-flight radiation conditions.
+</p>
+
+<p align="center">
+  <a href="https://orcid.org/0009-0000-8983-755X"><img src="assets_readme/orcid.svg" alt="ORCID"></a>
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=58953218100"><img src="assets_readme/scopus.svg" alt="Scopus"></a>
+  <a href="https://www.webofscience.com/wos/author/record/OBN-8060-2025"><img src="assets_readme/web_of_science.svg" alt="Web of Science"></a>
+  <a href="https://ieeexplore.ieee.org/author/808687147056276"><img src="assets_readme/ieee.svg" alt="IEEE"></a>
+  <a href="https://www.researchgate.net/profile/Reza-Aliasgari-Renani"><img src="assets_readme/researchgate.svg" alt="ResearchGate"></a>
+  <a href="https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en"><img src="assets_readme/google_scholar.svg" alt="Google Scholar"></a>
+  <a href="https://github.com/rezaaliasgarirenani"><img src="assets_readme/github.svg" alt="GitHub"></a>
+  <a href="https://linkedin.com/in/reza-aliasgari-renani"><img src="assets_readme/linkedin.svg" alt="LinkedIn"></a>
+  <a href="mailto:rezaaliasgarirenani@gmail.com"><img src="assets_readme/gmail.svg" alt="Gmail"></a>
 </p>
 
 ## Education
@@ -27,7 +53,7 @@ Moscow, Russian Federation
 
 ### [Moscow Institute of Physics and Technology (MIPT, Phystech)](https://mipt.ru/)
 Sep 2020 -- Jun 2024  
-**B.S.** in Technical Physics, Aerospace Technology, **GPA:** 4.53/5.0  
+**B.S.** in Technical Physics, Aerospace Technology, **GPA:** 4.56/5.0  
 Moscow, Russian Federation
 
 - **Thesis title:** Investigation of the effects of low energy (1 - 20 keV) electrons and high energy (1 MeV) gamma quanta irradiation on the electro-physical properties of dielectric-semiconductor structures.
