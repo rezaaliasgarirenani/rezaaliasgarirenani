@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <strong><big><big><big>Reza Aliasgari Renani</big></big></big></strong>
+  <img src="assets_readme/name.svg" alt="Reza Aliasgari Renani" width="560">
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  I work on Verilog/SystemVerilog implementations of fixed-point DSP and FPGA-based image signal processing pipelines, experimental techniques for electrical characterization of irradiated semiconductor devices with MATLAB-based automation programs with data processing and electron-beam plasma systems for simulating space-flight radiation conditions.
+  I work on manual and generated Verilog/SystemVerilog HDL implementations of fixed-point DSP and FPGA-based image signal processing pipelines, experimental techniques for electrical characterization of irradiated semiconductor devices with MATLAB automation programs and electron-beam plasma systems for simulating space-flight radiation conditions.
 </p>
 
 <p align="center">
