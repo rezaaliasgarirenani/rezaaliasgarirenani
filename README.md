@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <strong><big><big><big><big>Reza Aliasgari Renani</big></big></big></big></strong>
+  <font size="7"><strong>Reza Aliasgari Renani</strong></font>
 </p>
 
 <p align="center">
