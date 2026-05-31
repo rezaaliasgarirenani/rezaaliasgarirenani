@@ -6,9 +6,9 @@
   <img src="assets_readme/logo_chip_radiation_transparent.png" alt="Chip radiation logo" width="120">
 </p>
 
-<p align="center">
-  <img src="assets_readme/name.svg" alt="Reza Aliasgari Renani" width="560">
-</p>
+<div align="center">
+  <span style="font-size: 42px;"><strong>Reza Aliasgari Renani</strong></span>
+</div>
 
 <p align="center">
   Email: <a href="mailto:aliasgari.rrkh@phystech.edu">aliasgari.rrkh@phystech.edu</a> |
