@@ -43,24 +43,21 @@
 </p>
 
 ## Education
-
 ### [Moscow Institute of Physics and Technology (MIPT, Phystech)](https://mipt.ru/)
 Sep 2024 -- Jun 2026  
 **M.S.** in Applied Mathematics and Physics, Plasma Systems, **GPA: 4.82/5.0**  
 Moscow, Russia
-
 - **Thesis title:** Investigation of radiation-induced effects on programmable microelectronic systems by means of plasma-based facilities simulating space flight conditions.
 
 ### [Moscow Institute of Physics and Technology (MIPT, Phystech)](https://mipt.ru/)
 Sep 2020 -- Jun 2024  
 **B.S.** in Technical Physics, Aerospace Engineering, **GPA: 4.56/5.0**  
 Moscow, Russia
-
 - **Thesis title:** Investigation of the effects of low energy (1 - 20 keV) electron and high energy (1 MeV) gamma quanta irradiation on the electro-physical properties of dielectric-semiconductor structures.
 
 ## Research Experience
 
-### [Laboratory of Software and System on Chip Development, MIPT](http://ai.mipt.ru/design-center)
+### [Laboratory of Software and System-on-Chip Development, MIPT](http://ai.mipt.ru/design-center)
 **Programmer / RTL Design Engineer**  
 Sep 2024 -- Present  
 Moscow, Russia
