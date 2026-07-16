@@ -53,7 +53,7 @@ Moscow, Russia
 Sep 2020 -- Jun 2024  
 **B.S.** in Technical Physics, Aerospace Engineering, **GPA: 4.56/5.0**  
 Moscow, Russia
-- **Thesis title:** Investigation of the effects of low energy (1 - 20 keV) electron and high energy (1 MeV) gamma quanta irradiation on the electro-physical properties of dielectric-semiconductor structures.
+- **Thesis title:** Investigation of the effect of low energy (1 - 20 keV) electron and high energy (1 MeV) gamma quanta irradiation on the electro-physical properties of dielectric-semiconductor structures.
 
 ## Research Experience
 
