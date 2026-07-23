@@ -62,9 +62,8 @@ Moscow, Russia
 
 ## Research Experience
 
-### [Laboratory of Software and System-on-Chip Development](http://ai.mipt.ru/design-center)
+### [Laboratory of Software and System-on-Chip Development, Design Center for the Development of Microprocessor Technology, MIPT](http://ai.mipt.ru/design-center)
 
-[**Design Center for the Development of Microprocessor Technology, MIPT**](http://ai.mipt.ru/design-center)  
 **Programmer / RTL Design Engineer**  
 Sep 2024 -- Present  
 Moscow, Russia
@@ -73,9 +72,8 @@ Moscow, Russia
 - **Simulation, Verification, and Synthesis:** Built custom SystemVerilog testbenches for AXI and AXI4-Stream interfaces that streamed image data with video-control timing, captured output pixels, and compared reconstructed frames with Python, MATLAB, and Simulink reference models. Automated image conversion, memory-file generation, simulation, and output analysis using Python and cocotb. Ran RTL simulations with Synopsys VCS, Cadence simulators, Vivado Simulator, and Icarus Verilog. Synthesized, mapped, routed, and generated bitstreams using Vivado. Verified ISP pipelines on Xilinx Zybo Z7-20 and Nexys Video boards using HDMI test-image streams and a live Pcam 5C camera.
 - **FPGA Devices under Electron-Beam Plasma Exposure:** Conducted irradiation experiments on FPGA boards using electron beams (25 -- 60 keV, up to 100 mA) in low-pressure oxygen atmospheres (10<sup>−6</sup> -- 50 Torr), generating plasma and X-rays. Applied combined thermal cycling (218--393 K) and surface charging to evaluate FPGA reliability under plasma conditions.
 
-### [Laboratory of Local Diagnostics of Semiconductor Materials](https://www.iptm.ru/index.en.html)
+### [Laboratory of Local Diagnostics of Semiconductor Materials, Institute of Microelectronics Technology, Russian Academy of Sciences (IMT RAS)](https://www.iptm.ru/index.en.html)
 
-[**Institute of Microelectronics Technology, Russian Academy of Sciences (IMT RAS)**](https://www.iptm.ru/index.en.html)  
 **Laboratory Researcher**  
 Mar 2023 -- Aug 2024  
 Moscow, Russia
