@@ -143,6 +143,5 @@ Moscow, Russia
 ## Awards & Scholarships
 
 - Participant in the [5th and 7th Eurasian Aerospace Congresses](https://congress.aero/en/), Jul 2023 and Jul 2025
-- M.S. Admission Offer: TU Delft, Jun 2024
-- M.S. Admission Offers with Scholarships: MIPT & Skoltech, Apr 2024
+- M.S. Admission Offers: TUDelft (Mar), MIPT (Jul), Skoltech (Jul), 2024
 - MIPT Travel Grant: 15th ICMNE Conference, Oct 2023
