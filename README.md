@@ -72,7 +72,7 @@ Moscow, Russia
 - **Simulation, Verification, and Synthesis:** Built custom SystemVerilog testbenches for AXI and AXI4-Stream interfaces that streamed image data with video-control timing, captured output pixels, and compared reconstructed frames with Python, MATLAB, and Simulink reference models. Automated image conversion, memory-file generation, simulation, and output analysis using Python and cocotb. Ran RTL simulations with Synopsys VCS, Cadence simulators, Vivado Simulator, and Icarus Verilog. Synthesized, mapped, routed, and generated bitstreams using Vivado. Verified ISP pipelines on Xilinx Zybo Z7-20 and Nexys Video boards using HDMI test-image streams and a live Pcam 5C camera.
 - **FPGA Devices under Electron-Beam Plasma Exposure:** Conducted irradiation experiments on FPGA boards using electron beams (25 -- 60 keV, up to 100 mA) in low-pressure oxygen atmospheres (10<sup>−6</sup> -- 50 Torr), generating plasma and X-rays. Applied combined thermal cycling (218--393 K) and surface charging to evaluate FPGA reliability under plasma conditions.
 
-### [Laboratory of Local Diagnostics of Semiconductor Materials, Institute of Microelectronics Technology, Russian Academy of Sciences (IMT RAS)](https://www.iptm.ru/index.en.html)
+### [Laboratory of Local Diagnostics of Semiconductor Materials, Institute of Microelectronics Technology, Russian Academy of Sciences (IMT RAS)](https://www.iptm.ru/new/index.ru.html)
 
 **Laboratory Researcher**  
 Mar 2023 -- Aug 2024  
@@ -110,7 +110,7 @@ Moscow, Russia
 | Verilog, RTL, FPGA Development | SolidWorks, 3D Design |
 | SciPy, cocotb, OpenCV | PCB, EasyEDA |
 | Git, Linux OS, LaTeX, Microsoft Office | OpenRocket, ERDAS IMAGINE |
-| English (C2), Persian (Native) | German (B1), Russian (B1) |
+| English (C1), Persian (Native) | German (B1), Russian (B1) |
 
 ## Projects
 
