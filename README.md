@@ -1,18 +1,12 @@
 <h1 align="center">Reza Aliasgari Renani</h1>
 
-<table width="100%">
-  <tr>
-    <td width="25%" align="center">
-      <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120">
-    </td>
-    <td width="50%" align="center">
-      <img src="assets_readme/orbiting_chip.gif" alt="Radiation-hardened chip orbiting Earth" width="360">
-    </td>
-    <td width="25%" align="center">
-      <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120">
+  &nbsp;
+  <img src="assets_readme/orbiting_chip.gif" alt="Radiation-hardened chip orbiting Earth" width="360">
+  &nbsp;
+  <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120">
+</p>
 
 <p align="center">
   Email: <a href="mailto:aliasgari.rrkh@phystech.edu">aliasgari.rrkh@phystech.edu</a> |
