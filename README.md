@@ -1,11 +1,14 @@
 <h1 align="center">Reza Aliasgari Renani</h1>
 
 <p align="center">
-  <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120">
+  <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120" align="middle">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets_readme/radiation_test.gif" alt="Animated white radiation test schematic with FPGA die shot" width="300">
+  <span style="display:inline-block; vertical-align:middle">
+    <img src="assets_readme/orbiting_chip.gif" alt="Radiation-hardened chip orbiting Earth" width="340"><br>
+    <img src="assets_readme/radiation_test.gif" alt="Electromagnetic waves and particles irradiating a chip" width="340">
+  </span>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120">
+  <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120" align="middle">
 </p>
 
 <p align="center">
