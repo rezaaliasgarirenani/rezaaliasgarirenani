@@ -1,15 +1,18 @@
 <h1 align="center">Reza Aliasgari Renani</h1>
 
-<p align="center">
-  <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120" align="middle">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <span style="display:inline-block; vertical-align:middle">
-    <img src="assets_readme/orbiting_chip.gif" alt="Radiation-hardened chip orbiting Earth" width="340"><br>
-    <img src="assets_readme/radiation_test.gif" alt="Electromagnetic waves and particles irradiating a chip" width="340">
-  </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120" align="middle">
-</p>
+<table width="100%">
+  <tr>
+    <td width="25%" align="center">
+      <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120">
+    </td>
+    <td width="50%" align="center">
+      <img src="assets_readme/orbiting_chip.gif" alt="Radiation-hardened chip orbiting Earth" width="360">
+    </td>
+    <td width="25%" align="center">
+      <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120">
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   Email: <a href="mailto:aliasgari.rrkh@phystech.edu">aliasgari.rrkh@phystech.edu</a> |
@@ -43,6 +46,10 @@
   <a href="https://github.com/rezaaliasgarirenani"><img src="assets_readme/github.svg" alt="GitHub" width="24"></a>
   &nbsp;
   <a href="https://linkedin.com/in/reza-aliasgari-renani"><img src="assets_readme/linkedin.svg" alt="LinkedIn" width="24"></a>
+</p>
+
+<p align="center">
+  <img src="assets_readme/radiation_test.gif" alt="Electromagnetic waves and particles irradiating a chip" width="540">
 </p>
 
 ## Education
