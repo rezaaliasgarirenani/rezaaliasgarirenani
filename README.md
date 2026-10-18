@@ -1,29 +1,15 @@
 <h1 align="center">Reza Aliasgari Renani</h1>
 
 <p align="center">
-  <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120">
-  &nbsp;
-  <img src="assets_readme/orbiting_chip.gif" alt="Radiation-hardened chip orbiting Earth" width="360">
-  &nbsp;
-  <img src="assets_readme/Logo_Chip_Radiation_Blacked.png" alt="Chip radiation logo" width="120">
+  <img src="assets_readme/quantum_tunneling_banner.gif" alt="A chip orbiting Earth between radiation-chip emblems, with a stylised quantum-tunnelling wave and potential barrier in the background" width="100%">
 </p>
 
+---
 <p align="center">
   Email: <a href="mailto:aliasgari.rrkh@phystech.edu">aliasgari.rrkh@phystech.edu</a> |
   Gmail: <a href="mailto:rezaaliasgarirenani@gmail.com">rezaaliasgarirenani@gmail.com</a> |
   Phone: <a href="tel:+79850692342">+7 (985) 069-23-42</a>
 </p>
-
----
-
-<p align="center">
-  <strong>RTL Design | Semiconductor Physics | Plasma Systems</strong>
-</p>
-
-<p align="center">
-  I work on manual and generated Verilog/SystemVerilog HDL implementations of fixed-point DSP and FPGA-based image signal processing pipelines, experimental techniques for electrical characterization of irradiated semiconductor devices with MATLAB automation programs and electron-beam plasma systems for simulating space-flight radiation conditions.
-</p>
-
 <p align="center">
   <a href="https://orcid.org/0009-0000-8983-755X"><img src="assets_readme/orcid.svg" alt="ORCID" width="24"></a>
   &nbsp;
@@ -42,8 +28,11 @@
   <a href="https://linkedin.com/in/reza-aliasgari-renani"><img src="assets_readme/linkedin.svg" alt="LinkedIn" width="24"></a>
 </p>
 
+
 <p align="center">
-  <img src="assets_readme/radiation_test.gif" alt="Electromagnetic waves and particles irradiating a chip" width="540">
+  <strong> RTL & Verification | Semiconductor Physics | Plasma Systems </strong> <br>
+  I work on FPGA-based ISP, electrical characterization of semiconductor devices, plasma systems and radiation conditions. <br>
+   Why explore the unknown? Why liquify nitrogen? Why irradiate ICs? For without it, all is lost but the poisonous question: why am I here? which will lead to you withering away into the abyss of miserable mediocrity.
 </p>
 
 ## Education
