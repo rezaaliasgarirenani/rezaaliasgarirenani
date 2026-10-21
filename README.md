@@ -32,7 +32,7 @@
 <p align="center">
   <strong> RTL & Verification | Semiconductor Physics | Plasma Systems </strong> <br>
   I work on FPGA-based ISP, electrical characterization of semiconductor devices, plasma systems and radiation conditions. <br>
-   Why explore the unknown? Why liquify nitrogen? Why irradiate ICs? For without it, all is lost but the poisonous question: why am I here? which will lead to you withering away into the abyss of miserable mediocrity.
+   Why explore the unknown? Why liquify nitrogen? Why irradiate ICs? For without it, all is lost but the poisonous question: why am I here? The asking of which will lead to you withering away into the abyss of miserable mediocrity.
 </p>
 
 ## Education
