@@ -1,7 +1,11 @@
 <h1 align="center">Reza Aliasgari Renani</h1>
 
 <p align="center">
-  <img src="assets_readme/quantum_tunneling_banner.gif" alt="A chip orbiting Earth between radiation-chip emblems, with a stylised quantum-tunnelling wave and potential barrier in the background" width="100%">
+  <img src="assets_readme/chip_radiation.png" alt="Radiation-chip emblem" width="16%" align="middle">
+  &nbsp;
+  <img src="assets_readme/earth_satellite.gif" alt="A satellite orbiting Earth while incoming radiation particles strike it; transparent background" width="60%" align="middle">
+  &nbsp;
+  <img src="assets_readme/chip_radiation.png" alt="Radiation-chip emblem" width="16%" align="middle">
 </p>
 
 ---
