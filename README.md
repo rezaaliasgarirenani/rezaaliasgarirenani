@@ -1,6 +1,6 @@
 <div align="center">
 
-### Reza Aliasgari Renani
+# Reza Aliasgari Renani
 
 [<img src="assets_readme/email.svg" alt="" width="16" height="16"> Email: aliasgari.rrkh@phystech.edu](mailto:aliasgari.rrkh@phystech.edu) &nbsp;&nbsp; [<img src="assets_readme/gmail.svg" alt="" width="16" height="16"> Gmail: rezaaliasgarirenani@gmail.com](mailto:rezaaliasgarirenani@gmail.com) &nbsp;&nbsp; [<img src="assets_readme/phone.svg" alt="" width="16" height="16"> Phone: +7 (985) 069-23-42](tel:+79850692342)
 
