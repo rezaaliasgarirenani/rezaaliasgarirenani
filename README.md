@@ -1,21 +1,8 @@
-<table>
-  <tr>
-    <td width="56%" valign="top">
-      <h1 align="left">Reza Aliasgari Renani</h1>
-      <p>
-        <a href="mailto:aliasgari.rrkh@phystech.edu"><img src="assets_readme/email.svg" alt="" width="16" height="16" align="middle">&nbsp;Email:&nbsp;aliasgari.rrkh@phystech.edu</a><br>
-        <a href="tel:+79850692342"><img src="assets_readme/phone.svg" alt="" width="16" height="16" align="middle">&nbsp;Phone:&nbsp;+7&nbsp;(985)&nbsp;069-23-42</a>
-      </p>
-    </td>
-    <td width="44%" valign="top">
-      <p><br>
-        <a href="https://orcid.org/0009-0000-8983-755X"><img src="assets_readme/orcid.svg" alt="" width="16" height="16" align="middle">&nbsp;ORCID</a> &nbsp;|&nbsp; <a href="https://www.scopus.com/authid/detail.uri?authorId=58953218100"><img src="assets_readme/scopus.svg" alt="" width="16" height="16" align="middle">&nbsp;Scopus</a> &nbsp;|&nbsp; <a href="https://www.webofscience.com/wos/author/record/OBN-8060-2025"><img src="assets_readme/web_of_science.svg" alt="" width="16" height="16" align="middle">&nbsp;Web&nbsp;of&nbsp;Science</a> &nbsp;|&nbsp; <a href="https://ieeexplore.ieee.org/author/808687147056276"><img src="assets_readme/ieee.svg" alt="" width="16" height="16" align="middle">&nbsp;IEEE</a><br>
-        <a href="https://www.researchgate.net/profile/Reza-Aliasgari-Renani"><img src="assets_readme/researchgate.svg" alt="" width="16" height="16" align="middle">&nbsp;ResearchGate</a> &nbsp;|&nbsp; <a href="https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&amp;hl=en"><img src="assets_readme/google_scholar.svg" alt="" width="16" height="16" align="middle">&nbsp;Google&nbsp;Scholar</a> &nbsp;|&nbsp; <a href="https://github.com/rezaaliasgarirenani"><img src="assets_readme/github.svg" alt="" width="16" height="16" align="middle">&nbsp;GitHub</a> &nbsp;|&nbsp; <a href="https://linkedin.com/in/reza-aliasgari-renani"><img src="assets_readme/linkedin.svg" alt="" width="16" height="16" align="middle">&nbsp;LinkedIn</a><br>
-        <a href="mailto:rezaaliasgarirenani@gmail.com"><img src="assets_readme/gmail.svg" alt="" width="16" height="16" align="middle">&nbsp;Gmail:&nbsp;rezaaliasgarirenani@gmail.com</a>
-      </p>
-    </td>
-  </tr>
-</table>
+# Reza Aliasgari Renani
+
+[<img src="assets_readme/phone.svg" alt="" width="16" height="16"> Phone: +7 (985) 069-23-42](tel:+79850692342) · [<img src="assets_readme/email.svg" alt="" width="16" height="16"> Email: aliasgari.rrkh@phystech.edu](mailto:aliasgari.rrkh@phystech.edu) · [<img src="assets_readme/gmail.svg" alt="" width="16" height="16"> Gmail: rezaaliasgarirenani@gmail.com](mailto:rezaaliasgarirenani@gmail.com)
+
+[<img src="assets_readme/orcid.svg" alt="" width="16" height="16"> ORCID](https://orcid.org/0009-0000-8983-755X) · [<img src="assets_readme/scopus.svg" alt="" width="16" height="16"> Scopus](https://www.scopus.com/authid/detail.uri?authorId=58953218100) · [<img src="assets_readme/web_of_science.svg" alt="" width="16" height="16"> Web of Science](https://www.webofscience.com/wos/author/record/OBN-8060-2025) · [<img src="assets_readme/ieee.svg" alt="" width="16" height="16"> IEEE](https://ieeexplore.ieee.org/author/808687147056276) · [<img src="assets_readme/researchgate.svg" alt="" width="16" height="16"> ResearchGate](https://www.researchgate.net/profile/Reza-Aliasgari-Renani) · [<img src="assets_readme/google_scholar.svg" alt="" width="16" height="16"> Google Scholar](https://scholar.google.com/citations?user=L9Vv3C8AAAAJ&hl=en) · [<img src="assets_readme/github.svg" alt="" width="16" height="16"> GitHub](https://github.com/rezaaliasgarirenani) · [<img src="assets_readme/linkedin.svg" alt="" width="16" height="16"> LinkedIn](https://linkedin.com/in/reza-aliasgari-renani)
 
 ## Education
 
