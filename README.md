@@ -3,7 +3,7 @@
 <p align="center">
   <img src="assets_readme/Logo_Chip_Radiation_Transparent.png" alt="Radiation-chip emblem" width="16%" align="middle">
   &nbsp;
-  <img src="assets_readme/earth_satellite.gif" alt="A satellite orbiting Earth while incoming radiation particles strike it; transparent background" width="60%" align="middle">
+  <img src="assets_readme/earth_satellite.png" alt="A satellite orbiting Earth while incoming radiation particles strike it; transparent background" width="60%" align="middle">
   &nbsp;
   <img src="assets_readme/Logo_Chip_Radiation_Transparent.png" alt="Radiation-chip emblem" width="16%" align="middle">
 </p>
